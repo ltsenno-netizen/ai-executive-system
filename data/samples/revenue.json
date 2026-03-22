@@ -1,0 +1,26 @@
+[
+  {
+    "business_id": "biz_001",
+    "month": "2026-03",
+    "product_sales": 2000000,
+    "service_sales": 8000000,
+    "other_revenue": 200000,
+    "total_revenue": 10200000
+  },
+  {
+    "business_id": "biz_002",
+    "month": "2026-03",
+    "product_sales": 500000,
+    "service_sales": 4500000,
+    "other_revenue": 100000,
+    "total_revenue": 5100000
+  },
+  {
+    "business_id": "biz_003",
+    "month": "2026-03",
+    "product_sales": 100000,
+    "service_sales": 3200000,
+    "other_revenue": 50000,
+    "total_revenue": 3350000
+  }
+]

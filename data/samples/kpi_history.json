@@ -1,0 +1,32 @@
+{
+  "biz_001": {
+    "2026-02": {
+      "customer_count": 95,
+      "utilization_rate": 82
+    },
+    "2026-03": {
+      "customer_count": 102,
+      "utilization_rate": 85
+    }
+  },
+  "biz_002": {
+    "2026-02": {
+      "customer_count": 45,
+      "utilization_rate": 88
+    },
+    "2026-03": {
+      "customer_count": 48,
+      "utilization_rate": 89
+    }
+  },
+  "biz_003": {
+    "2026-02": {
+      "customer_count": 28,
+      "utilization_rate": 78
+    },
+    "2026-03": {
+      "customer_count": 31,
+      "utilization_rate": 81
+    }
+  }
+}

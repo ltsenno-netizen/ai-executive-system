@@ -1,0 +1,29 @@
+[
+  {
+    "business_id": "biz_001",
+    "month": "2026-03",
+    "direct_materials": 800000,
+    "direct_labor": 2500000,
+    "subcontracting": 1200000,
+    "other_direct_costs": 200000,
+    "total_direct_costs": 4700000
+  },
+  {
+    "business_id": "biz_002",
+    "month": "2026-03",
+    "direct_materials": 100000,
+    "direct_labor": 800000,
+    "subcontracting": 500000,
+    "other_direct_costs": 50000,
+    "total_direct_costs": 1450000
+  },
+  {
+    "business_id": "biz_003",
+    "month": "2026-03",
+    "direct_materials": 50000,
+    "direct_labor": 600000,
+    "subcontracting": 800000,
+    "other_direct_costs": 30000,
+    "total_direct_costs": 1480000
+  }
+]

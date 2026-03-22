@@ -1,0 +1,35 @@
+[
+  {
+    "id": "biz_001",
+    "name": "ソフトウェア開発事業",
+    "description": "受託ソフトウェア開発およびシステムインテグレーション",
+    "business_type": "service",
+    "start_date": "2024-01-01",
+    "status": "active",
+    "owner_id": 1,
+    "owner_name": "田中太郎",
+    "created_date": "2024-01-01"
+  },
+  {
+    "id": "biz_002",
+    "name": "コンサルティング事業",
+    "description": "IT戦略コンサルティングおよびデジタルトランスフォーメーション支援",
+    "business_type": "consulting",
+    "start_date": "2024-03-01",
+    "status": "active",
+    "owner_id": 2,
+    "owner_name": "佐藤花子",
+    "created_date": "2024-03-01"
+  },
+  {
+    "id": "biz_003",
+    "name": "クラウドサービス事業",
+    "description": "クラウドインフラ構築および運用サービス",
+    "business_type": "service",
+    "start_date": "2024-06-01",
+    "status": "active",
+    "owner_id": 3,
+    "owner_name": "鈴木次郎",
+    "created_date": "2024-06-01"
+  }
+]

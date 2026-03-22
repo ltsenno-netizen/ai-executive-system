@@ -1,0 +1,12 @@
+# Example settings for AI Executive System
+app:
+  name: "AI Executive System"
+  version: "0.1.0"
+
+database:
+  type: "json"  # For PoC, use local JSON files
+  path: "data/"
+
+logging:
+  level: "INFO"
+  file: "logs/app.log"

@@ -1,0 +1,90 @@
+[
+  {
+    "name": "田中太郎",
+    "role": "シニア開発者",
+    "personality": "内向的",
+    "leadership_style": "民主的",
+    "skills": ["Python", "JavaScript", "リーダーシップ"],
+    "experience_years": 8,
+    "motivation_level": 0.8,
+    "communication_style": "書面重視",
+    "work_preference": "独立作業"
+  },
+  {
+    "name": "佐藤花子",
+    "role": "プロジェクトマネージャー",
+    "personality": "外向的",
+    "leadership_style": "変革的",
+    "skills": ["プロジェクト管理", "コミュニケーション", "問題解決"],
+    "experience_years": 6,
+    "motivation_level": 0.9,
+    "communication_style": "対面重視",
+    "work_preference": "チーム作業"
+  },
+  {
+    "name": "鈴木次郎",
+    "role": "QAエンジニア",
+    "personality": "協調的",
+    "leadership_style": "参加型",
+    "skills": ["テスト設計", "品質管理", "ドキュメント作成"],
+    "experience_years": 5,
+    "motivation_level": 0.7,
+    "communication_style": "バランス型",
+    "work_preference": "協調作業"
+  },
+  {
+    "name": "高橋美咲",
+    "role": "UI/UXデザイナー",
+    "personality": "外向的",
+    "leadership_style": "ビジョナリー",
+    "skills": ["UI設計", "ユーザビリティ", "クリエイティブ"],
+    "experience_years": 4,
+    "motivation_level": 0.85,
+    "communication_style": "視覚重視",
+    "work_preference": "創造作業"
+  },
+  {
+    "name": "伊藤健一",
+    "role": "バックエンド開発者",
+    "personality": "内向的",
+    "leadership_style": "官僚的",
+    "skills": ["データベース", "API設計", "セキュリティ"],
+    "experience_years": 7,
+    "motivation_level": 0.75,
+    "communication_style": "技術重視",
+    "work_preference": "専門作業"
+  },
+  {
+    "name": "渡辺真理",
+    "role": "ビジネスアナリスト",
+    "personality": "協調的",
+    "leadership_style": "支援的",
+    "skills": ["要件定義", "ステークホルダー管理", "分析"],
+    "experience_years": 5,
+    "motivation_level": 0.8,
+    "communication_style": "協調重視",
+    "work_preference": "調整作業"
+  },
+  {
+    "name": "山田太郎",
+    "role": "DevOpsエンジニア",
+    "personality": "競争的",
+    "leadership_style": "命令型",
+    "skills": ["インフラ", "CI/CD", "自動化"],
+    "experience_years": 6,
+    "motivation_level": 0.9,
+    "communication_style": "結果重視",
+    "work_preference": "効率作業"
+  },
+  {
+    "name": "中村愛",
+    "role": "フロントエンド開発者",
+    "personality": "外向的",
+    "leadership_style": "コーチング",
+    "skills": ["React", "CSS", "JavaScript"],
+    "experience_years": 3,
+    "motivation_level": 0.85,
+    "communication_style": "インタラクティブ",
+    "work_preference": "協創作業"
+  }
+]

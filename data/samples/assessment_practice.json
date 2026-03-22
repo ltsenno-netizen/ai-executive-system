@@ -1,0 +1,29 @@
+[
+  {
+    "member_id": 1,
+    "member_name": "田中太郎",
+    "role": "次代マネージャー候補",
+    "target_role": "管理職",
+    "practice_sessions": [
+      {
+        "date": "2026-03-22 12:28:29",
+        "case_id": "dceac9b1-c49c-4ced-8eda-3fbec9ca76fb",
+        "score": 65,
+        "competency_scores": {
+          "戦略的思考": 50,
+          "リーダーシップ": 50,
+          "変化管理": 50,
+          "コミュニケーション": 50
+        }
+      }
+    ],
+    "overall_progress": {
+      "戦略的思考": 25,
+      "リーダーシップ": 25,
+      "変化管理": 25,
+      "コミュニケーション": 25
+    },
+    "recommended_cases": [],
+    "last_practice_date": "2026-03-22 12:28:29"
+  }
+]

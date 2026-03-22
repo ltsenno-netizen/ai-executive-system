@@ -1,0 +1,113 @@
+[
+  {
+    "member_id": 1,
+    "member_name": "田中太郎",
+    "role": "次代マネージャー候補",
+    "plan_created_date": "2026-03-22",
+    "current_month": 1,
+    "overall_completion": 75,
+    "monthly_reviews": [
+      {
+        "member_id": 1,
+        "month": 1,
+        "review_date": "2026-03-22",
+        "achievements": [
+          {
+            "milestone_month": 1,
+            "milestone_title": "業務棚卸しと判断基準の明確化",
+            "completion_percentage": 75,
+            "completed_objectives": [
+              "業務の棚卸し完了"
+            ],
+            "remaining_objectives": [
+              "判断基準の文書化"
+            ],
+            "completed_activities": [
+              "業務フロー図作成"
+            ],
+            "remaining_activities": [
+              "判断基準ワークショップ"
+            ],
+            "evaluation_results": [
+              "業務棚卸しレポート提出"
+            ],
+            "notes": "順調に進捗している"
+          }
+        ],
+        "overall_progress": 75,
+        "strengths_demonstrated": [
+          "継続的な努力が認められる"
+        ],
+        "challenges_encountered": [
+          "未達成: 判断基準の文書化"
+        ],
+        "next_month_focus": [
+          "会議ファシリテーション訓練の達成",
+          "主要活動: ファシリテーション研修参加, 小規模会議のリード",
+          "評価基準: 研修参加証明, 会議フィードバック評価"
+        ],
+        "manager_feedback": "着実に成長が見られます。引き続きこの調子で進めましょう。\n\n特に良かった点: 業務の棚卸し完了",
+        "member_reflection": "業務の全体像を把握でき、判断基準の重要性を理解した"
+      }
+    ],
+    "upcoming_milestones": [
+      {
+        "month": 2,
+        "title": "会議ファシリテーション訓練",
+        "description": "会議の進行・合意形成スキルを習得する",
+        "objectives": [
+          "ファシリテーション基礎習得",
+          "会議進行の実践"
+        ],
+        "activities": [
+          "ファシリテーション研修参加",
+          "小規模会議のリード"
+        ],
+        "evaluation_criteria": [
+          "研修参加証明",
+          "会議フィードバック評価"
+        ]
+      },
+      {
+        "month": 3,
+        "title": "小規模プロジェクトのリード",
+        "description": "小さなプロジェクトをリードし、マネジメント経験を積む",
+        "objectives": [
+          "プロジェクト計画立案",
+          "チームマネジメント実施"
+        ],
+        "activities": [
+          "プロジェクト計画作成",
+          "週次進捗管理"
+        ],
+        "evaluation_criteria": [
+          "プロジェクト完了",
+          "チームメンバーからの評価"
+        ]
+      },
+      {
+        "month": 4,
+        "title": "メンバー育成の実践",
+        "description": "部下の育成・指導を実践する",
+        "objectives": [
+          "育成計画作成",
+          "定期的な1on1実施"
+        ],
+        "activities": [
+          "育成計画策定",
+          "月次1on1ミーティング"
+        ],
+        "evaluation_criteria": [
+          "育成計画承認",
+          "メンバーの成長指標向上"
+        ]
+      }
+    ],
+    "recommended_actions": [
+      "会議ファシリテーション訓練の達成",
+      "主要活動: ファシリテーション研修参加, 小規模会議のリード",
+      "評価基準: 研修参加証明, 会議フィードバック評価"
+    ],
+    "last_updated": "2026-03-22"
+  }
+]

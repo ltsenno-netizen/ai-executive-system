@@ -1,0 +1,131 @@
+[
+  {
+    "scenario_id": "team_conflict_001",
+    "title": "チーム内の対立",
+    "description": "プロジェクトチーム内で2人の主要メンバーが意見対立を起こしています。期限が迫っている中、チームの生産性が低下しています。",
+    "category": "team_conflict",
+    "difficulty": "medium",
+    "impact_level": "high",
+    "time_pressure": "high",
+    "stakeholders": ["team_members", "project_manager"],
+    "possible_decisions": [
+      "個別面談を実施",
+      "チームミーティングを開催",
+      "上司にエスカレーション",
+      "無視して進める"
+    ],
+    "optimal_decision": "個別面談を実施",
+    "consequences": {
+      "個別面談を実施": {
+        "team_morale": 15,
+        "productivity": 10,
+        "relationship_quality": 20,
+        "feedback": "個別面談により問題を早期に解決。チームの結束が強まりました。"
+      },
+      "チームミーティングを開催": {
+        "team_morale": 5,
+        "productivity": -5,
+        "relationship_quality": 10,
+        "feedback": "ミーティングで問題が表面化しましたが、時間がかかりすぎました。"
+      },
+      "上司にエスカレーション": {
+        "team_morale": -10,
+        "productivity": -15,
+        "relationship_quality": -5,
+        "feedback": "エスカレーションによりチームの自主性が損なわれました。"
+      },
+      "無視して進める": {
+        "team_morale": -20,
+        "productivity": -25,
+        "relationship_quality": -15,
+        "feedback": "問題が悪化し、プロジェクト全体に影響を与えました。"
+      }
+    }
+  },
+  {
+    "scenario_id": "resource_shortage_001",
+    "title": "リソース不足",
+    "description": "重要なチームメンバーが突然休暇を取り、プロジェクトの重要なフェーズで人手不足が発生しています。",
+    "category": "resource_management",
+    "difficulty": "medium",
+    "impact_level": "high",
+    "time_pressure": "high",
+    "stakeholders": ["team_members", "project_manager", "hr_department"],
+    "possible_decisions": [
+      "他のメンバーにタスクを再分配",
+      "外部リソースを確保",
+      "期限を延期",
+      "残業を依頼"
+    ],
+    "optimal_decision": "他のメンバーにタスクを再分配",
+    "consequences": {
+      "他のメンバーにタスクを再分配": {
+        "team_morale": 5,
+        "productivity": 0,
+        "relationship_quality": 10,
+        "feedback": "柔軟な対応によりチームの結束が強まりました。"
+      },
+      "外部リソースを確保": {
+        "team_morale": -5,
+        "productivity": 10,
+        "relationship_quality": 0,
+        "feedback": "外部リソースで対応できましたが、チームの負担が増えました。"
+      },
+      "期限を延期": {
+        "team_morale": -10,
+        "productivity": -20,
+        "relationship_quality": -5,
+        "feedback": "期限延期により信頼を損ないました。"
+      },
+      "残業を依頼": {
+        "team_morale": -15,
+        "productivity": 15,
+        "relationship_quality": -10,
+        "feedback": "残業で対応できましたが、チームの疲弊を招きました。"
+      }
+    }
+  },
+  {
+    "scenario_id": "quality_issue_001",
+    "title": "品質問題の発生",
+    "description": "リリース直前に重大なバグが発見されました。修正には時間がかかりますが、品質を確保する必要があります。",
+    "category": "quality_management",
+    "difficulty": "high",
+    "impact_level": "critical",
+    "time_pressure": "critical",
+    "stakeholders": ["team_members", "project_manager", "client"],
+    "possible_decisions": [
+      "品質を優先して修正",
+      "軽微な修正のみ実施",
+      "リリースを延期",
+      "クライアントに説明して了解を得る"
+    ],
+    "optimal_decision": "品質を優先して修正",
+    "consequences": {
+      "品質を優先して修正": {
+        "team_morale": 10,
+        "productivity": -10,
+        "relationship_quality": 15,
+        "feedback": "品質を優先した判断が信頼を高めました。"
+      },
+      "軽微な修正のみ実施": {
+        "team_morale": -5,
+        "productivity": 5,
+        "relationship_quality": -20,
+        "feedback": "不十分な修正がクライアントの信頼を損ないました。"
+      },
+      "リリースを延期": {
+        "team_morale": -15,
+        "productivity": -25,
+        "relationship_quality": -10,
+        "feedback": "延期により機会損失が発生しました。"
+      },
+      "クライアントに説明して了解を得る": {
+        "team_morale": 0,
+        "productivity": 0,
+        "relationship_quality": 5,
+        "feedback": "透明性の高い対応が評価されました。"
+      }
+    }
+  }
+]
