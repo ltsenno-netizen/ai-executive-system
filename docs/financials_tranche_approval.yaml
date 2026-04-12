@@ -1,0 +1,239 @@
+openapi: 3.1.0
+info:
+  title: Tranche Approval API
+  version: 1.0.0
+  description: |
+    OpenAPI 3.1 specification for tranche-based investment approval and emergency playbook APIs.
+    This API supports tranche scheduling, partial approval candidates, and emergency liquidity workflows.
+servers:
+  - url: /api
+paths:
+  /financials/investment-request:
+    post:
+      summary: Evaluate an investment request and generate tranche approval details.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/InvestmentRequest'
+      responses:
+        '200':
+          description: Investment request evaluation result.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  investment_decision:
+                    $ref: '#/components/schemas/InvestmentDecisionRecord'
+                  status:
+                    type: string
+                    example: pending
+        '400':
+          description: Invalid request payload.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  detail:
+                    type: string
+  /financials/investment-decision:
+    post:
+      summary: Apply an investment decision and execute a tranche if approved.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                investment_request_id:
+                  type: string
+                  example: req-202604
+                decision:
+                  type: string
+                  enum: [Approved, Rejected, Deferred, Partial]
+                  example: Approved
+                approved_amount:
+                  type: number
+                  format: float
+                  example: 1.0
+                tranche_index:
+                  type: integer
+                  example: 2
+                applied_month:
+                  type: integer
+                  example: 202605
+              required:
+                - investment_request_id
+                - decision
+                - approved_amount
+      responses:
+        '200':
+          description: Investment decision applied successfully.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  financials:
+                    type: object
+                    description: Updated financial state after decision application.
+                  decision:
+                    $ref: '#/components/schemas/InvestmentDecisionRecord'
+        '400':
+          description: Invalid decision payload or business rule violation.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  detail:
+                    type: string
+  /financials/emergency-playbook:
+    get:
+      summary: Get emergency playbook recommendations for liquidity events.
+      responses:
+        '200':
+          description: Emergency playbook output.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  playbook:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/EmergencyPlaybook'
+                  alert_templates:
+                    type: object
+                    properties:
+                      slack:
+                        type: string
+                      email:
+                        type: string
+components:
+  schemas:
+    InvestmentRequest:
+      type: object
+      properties:
+        id:
+          type: string
+          example: req-202604
+        business_unit_id:
+          type: string
+          example: ai_solutions
+        requested_amount:
+          type: number
+          format: float
+          example: 3.0
+        expected_return_rate:
+          type: number
+          format: float
+          example: 0.18
+        payback_period_months:
+          type: integer
+          example: 24
+        strategic_priority:
+          type: integer
+          example: 4
+        requested_by:
+          type: string
+          example: head_of_ai
+        requested_month:
+          type: integer
+          example: 202604
+        tranche_count:
+          type: integer
+          example: 3
+          description: Number of tranche installments.
+        tranche_interval_months:
+          type: integer
+          example: 1
+          description: Months between tranche executions.
+      required:
+        - id
+        - business_unit_id
+        - requested_amount
+        - expected_return_rate
+        - payback_period_months
+        - strategic_priority
+    TrancheScheduleItem:
+      type: object
+      properties:
+        index:
+          type: integer
+          example: 1
+        amount:
+          type: number
+          format: float
+          example: 1.0
+        scheduled_month:
+          type: integer
+          example: 202604
+        required_cash_threshold:
+          type: number
+          format: float
+          example: 18.0
+        status:
+          type: string
+          enum: [pending, deferred, executed]
+          example: pending
+    InvestmentDecisionRecord:
+      type: object
+      properties:
+        id:
+          type: string
+          example: dec-202604-1
+        investment_request_id:
+          type: string
+          example: req-202604
+        decision:
+          type: string
+          enum: [Approved, Rejected, Deferred, Partial]
+          example: Approved
+        approved_amount:
+          type: number
+          format: float
+          example: 3.0
+        partial_candidate:
+          type: number
+          format: float
+          example: 1.25
+          description: Candidate amount for partial approval.
+        tranche_schedule:
+          type: array
+          items:
+            $ref: '#/components/schemas/TrancheScheduleItem'
+        tranche_index:
+          type: integer
+          example: 1
+          description: Executed tranche index when applying a tranche.
+        reason:
+          type: string
+          example: 投資ポリシーにより部分承認しました。
+        impact_on_cash:
+          type: number
+          format: float
+          example: -1.0
+        applied_month:
+          type: integer
+          example: 202604
+    EmergencyPlaybook:
+      type: object
+      properties:
+        priority:
+          type: integer
+          example: 1
+        action:
+          type: string
+          example: 新規投資を停止
+        description:
+          type: string
+          example: 流動性確保のため、すべての未決裁投資を一時停止します。
+        status:
+          type: string
+          enum: [stable, warning, critical]
+          example: critical
