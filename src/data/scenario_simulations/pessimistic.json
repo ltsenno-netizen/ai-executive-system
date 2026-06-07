@@ -1,0 +1,103 @@
+{
+  "scenario_type": "pessimistic",
+  "description": "リスクが顕在化する悲観シナリオ",
+  "duration_months": 36,
+  "scenario_drivers": {
+    "focus": "risk_management"
+  },
+  "stress_factors": {
+    "regulatory": 0.2,
+    "supply_chain": 0.15
+  },
+  "narrative_focus": "景況感悪化と規制・サプライチェーンリスクが重なる未来",
+  "projected_environment": {
+    "period": "2027-12",
+    "pest": {
+      "political": 0.47,
+      "economic": 0.285,
+      "social": 0.4,
+      "technological": 0.3
+    },
+    "competitors": [
+      {
+        "competitor_name": "Competitor A",
+        "aggressiveness": 0.8910058945667342,
+        "market_share_shift": 0.007375149606124787,
+        "notes": "Random action"
+      },
+      {
+        "competitor_name": "Competitor B",
+        "aggressiveness": 0.6075533460157807,
+        "market_share_shift": 0.019203721470202884,
+        "notes": "Random action"
+      }
+    ],
+    "shocks": [
+      {
+        "shock_type": "regulatory",
+        "severity": 0.2,
+        "duration_months": 12,
+        "description": "Regulatory tightening impacts growth and risk appetite"
+      },
+      {
+        "shock_type": "supply_chain",
+        "severity": 0.15,
+        "duration_months": 9,
+        "description": "Supply chain disruption slows market performance"
+      }
+    ],
+    "market_growth_modifier": -0.15096398101456288,
+    "risk_modifier": 0.05338559240582516
+  },
+  "projected_culture": {
+    "period": "2026-04",
+    "aggressiveness_culture": 0.53,
+    "risk_aversion_culture": 0.5599000000000001,
+    "brand_culture": 0.5198,
+    "cost_culture": 0.5,
+    "people_culture": 0.5,
+    "execution_culture": 0.5,
+    "innovation_culture": 0.5099,
+    "stability_culture": 0.55,
+    "notes": "Updated on 2026-04 with CEO persona, board decisions, and quarterly performance."
+  },
+  "projected_consciousness_evolution": {
+    "current_phase": "EMERGING",
+    "momentum": 0.15888,
+    "stability": 0.44,
+    "last_update": "2026-05-20 02:33:29.834538",
+    "history": [
+      {
+        "event_id": "scenario-pessimistic-1779212009",
+        "trigger_type": "EXTERNAL_SHOCK",
+        "description": "逆境対応で自己認識が再検討される",
+        "timestamp": "2026-05-20 02:33:29.834564",
+        "impact_on_identity": -0.03,
+        "impact_on_purpose": -0.02,
+        "impact_on_direction": 0.0,
+        "impact_on_risk_posture": 0.01
+      }
+    ]
+  },
+  "financial_impact_summary": {
+    "revenue": 2.790251090477188,
+    "profit": 0.23252092420643233,
+    "cash": 15.697562772619296,
+    "growth_rate": -0.15096398101456288,
+    "operating_margin": 0.08333333333333333
+  },
+  "risk_assessment": "High",
+  "opportunity_assessment": "Medium",
+  "scenario_score": 0.3465133555600324,
+  "confidence": 0.5693026711120065,
+  "contingency_recommendations": [
+    "コスト構造を見直し、耐久性の高いオペレーションを構築する",
+    "市場の需要低下に備えた代替成長シナリオを準備する",
+    "不況期の需要変動に対応する代替戦略を策定する"
+  ],
+  "strategic_implications": [
+    "リスクが顕在化する悲観シナリオ の場合、経営チームは意思決定の柔軟性を高める必要があります。",
+    "市場成長率は -0.15 付近で推移すると予測されます。"
+  ],
+  "created_at": "2026-05-20 02:33:29.834611"
+}

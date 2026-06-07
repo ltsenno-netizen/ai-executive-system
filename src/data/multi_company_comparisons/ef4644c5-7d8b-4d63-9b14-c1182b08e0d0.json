@@ -1,0 +1,366 @@
+{
+  "report_id": "ef4644c5-7d8b-4d63-9b14-c1182b08e0d0",
+  "companies": [
+    {
+      "company_id": "self",
+      "name": "Our Company"
+    },
+    {
+      "company_id": "competitor_a",
+      "name": "Competitor A"
+    },
+    {
+      "company_id": "competitor_b",
+      "name": "Competitor B"
+    }
+  ],
+  "comparison_date": "2026-05-18 00:00:57.978972",
+  "metrics": [
+    {
+      "metric_id": "consciousness_clarity",
+      "name": "Consciousness Clarity",
+      "category": "consciousness",
+      "description": "How clearly the company understands its own identity and purpose (0-1)",
+      "values": {
+        "self": 0.5,
+        "competitor_a": 0.5,
+        "competitor_b": 0.5
+      },
+      "unit": "score",
+      "best_company_id": "self",
+      "worst_company_id": "self",
+      "best_value": 0.5,
+      "worst_value": 0.5,
+      "average_value": 0.5
+    },
+    {
+      "metric_id": "evolution_speed",
+      "name": "Evolution Speed",
+      "category": "evolution",
+      "description": "Rate at which the company transitions through consciousness phases (0-1)",
+      "values": {
+        "self": 0.5,
+        "competitor_a": 0.5,
+        "competitor_b": 0.5
+      },
+      "unit": "transitions/period",
+      "best_company_id": "self",
+      "worst_company_id": "self",
+      "best_value": 0.5,
+      "worst_value": 0.5,
+      "average_value": 0.5
+    },
+    {
+      "metric_id": "frontier_health",
+      "name": "Frontier Health",
+      "category": "frontier",
+      "description": "Overall health of strategic frontier (0-1)",
+      "values": {
+        "self": 0.6,
+        "competitor_a": 0.6,
+        "competitor_b": 0.6
+      },
+      "unit": "score",
+      "best_company_id": "self",
+      "worst_company_id": "self",
+      "best_value": 0.6,
+      "worst_value": 0.6,
+      "average_value": 0.6
+    },
+    {
+      "metric_id": "frontier_score",
+      "name": "Frontier Score",
+      "category": "frontier",
+      "description": "Comprehensive frontier health score (0-100)",
+      "values": {
+        "self": 60.0,
+        "competitor_a": 60.0,
+        "competitor_b": 60.0
+      },
+      "unit": "points",
+      "best_company_id": "self",
+      "worst_company_id": "self",
+      "best_value": 60.0,
+      "worst_value": 60.0,
+      "average_value": 60.0
+    },
+    {
+      "metric_id": "risk_posture",
+      "name": "Risk Posture",
+      "category": "culture",
+      "description": "Tendency toward risk-taking vs stability (0=stable, 1=aggressive)",
+      "values": {
+        "self": 0.5,
+        "competitor_a": 0.5,
+        "competitor_b": 0.5
+      },
+      "unit": "posture",
+      "best_company_id": "self",
+      "worst_company_id": "self",
+      "best_value": 0.5,
+      "worst_value": 0.5,
+      "average_value": 0.5
+    },
+    {
+      "metric_id": "narrative_consistency",
+      "name": "Narrative Consistency",
+      "category": "narrative",
+      "description": "How consistently the company's narrative reinforces its identity (0-1)",
+      "values": {
+        "self": 0.65,
+        "competitor_a": 0.65,
+        "competitor_b": 0.65
+      },
+      "unit": "score",
+      "best_company_id": "self",
+      "worst_company_id": "self",
+      "best_value": 0.65,
+      "worst_value": 0.65,
+      "average_value": 0.65
+    },
+    {
+      "metric_id": "narrative_clarity",
+      "name": "Narrative Clarity",
+      "category": "narrative",
+      "description": "How clear and coherent the company's narrative is (0-1)",
+      "values": {
+        "self": 0.65,
+        "competitor_a": 0.65,
+        "competitor_b": 0.65
+      },
+      "unit": "score",
+      "best_company_id": "self",
+      "worst_company_id": "self",
+      "best_value": 0.65,
+      "worst_value": 0.65,
+      "average_value": 0.65
+    },
+    {
+      "metric_id": "meta_cognition",
+      "name": "Meta-Cognition Maturity",
+      "category": "meta_cognition",
+      "description": "Self-awareness of patterns, blindspots, and limitations (0-1)",
+      "values": {
+        "self": 0.6,
+        "competitor_a": 0.6,
+        "competitor_b": 0.6
+      },
+      "unit": "score",
+      "best_company_id": "self",
+      "worst_company_id": "self",
+      "best_value": 0.6,
+      "worst_value": 0.6,
+      "average_value": 0.6
+    },
+    {
+      "metric_id": "scenario_resilience_baseline",
+      "name": "Resilience to BASELINE",
+      "category": "scenario",
+      "description": "Resilience when facing BASELINE scenario (0-1)",
+      "values": {
+        "self": 0.6,
+        "competitor_a": 0.6,
+        "competitor_b": 0.6
+      },
+      "unit": "resilience",
+      "best_company_id": "self",
+      "worst_company_id": "self",
+      "best_value": 0.6,
+      "worst_value": 0.6,
+      "average_value": 0.6
+    },
+    {
+      "metric_id": "scenario_resilience_optimistic",
+      "name": "Resilience to OPTIMISTIC",
+      "category": "scenario",
+      "description": "Resilience when facing OPTIMISTIC scenario (0-1)",
+      "values": {
+        "self": 0.75,
+        "competitor_a": 0.75,
+        "competitor_b": 0.75
+      },
+      "unit": "resilience",
+      "best_company_id": "self",
+      "worst_company_id": "self",
+      "best_value": 0.75,
+      "worst_value": 0.75,
+      "average_value": 0.75
+    },
+    {
+      "metric_id": "scenario_resilience_pessimistic",
+      "name": "Resilience to PESSIMISTIC",
+      "category": "scenario",
+      "description": "Resilience when facing PESSIMISTIC scenario (0-1)",
+      "values": {
+        "self": 0.45,
+        "competitor_a": 0.45,
+        "competitor_b": 0.45
+      },
+      "unit": "resilience",
+      "best_company_id": "self",
+      "worst_company_id": "self",
+      "best_value": 0.45,
+      "worst_value": 0.45,
+      "average_value": 0.45
+    },
+    {
+      "metric_id": "scenario_resilience_recession",
+      "name": "Resilience to RECESSION",
+      "category": "scenario",
+      "description": "Resilience when facing RECESSION scenario (0-1)",
+      "values": {
+        "self": 0.5,
+        "competitor_a": 0.5,
+        "competitor_b": 0.5
+      },
+      "unit": "resilience",
+      "best_company_id": "self",
+      "worst_company_id": "self",
+      "best_value": 0.5,
+      "worst_value": 0.5,
+      "average_value": 0.5
+    },
+    {
+      "metric_id": "scenario_resilience_tech_boom",
+      "name": "Resilience to TECH_BOOM",
+      "category": "scenario",
+      "description": "Resilience when facing TECH_BOOM scenario (0-1)",
+      "values": {
+        "self": 0.7,
+        "competitor_a": 0.7,
+        "competitor_b": 0.7
+      },
+      "unit": "resilience",
+      "best_company_id": "self",
+      "worst_company_id": "self",
+      "best_value": 0.7,
+      "worst_value": 0.7,
+      "average_value": 0.7
+    },
+    {
+      "metric_id": "learning_agility",
+      "name": "Learning Agility",
+      "category": "meta_cognition",
+      "description": "Capacity to learn from experience and adapt (0-1)",
+      "values": {
+        "self": 0.65,
+        "competitor_a": 0.65,
+        "competitor_b": 0.65
+      },
+      "unit": "score",
+      "best_company_id": "self",
+      "worst_company_id": "self",
+      "best_value": 0.65,
+      "worst_value": 0.65,
+      "average_value": 0.65
+    }
+  ],
+  "clusters": [
+    {
+      "cluster_id": "struggling",
+      "cluster_name": "Struggling",
+      "description": "Lower performance across key dimensions, needs development",
+      "company_ids": [
+        "self",
+        "competitor_a",
+        "competitor_b"
+      ],
+      "defining_traits": {
+        "frontier_health": 0.4,
+        "consciousness_clarity": 0.4,
+        "meta_cognition_score": 0.45
+      }
+    }
+  ],
+  "dimensions": [
+    {
+      "dimension": "Consciousness",
+      "summary": "Key performers: self. Average across all: 0.50",
+      "key_differences": [
+        "self leads in Consciousness Clarity (0.50)"
+      ],
+      "leading_companies": [
+        "self"
+      ]
+    },
+    {
+      "dimension": "Evolution",
+      "summary": "Key performers: self. Average across all: 0.50",
+      "key_differences": [
+        "self leads in Evolution Speed (0.50)"
+      ],
+      "leading_companies": [
+        "self"
+      ]
+    },
+    {
+      "dimension": "Frontier",
+      "summary": "Key performers: self. Average across all: 0.60",
+      "key_differences": [
+        "self excels in Frontier Health (0.60)",
+        "self excels in Frontier Score (60.00)"
+      ],
+      "leading_companies": [
+        "self",
+        "self"
+      ]
+    },
+    {
+      "dimension": "Culture",
+      "summary": "Key performers: self. Average across all: 0.50",
+      "key_differences": [
+        "self shows stronger Risk Posture (0.50)"
+      ],
+      "leading_companies": [
+        "self"
+      ]
+    },
+    {
+      "dimension": "Narrative",
+      "summary": "Key performers: self. Average across all: 0.65",
+      "key_differences": [
+        "self has superior Narrative Consistency (0.65)",
+        "self has superior Narrative Clarity (0.65)"
+      ],
+      "leading_companies": [
+        "self",
+        "self"
+      ]
+    },
+    {
+      "dimension": "Meta-Cognition",
+      "summary": "Key performers: self. Average across all: 0.60",
+      "key_differences": [
+        "self demonstrates higher Meta-Cognition Maturity (0.60)",
+        "self demonstrates higher Learning Agility (0.65)"
+      ],
+      "leading_companies": [
+        "self",
+        "self"
+      ]
+    },
+    {
+      "dimension": "Scenario Resilience",
+      "summary": "Key performers: self. Average across all: 0.60",
+      "key_differences": [
+        "self is most resilient to Resilience to BASELINE (0.60)",
+        "self is most resilient to Resilience to OPTIMISTIC (0.75)",
+        "self is most resilient to Resilience to PESSIMISTIC (0.45)",
+        "self is most resilient to Resilience to RECESSION (0.50)",
+        "self is most resilient to Resilience to TECH_BOOM (0.70)"
+      ],
+      "leading_companies": [
+        "self",
+        "self",
+        "self",
+        "self",
+        "self"
+      ]
+    }
+  ],
+  "narrative_summary": "Comparative analysis of Our Company, Competitor A, Competitor B.\n\nKey Findings:\n- 1 distinct archetypes identified: Struggling.\n- Most frequent leader: self.\n- Leadership concentrated across 1 companies.\n\nDimension Highlights:\n- Consciousness: Led by self.\n- Evolution: Led by self.\n- Frontier: Led by self.",
+  "strategic_implications": [
+    "Frontier leaders show 0.00 point advantage in strategic positioning."
+  ],
+  "recommendation": null
+}

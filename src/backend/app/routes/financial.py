@@ -1,5 +1,6 @@
+from datetime import datetime
 from fastapi import APIRouter, HTTPException, Query
-from typing import List, Optional
+from typing import Dict, List, Optional
 
 from ..models.financial_model import InvestmentDecisionRecord, InvestmentRequest
 from ..services.business_portfolio_service import BusinessPortfolioService
@@ -114,14 +115,40 @@ def get_emergency_measures():
         raise HTTPException(status_code=500, detail=str(exc))
 
 @router.get('/financials/emergency-playbook')
-def get_emergency_playbook():
+def get_emergency_playbook(notify: bool = Query(False)):
     try:
         financials = service.load_financials()
+        playbook = service.generate_emergency_playbook(financials)
+        if notify:
+            service.dispatch_emergency_alerts(playbook)
+
         return {
-            'playbook': service.generate_emergency_playbook(financials),
-            'alert_templates': service.build_emergency_alert_templates(financials),
+            'playbook': playbook,
+            'alert_templates': service.build_emergency_alert_templates(playbook),
         }
     except FileNotFoundError as exc:
         raise HTTPException(status_code=404, detail=str(exc))
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc))
+
+
+@router.post('/financials/execute-playbook')
+def execute_playbook(request: Dict[str, list]):
+    try:
+        actions = request.get('actions', [])
+        if not isinstance(actions, list):
+            raise ValueError('actions must be a list')
+
+        executed_actions = [action for action in actions]
+        timestamp = datetime.utcnow().replace(microsecond=0).isoformat() + 'Z'
+        service.log_playbook_execution(executed_actions, timestamp)
+
+        return {
+            'status': 'executed',
+            'executed_actions': executed_actions,
+            'timestamp': timestamp,
+        }
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc))
     except Exception as exc:
         raise HTTPException(status_code=500, detail=str(exc))

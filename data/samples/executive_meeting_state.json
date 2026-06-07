@@ -1,0 +1,401 @@
+{
+  "month": 1,
+  "agenda": [
+    {
+      "id": "1-pl",
+      "category": "PL",
+      "title": "PL Summary",
+      "summary": "Revenue 10.485, Profit -18.416, Margin -1.756",
+      "ai_recommendation": "Maintain margin focus and validate cost discipline while monitoring revenue mix.",
+      "impact": {
+        "revenue": 10.485,
+        "profit": -18.416,
+        "profit_margin": -1.756
+      }
+    },
+    {
+      "id": "1-kpi",
+      "category": "KPI",
+      "title": "KPI Summary",
+      "summary": "License 0.131, Digital 0.145, Talent LTV 1.000",
+      "ai_recommendation": "Ensure KPI trajectory is aligned with margin priorities and highlight digital acceleration opportunities.",
+      "impact": {
+        "license_ratio": 0.131,
+        "digital_ratio": 0.145,
+        "talent_ltv_index": 1.0
+      }
+    },
+    {
+      "id": "1-ops",
+      "category": "Operations",
+      "title": "Operations Summary",
+      "summary": "Active tasks 17, incidents 1",
+      "ai_recommendation": "Focus on operational resilience and convert issue recommendations into clear execution steps.",
+      "impact": {
+        "active_tasks": 17.0,
+        "incidents": 1.0
+      }
+    },
+    {
+      "id": "1-issues",
+      "category": "Issues",
+      "title": "Issues Summary",
+      "summary": "Detected 3 issue(s); recommend prioritizing top corrective actions.",
+      "ai_recommendation": "Approve high-impact issue resolutions and defer low-value items after assessing resource tradeoffs.",
+      "impact": {
+        "issue_count": 3.0,
+        "recommended_actions": 2.0
+      }
+    },
+    {
+      "id": "1-improvements",
+      "category": "Improvements",
+      "title": "Improvement Actions",
+      "summary": "Prepared 2 improvement actions to address detected issues.",
+      "ai_recommendation": "Approve the most impactful actions with measurable KPI effects and track execution progress.",
+      "impact": {
+        "improvement_actions": 2.0
+      }
+    },
+    {
+      "id": "1-portfolio",
+      "category": "Portfolio",
+      "title": "Portfolio Decisions",
+      "summary": "Portfolio actions: Maintain, Exit",
+      "ai_recommendation": "Prioritize investments in high-growth digital and maintain stable license businesses while exiting high-risk low-growth units.",
+      "impact": {
+        "invest_targets": 0.0,
+        "exit_candidates": 1.0
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "agenda_id": "1-pl",
+      "decision": "Approve",
+      "comment": "Approved by the executive team for next-month implementation.",
+      "applied_effect": {
+        "revenue": 10.485,
+        "profit": -18.416,
+        "profit_margin": -1.756
+      }
+    },
+    {
+      "agenda_id": "1-kpi",
+      "decision": "Approve",
+      "comment": "Approved by the executive team for next-month implementation.",
+      "applied_effect": {
+        "license_ratio": 0.131,
+        "digital_ratio": 0.145,
+        "talent_ltv_index": 1.0
+      }
+    },
+    {
+      "agenda_id": "1-ops",
+      "decision": "Modify",
+      "comment": "Approved with adjustments to reduce risk and improve execution.",
+      "applied_effect": {
+        "active_tasks": 13.6,
+        "incidents": 0.8
+      }
+    },
+    {
+      "agenda_id": "1-issues",
+      "decision": "Approve",
+      "comment": "Approved by the executive team for next-month implementation.",
+      "applied_effect": {
+        "issue_count": 3.0,
+        "recommended_actions": 2.0
+      }
+    },
+    {
+      "agenda_id": "1-improvements",
+      "decision": "Approve",
+      "comment": "Approved by the executive team for next-month implementation.",
+      "applied_effect": {
+        "improvement_actions": 2.0
+      }
+    },
+    {
+      "agenda_id": "1-portfolio",
+      "decision": "Modify",
+      "comment": "Approved with adjustments to reduce risk and improve execution.",
+      "applied_effect": {
+        "invest_targets": 0.0,
+        "exit_candidates": 0.8
+      }
+    }
+  ],
+  "next_month_projection": {
+    "month": 2.0,
+    "revenue": 22.468,
+    "profit": -35.334,
+    "profit_margin": -1.5726,
+    "gross_profit": 3.427,
+    "operating_profit": -16.918,
+    "license_ratio": 0.236,
+    "digital_ratio": 0.29,
+    "talent_ltv_index": 2.0
+  },
+  "executive_agents": [
+    {
+      "role": "CFO",
+      "focus": "Cash, investment, risk, capital policy",
+      "opening_statement": "As CFO, I am focused on Cash, investment, risk, capital policy. Key points include PL Summary: Revenue 10.485, Profit -18.416, Margin -1.756; Operations Summary: Active tasks 17, incidents 1.",
+      "recommendation": "I recommend balancing cash, investment, risk, capital policy with strategic continuity. Favor decisions that protect strengths without blocking growth.",
+      "concerns": [
+        "cash reserves and liquidity",
+        "investment / return balance",
+        "financial risk management"
+      ]
+    },
+    {
+      "role": "COO",
+      "focus": "Execution capacity, project load, operational risk",
+      "opening_statement": "As COO, I am focused on Execution capacity, project load, operational risk. Key points include PL Summary: Revenue 10.485, Profit -18.416, Margin -1.756; Operations Summary: Active tasks 17, incidents 1.",
+      "recommendation": "I recommend balancing execution capacity, project load, operational risk with strategic continuity. Favor decisions that protect strengths without blocking growth.",
+      "concerns": [
+        "resource overload and delays",
+        "execution risk for tranches",
+        "process reliability"
+      ]
+    },
+    {
+      "role": "CMO",
+      "focus": "Market demand, competition, customer acquisition",
+      "opening_statement": "As CMO, I am focused on Market demand, competition, customer acquisition. Key points include PL Summary: Revenue 10.485, Profit -18.416, Margin -1.756; Operations Summary: Active tasks 17, incidents 1.",
+      "recommendation": "I recommend balancing market demand, competition, customer acquisition with strategic continuity. Favor decisions that protect strengths without blocking growth.",
+      "concerns": [
+        "market momentum and timing",
+        "go-to-market effectiveness",
+        "brand and campaign ROI"
+      ]
+    },
+    {
+      "role": "CHRO",
+      "focus": "Organization health, headcount, morale",
+      "opening_statement": "As CHRO, I am focused on Organization health, headcount, morale. Key points include PL Summary: Revenue 10.485, Profit -18.416, Margin -1.756; Operations Summary: Active tasks 17, incidents 1.",
+      "recommendation": "I recommend balancing organization health, headcount, morale with strategic continuity. Favor decisions that protect strengths without blocking growth.",
+      "concerns": [
+        "workload and retention",
+        "capacity to hire and onboard",
+        "culture and leadership alignment"
+      ]
+    }
+  ],
+  "debate_summary": {
+    "opening_statements": [
+      {
+        "role": "CFO",
+        "focus": "Cash, investment, risk, capital policy",
+        "opening_statement": "As CFO, I am focused on Cash, investment, risk, capital policy. Key points include PL Summary: Revenue 10.485, Profit -18.416, Margin -1.756; Operations Summary: Active tasks 17, incidents 1.",
+        "recommendation": "I recommend balancing cash, investment, risk, capital policy with strategic continuity. Favor decisions that protect strengths without blocking growth.",
+        "concerns": [
+          "cash reserves and liquidity",
+          "investment / return balance",
+          "financial risk management"
+        ]
+      },
+      {
+        "role": "COO",
+        "focus": "Execution capacity, project load, operational risk",
+        "opening_statement": "As COO, I am focused on Execution capacity, project load, operational risk. Key points include PL Summary: Revenue 10.485, Profit -18.416, Margin -1.756; Operations Summary: Active tasks 17, incidents 1.",
+        "recommendation": "I recommend balancing execution capacity, project load, operational risk with strategic continuity. Favor decisions that protect strengths without blocking growth.",
+        "concerns": [
+          "resource overload and delays",
+          "execution risk for tranches",
+          "process reliability"
+        ]
+      },
+      {
+        "role": "CMO",
+        "focus": "Market demand, competition, customer acquisition",
+        "opening_statement": "As CMO, I am focused on Market demand, competition, customer acquisition. Key points include PL Summary: Revenue 10.485, Profit -18.416, Margin -1.756; Operations Summary: Active tasks 17, incidents 1.",
+        "recommendation": "I recommend balancing market demand, competition, customer acquisition with strategic continuity. Favor decisions that protect strengths without blocking growth.",
+        "concerns": [
+          "market momentum and timing",
+          "go-to-market effectiveness",
+          "brand and campaign ROI"
+        ]
+      },
+      {
+        "role": "CHRO",
+        "focus": "Organization health, headcount, morale",
+        "opening_statement": "As CHRO, I am focused on Organization health, headcount, morale. Key points include PL Summary: Revenue 10.485, Profit -18.416, Margin -1.756; Operations Summary: Active tasks 17, incidents 1.",
+        "recommendation": "I recommend balancing organization health, headcount, morale with strategic continuity. Favor decisions that protect strengths without blocking growth.",
+        "concerns": [
+          "workload and retention",
+          "capacity to hire and onboard",
+          "culture and leadership alignment"
+        ]
+      }
+    ],
+    "cross_discussion": [
+      "Fuel growth while maintaining cash discipline is the central financial debate.",
+      "Portfolio actions should be sequenced with execution capacity and market timing.",
+      "Operational cadence must be aligned with reported issue resolution timelines.",
+      "Issue remediation must not overload teams during a high-risk market phase."
+    ],
+    "consensus": "Protect liquidity while pursuing high-return investments. and Operational stability is required before adding new major initiatives.",
+    "divergence": [
+      "Whether to accelerate investments now or preserve optionality for later.",
+      "Debate between rapid action and conservative allocation persists."
+    ]
+  },
+  "decision_options": [
+    {
+      "id": "A",
+      "label": "攻めの投資継続",
+      "actions": [
+        "execute_tranche_2",
+        "increase_marketing_10pct"
+      ],
+      "pros": [
+        "市場回復時の成長最大化",
+        "高い戦略的機動性を維持"
+      ],
+      "cons": [
+        "キャッシュ逼迫リスク",
+        "実行力に対する負荷増大"
+      ],
+      "risk_level": "High",
+      "expected_impact_score": 0.9,
+      "growth_score": 0.9,
+      "brand_impact": 0.8,
+      "short_term_profit": 0.6,
+      "long_term_value": 0.9
+    },
+    {
+      "id": "B",
+      "label": "守りの投資抑制",
+      "actions": [
+        "delay_tranche_2",
+        "freeze_hiring"
+      ],
+      "pros": [
+        "流動性確保",
+        "オペレーションリスクの低減"
+      ],
+      "cons": [
+        "成長機会の遅延",
+        "市場シェア回復の鈍化"
+      ],
+      "risk_level": "Low",
+      "expected_impact_score": 0.4,
+      "growth_score": 0.4,
+      "brand_impact": 0.3,
+      "short_term_profit": 0.5,
+      "long_term_value": 0.5
+    },
+    {
+      "id": "C",
+      "label": "バランス型",
+      "actions": [
+        "partial_tranche",
+        "reduce_production_cost"
+      ],
+      "pros": [
+        "リスク低減と成長維持",
+        "組織負荷をコントロール"
+      ],
+      "cons": [
+        "意思決定が複雑",
+        "実行には高い調整力が必要"
+      ],
+      "risk_level": "Medium",
+      "expected_impact_score": 0.65,
+      "growth_score": 0.7,
+      "brand_impact": 0.6,
+      "short_term_profit": 0.55,
+      "long_term_value": 0.75
+    }
+  ],
+  "meeting_minutes": {
+    "summary": "Month 1 executive meeting completed with 6 agenda items.",
+    "discussion_highlights": [
+      "Consensus: Protect liquidity while pursuing high-return investments. and Operational stability is required before adding new major initiatives.",
+      "Fuel growth while maintaining cash discipline is the central financial debate.",
+      "Portfolio actions should be sequenced with execution capacity and market timing.",
+      "CEO chose option C."
+    ],
+    "decisions_recorded": [
+      {
+        "agenda_id": "1-pl",
+        "decision": "Approve",
+        "comment": "Approved by the executive team for next-month implementation."
+      },
+      {
+        "agenda_id": "1-kpi",
+        "decision": "Approve",
+        "comment": "Approved by the executive team for next-month implementation."
+      },
+      {
+        "agenda_id": "1-ops",
+        "decision": "Modify",
+        "comment": "Approved with adjustments to reduce risk and improve execution."
+      },
+      {
+        "agenda_id": "1-issues",
+        "decision": "Approve",
+        "comment": "Approved by the executive team for next-month implementation."
+      },
+      {
+        "agenda_id": "1-improvements",
+        "decision": "Approve",
+        "comment": "Approved by the executive team for next-month implementation."
+      },
+      {
+        "agenda_id": "1-portfolio",
+        "decision": "Modify",
+        "comment": "Approved with adjustments to reduce risk and improve execution."
+      }
+    ],
+    "ceo_comment": ""
+  },
+  "selected_option_id": "C",
+  "ceo_comment": null,
+  "ceo_selected_option_id": "C",
+  "ceo_selected_option_label": "バランス型",
+  "ceo_decision_rationale": "AI CEOはバランス型を選択しました。理由: このCEOはホリプロ2026年の「攻め×回転率×ブランド戦略」を意識しています。現金余力が限定的なため、キャッシュ保全を優先しました。組織負荷を考慮し、実行可能な選択を重視しました。実行力が限定的なため、過度な負荷は避けました。ブランド価値を損なわず、IPと興行の価値を守る判断を行いました。ライブ・配信・TVの回転収益を確保する視点も持っています。中期的なブランド戦略を見据えた意思決定です。バランス型を選択し、成長と安定性を両立する判断を行いました。",
+  "ceo_persona": {
+    "aggressiveness": 0.6,
+    "risk_tolerance": 0.30000000000000004,
+    "brand_priority": 0.7,
+    "short_term_focus": 0.5,
+    "long_term_focus": 0.8
+  },
+  "board_decision": {
+    "status": "rejected",
+    "final_option_id": "C",
+    "final_option_label": "バランス型",
+    "board_rationale": "複数の取締役からリスク指摘あり。代替案を採用。",
+    "conditions": "リスク軽減策の実施を条件に再検討",
+    "member_opinions": [
+      {
+        "member_role": "financial",
+        "preferred_option_id": "A",
+        "rationale": "キャッシュ残高が不足するリスクあり。投資を抑制すべき。",
+        "risk_flag": true
+      },
+      {
+        "member_role": "brand",
+        "preferred_option_id": "C",
+        "rationale": "ブランド価値向上の機会。長期視点で支持。",
+        "risk_flag": false
+      },
+      {
+        "member_role": "risk",
+        "preferred_option_id": "C",
+        "rationale": "リスクは許容範囲内。",
+        "risk_flag": false
+      },
+      {
+        "member_role": "org",
+        "preferred_option_id": "A",
+        "rationale": "組織の実行キャパシティを超える。負荷を軽減すべき。",
+        "risk_flag": true
+      }
+    ]
+  },
+  "decision_actor": "AI CEO + Board"
+}

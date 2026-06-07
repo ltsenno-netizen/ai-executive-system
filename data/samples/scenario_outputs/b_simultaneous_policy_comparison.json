@@ -1,0 +1,968 @@
+[
+  {
+    "policy": "full",
+    "data": [
+      {
+        "policy": "full",
+        "year": 2026,
+        "month": 1,
+        "revenue": 10.485,
+        "profit": -18.416,
+        "cash_reserves": 19.364,
+        "free_cash_flow": 4.364,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "full",
+        "year": 2026,
+        "month": 2,
+        "revenue": 11.983,
+        "profit": -16.918,
+        "cash_reserves": 24.851,
+        "free_cash_flow": 5.487,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "full",
+        "year": 2026,
+        "month": 3,
+        "revenue": 9.027,
+        "profit": -19.874,
+        "cash_reserves": 28.121,
+        "free_cash_flow": 3.27,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": [
+          {
+            "id": "shock_stage_market_drop",
+            "date": "2026-03-01",
+            "type": "market_shock",
+            "impact_map": {
+              "stage_market": -0.3
+            },
+            "duration_months": 2,
+            "source": "scenario",
+            "notes": "Stage market drop 30%"
+          }
+        ]
+      },
+      {
+        "policy": "full",
+        "year": 2026,
+        "month": 4,
+        "revenue": 7.218,
+        "profit": -21.445,
+        "cash_reserves": 27.034,
+        "free_cash_flow": 1.913,
+        "committed_capex": 5.0,
+        "approvals": 1,
+        "active_events": [
+          {
+            "id": "shock_stage_market_drop",
+            "date": "2026-03-01",
+            "type": "market_shock",
+            "impact_map": {
+              "stage_market": -0.3
+            },
+            "duration_months": 2,
+            "source": "scenario",
+            "notes": "Stage market drop 30%"
+          }
+        ]
+      },
+      {
+        "policy": "full",
+        "year": 2026,
+        "month": 5,
+        "revenue": 9.682,
+        "profit": -18.981,
+        "cash_reserves": 30.795,
+        "free_cash_flow": 3.761,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "full",
+        "year": 2026,
+        "month": 6,
+        "revenue": 9.586,
+        "profit": -19.077,
+        "cash_reserves": 34.485,
+        "free_cash_flow": 3.69,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "full",
+        "year": 2026,
+        "month": 7,
+        "revenue": 11.305,
+        "profit": -17.358,
+        "cash_reserves": 39.464,
+        "free_cash_flow": 4.979,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "full",
+        "year": 2026,
+        "month": 8,
+        "revenue": 12.116,
+        "profit": -16.727,
+        "cash_reserves": 45.051,
+        "free_cash_flow": 5.587,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "full",
+        "year": 2026,
+        "month": 9,
+        "revenue": 14.101999999999999,
+        "profit": -14.741,
+        "cash_reserves": 52.127,
+        "free_cash_flow": 7.076,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "full",
+        "year": 2026,
+        "month": 10,
+        "revenue": 17.103,
+        "profit": -11.9,
+        "cash_reserves": 61.454,
+        "free_cash_flow": 9.327,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "full",
+        "year": 2026,
+        "month": 11,
+        "revenue": 16.134,
+        "profit": -12.869,
+        "cash_reserves": 70.055,
+        "free_cash_flow": 8.601,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "full",
+        "year": 2026,
+        "month": 12,
+        "revenue": 26.044,
+        "profit": -2.959,
+        "cash_reserves": 86.088,
+        "free_cash_flow": 16.033,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "full",
+        "year": 2027,
+        "month": 1,
+        "revenue": 10.642,
+        "profit": -18.259,
+        "cash_reserves": 90.569,
+        "free_cash_flow": 4.481,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "full",
+        "year": 2027,
+        "month": 2,
+        "revenue": 12.138,
+        "profit": -16.763,
+        "cash_reserves": 96.173,
+        "free_cash_flow": 5.604,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "full",
+        "year": 2027,
+        "month": 3,
+        "revenue": 15.367999999999999,
+        "profit": -13.533,
+        "cash_reserves": 104.199,
+        "free_cash_flow": 8.026,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "full",
+        "year": 2027,
+        "month": 4,
+        "revenue": 12.138,
+        "profit": -16.525,
+        "cash_reserves": 109.803,
+        "free_cash_flow": 5.604,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "full",
+        "year": 2027,
+        "month": 5,
+        "revenue": 12.266,
+        "profit": -16.397,
+        "cash_reserves": 115.503,
+        "free_cash_flow": 5.7,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "full",
+        "year": 2027,
+        "month": 6,
+        "revenue": 12.138,
+        "profit": -16.525,
+        "cash_reserves": 121.107,
+        "free_cash_flow": 5.604,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "full",
+        "year": 2027,
+        "month": 7,
+        "revenue": 14.305,
+        "profit": -14.358,
+        "cash_reserves": 128.336,
+        "free_cash_flow": 7.229,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "full",
+        "year": 2027,
+        "month": 8,
+        "revenue": 15.349,
+        "profit": -13.494,
+        "cash_reserves": 136.348,
+        "free_cash_flow": 8.012,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "full",
+        "year": 2027,
+        "month": 9,
+        "revenue": 14.261999999999999,
+        "profit": -14.581,
+        "cash_reserves": 143.544,
+        "free_cash_flow": 7.196,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "full",
+        "year": 2027,
+        "month": 10,
+        "revenue": 17.258,
+        "profit": -11.745,
+        "cash_reserves": 152.988,
+        "free_cash_flow": 9.444,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "full",
+        "year": 2027,
+        "month": 11,
+        "revenue": 16.311,
+        "profit": -12.692,
+        "cash_reserves": 161.721,
+        "free_cash_flow": 8.733,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "full",
+        "year": 2027,
+        "month": 12,
+        "revenue": 26.366,
+        "profit": -2.637,
+        "cash_reserves": 177.995,
+        "free_cash_flow": 16.274,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      }
+    ],
+    "final_cash": 177.995,
+    "min_cash": 19.364,
+    "p50_cash": 90.569,
+    "approvals_count": 1,
+    "final_committed_capex": 5.0
+  },
+  {
+    "policy": "none",
+    "data": [
+      {
+        "policy": "none",
+        "year": 2026,
+        "month": 1,
+        "revenue": 10.485,
+        "profit": -18.416,
+        "cash_reserves": 19.364,
+        "free_cash_flow": 4.364,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "none",
+        "year": 2026,
+        "month": 2,
+        "revenue": 11.983,
+        "profit": -16.918,
+        "cash_reserves": 24.851,
+        "free_cash_flow": 5.487,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "none",
+        "year": 2026,
+        "month": 3,
+        "revenue": 9.027,
+        "profit": -19.874,
+        "cash_reserves": 28.121,
+        "free_cash_flow": 3.27,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": [
+          {
+            "id": "shock_stage_market_drop",
+            "date": "2026-03-01",
+            "type": "market_shock",
+            "impact_map": {
+              "stage_market": -0.3
+            },
+            "duration_months": 2,
+            "source": "scenario",
+            "notes": "Stage market drop 30%"
+          }
+        ]
+      },
+      {
+        "policy": "none",
+        "year": 2026,
+        "month": 4,
+        "revenue": 7.218,
+        "profit": -21.445,
+        "cash_reserves": 30.034,
+        "free_cash_flow": 1.913,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": [
+          {
+            "id": "shock_stage_market_drop",
+            "date": "2026-03-01",
+            "type": "market_shock",
+            "impact_map": {
+              "stage_market": -0.3
+            },
+            "duration_months": 2,
+            "source": "scenario",
+            "notes": "Stage market drop 30%"
+          }
+        ]
+      },
+      {
+        "policy": "none",
+        "year": 2026,
+        "month": 5,
+        "revenue": 9.682,
+        "profit": -18.981,
+        "cash_reserves": 33.795,
+        "free_cash_flow": 3.761,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "none",
+        "year": 2026,
+        "month": 6,
+        "revenue": 9.586,
+        "profit": -19.077,
+        "cash_reserves": 37.485,
+        "free_cash_flow": 3.69,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "none",
+        "year": 2026,
+        "month": 7,
+        "revenue": 11.305,
+        "profit": -17.358,
+        "cash_reserves": 42.464,
+        "free_cash_flow": 4.979,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "none",
+        "year": 2026,
+        "month": 8,
+        "revenue": 12.116,
+        "profit": -16.727,
+        "cash_reserves": 48.051,
+        "free_cash_flow": 5.587,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "none",
+        "year": 2026,
+        "month": 9,
+        "revenue": 14.101999999999999,
+        "profit": -14.741,
+        "cash_reserves": 55.127,
+        "free_cash_flow": 7.076,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "none",
+        "year": 2026,
+        "month": 10,
+        "revenue": 17.103,
+        "profit": -11.9,
+        "cash_reserves": 64.454,
+        "free_cash_flow": 9.327,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "none",
+        "year": 2026,
+        "month": 11,
+        "revenue": 16.134,
+        "profit": -12.869,
+        "cash_reserves": 73.055,
+        "free_cash_flow": 8.601,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "none",
+        "year": 2026,
+        "month": 12,
+        "revenue": 26.044,
+        "profit": -2.959,
+        "cash_reserves": 89.088,
+        "free_cash_flow": 16.033,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "none",
+        "year": 2027,
+        "month": 1,
+        "revenue": 10.642,
+        "profit": -18.259,
+        "cash_reserves": 93.569,
+        "free_cash_flow": 4.481,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "none",
+        "year": 2027,
+        "month": 2,
+        "revenue": 12.138,
+        "profit": -16.763,
+        "cash_reserves": 99.173,
+        "free_cash_flow": 5.604,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "none",
+        "year": 2027,
+        "month": 3,
+        "revenue": 15.367999999999999,
+        "profit": -13.533,
+        "cash_reserves": 107.199,
+        "free_cash_flow": 8.026,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "none",
+        "year": 2027,
+        "month": 4,
+        "revenue": 12.138,
+        "profit": -16.525,
+        "cash_reserves": 112.803,
+        "free_cash_flow": 5.604,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "none",
+        "year": 2027,
+        "month": 5,
+        "revenue": 12.266,
+        "profit": -16.397,
+        "cash_reserves": 118.503,
+        "free_cash_flow": 5.7,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "none",
+        "year": 2027,
+        "month": 6,
+        "revenue": 12.138,
+        "profit": -16.525,
+        "cash_reserves": 124.107,
+        "free_cash_flow": 5.604,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "none",
+        "year": 2027,
+        "month": 7,
+        "revenue": 14.305,
+        "profit": -14.358,
+        "cash_reserves": 131.336,
+        "free_cash_flow": 7.229,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "none",
+        "year": 2027,
+        "month": 8,
+        "revenue": 15.349,
+        "profit": -13.494,
+        "cash_reserves": 139.348,
+        "free_cash_flow": 8.012,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "none",
+        "year": 2027,
+        "month": 9,
+        "revenue": 14.261999999999999,
+        "profit": -14.581,
+        "cash_reserves": 146.544,
+        "free_cash_flow": 7.196,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "none",
+        "year": 2027,
+        "month": 10,
+        "revenue": 17.258,
+        "profit": -11.745,
+        "cash_reserves": 155.988,
+        "free_cash_flow": 9.444,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "none",
+        "year": 2027,
+        "month": 11,
+        "revenue": 16.311,
+        "profit": -12.692,
+        "cash_reserves": 164.721,
+        "free_cash_flow": 8.733,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "none",
+        "year": 2027,
+        "month": 12,
+        "revenue": 26.366,
+        "profit": -2.637,
+        "cash_reserves": 180.995,
+        "free_cash_flow": 16.274,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": []
+      }
+    ],
+    "final_cash": 180.995,
+    "min_cash": 19.364,
+    "p50_cash": 93.569,
+    "approvals_count": 0,
+    "final_committed_capex": 2.0
+  },
+  {
+    "policy": "tranche",
+    "data": [
+      {
+        "policy": "tranche",
+        "year": 2026,
+        "month": 1,
+        "revenue": 10.485,
+        "profit": -18.416,
+        "cash_reserves": 19.364,
+        "free_cash_flow": 4.364,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "tranche",
+        "year": 2026,
+        "month": 2,
+        "revenue": 11.983,
+        "profit": -16.918,
+        "cash_reserves": 24.851,
+        "free_cash_flow": 5.487,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "tranche",
+        "year": 2026,
+        "month": 3,
+        "revenue": 9.027,
+        "profit": -19.874,
+        "cash_reserves": 28.121,
+        "free_cash_flow": 3.27,
+        "committed_capex": 2.0,
+        "approvals": 0,
+        "active_events": [
+          {
+            "id": "shock_stage_market_drop",
+            "date": "2026-03-01",
+            "type": "market_shock",
+            "impact_map": {
+              "stage_market": -0.3
+            },
+            "duration_months": 2,
+            "source": "scenario",
+            "notes": "Stage market drop 30%"
+          }
+        ]
+      },
+      {
+        "policy": "tranche",
+        "year": 2026,
+        "month": 4,
+        "revenue": 7.218,
+        "profit": -21.445,
+        "cash_reserves": 29.034,
+        "free_cash_flow": 1.913,
+        "committed_capex": 3.0,
+        "approvals": 1,
+        "active_events": [
+          {
+            "id": "shock_stage_market_drop",
+            "date": "2026-03-01",
+            "type": "market_shock",
+            "impact_map": {
+              "stage_market": -0.3
+            },
+            "duration_months": 2,
+            "source": "scenario",
+            "notes": "Stage market drop 30%"
+          }
+        ]
+      },
+      {
+        "policy": "tranche",
+        "year": 2026,
+        "month": 5,
+        "revenue": 9.682,
+        "profit": -18.981,
+        "cash_reserves": 31.795,
+        "free_cash_flow": 3.761,
+        "committed_capex": 4.0,
+        "approvals": 1,
+        "active_events": []
+      },
+      {
+        "policy": "tranche",
+        "year": 2026,
+        "month": 6,
+        "revenue": 9.586,
+        "profit": -19.077,
+        "cash_reserves": 34.485,
+        "free_cash_flow": 3.69,
+        "committed_capex": 5.0,
+        "approvals": 1,
+        "active_events": []
+      },
+      {
+        "policy": "tranche",
+        "year": 2026,
+        "month": 7,
+        "revenue": 11.305,
+        "profit": -17.358,
+        "cash_reserves": 39.464,
+        "free_cash_flow": 4.979,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "tranche",
+        "year": 2026,
+        "month": 8,
+        "revenue": 12.116,
+        "profit": -16.727,
+        "cash_reserves": 45.051,
+        "free_cash_flow": 5.587,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "tranche",
+        "year": 2026,
+        "month": 9,
+        "revenue": 14.101999999999999,
+        "profit": -14.741,
+        "cash_reserves": 52.127,
+        "free_cash_flow": 7.076,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "tranche",
+        "year": 2026,
+        "month": 10,
+        "revenue": 17.103,
+        "profit": -11.9,
+        "cash_reserves": 61.454,
+        "free_cash_flow": 9.327,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "tranche",
+        "year": 2026,
+        "month": 11,
+        "revenue": 16.134,
+        "profit": -12.869,
+        "cash_reserves": 70.055,
+        "free_cash_flow": 8.601,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "tranche",
+        "year": 2026,
+        "month": 12,
+        "revenue": 26.044,
+        "profit": -2.959,
+        "cash_reserves": 86.088,
+        "free_cash_flow": 16.033,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "tranche",
+        "year": 2027,
+        "month": 1,
+        "revenue": 10.642,
+        "profit": -18.259,
+        "cash_reserves": 90.569,
+        "free_cash_flow": 4.481,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "tranche",
+        "year": 2027,
+        "month": 2,
+        "revenue": 12.138,
+        "profit": -16.763,
+        "cash_reserves": 96.173,
+        "free_cash_flow": 5.604,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "tranche",
+        "year": 2027,
+        "month": 3,
+        "revenue": 15.367999999999999,
+        "profit": -13.533,
+        "cash_reserves": 104.199,
+        "free_cash_flow": 8.026,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "tranche",
+        "year": 2027,
+        "month": 4,
+        "revenue": 12.138,
+        "profit": -16.525,
+        "cash_reserves": 109.803,
+        "free_cash_flow": 5.604,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "tranche",
+        "year": 2027,
+        "month": 5,
+        "revenue": 12.266,
+        "profit": -16.397,
+        "cash_reserves": 115.503,
+        "free_cash_flow": 5.7,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "tranche",
+        "year": 2027,
+        "month": 6,
+        "revenue": 12.138,
+        "profit": -16.525,
+        "cash_reserves": 121.107,
+        "free_cash_flow": 5.604,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "tranche",
+        "year": 2027,
+        "month": 7,
+        "revenue": 14.305,
+        "profit": -14.358,
+        "cash_reserves": 128.336,
+        "free_cash_flow": 7.229,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "tranche",
+        "year": 2027,
+        "month": 8,
+        "revenue": 15.349,
+        "profit": -13.494,
+        "cash_reserves": 136.348,
+        "free_cash_flow": 8.012,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "tranche",
+        "year": 2027,
+        "month": 9,
+        "revenue": 14.261999999999999,
+        "profit": -14.581,
+        "cash_reserves": 143.544,
+        "free_cash_flow": 7.196,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "tranche",
+        "year": 2027,
+        "month": 10,
+        "revenue": 17.258,
+        "profit": -11.745,
+        "cash_reserves": 152.988,
+        "free_cash_flow": 9.444,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "tranche",
+        "year": 2027,
+        "month": 11,
+        "revenue": 16.311,
+        "profit": -12.692,
+        "cash_reserves": 161.721,
+        "free_cash_flow": 8.733,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      },
+      {
+        "policy": "tranche",
+        "year": 2027,
+        "month": 12,
+        "revenue": 26.366,
+        "profit": -2.637,
+        "cash_reserves": 177.995,
+        "free_cash_flow": 16.274,
+        "committed_capex": 5.0,
+        "approvals": 0,
+        "active_events": []
+      }
+    ],
+    "final_cash": 177.995,
+    "min_cash": 19.364,
+    "p50_cash": 90.569,
+    "approvals_count": 3,
+    "final_committed_capex": 5.0
+  }
+]

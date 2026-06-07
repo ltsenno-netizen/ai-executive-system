@@ -1,0 +1,89 @@
+{
+  "scenario_type": "tech_boom",
+  "description": "技術大躍進による変革シナリオ",
+  "duration_months": 36,
+  "scenario_drivers": {
+    "focus": "disruption"
+  },
+  "stress_factors": {
+    "regulatory": 0.0,
+    "supply_chain": 0.0
+  },
+  "narrative_focus": "デジタル変革と新技術の採用が急進展する未来",
+  "projected_environment": {
+    "period": "2027-12",
+    "pest": {
+      "political": 0.5,
+      "economic": 0.58,
+      "social": 0.5,
+      "technological": 0.6
+    },
+    "competitors": [
+      {
+        "competitor_name": "Competitor A",
+        "aggressiveness": 0.8110058945667342,
+        "market_share_shift": 0.007375149606124787,
+        "notes": "Random action"
+      },
+      {
+        "competitor_name": "Competitor B",
+        "aggressiveness": 0.5275533460157807,
+        "market_share_shift": 0.019203721470202884,
+        "notes": "Random action"
+      }
+    ],
+    "shocks": [],
+    "market_growth_modifier": -0.0034639810145628766,
+    "risk_modifier": 0.01338559240582515
+  },
+  "projected_culture": {
+    "period": "2026-04",
+    "aggressiveness_culture": 0.53,
+    "risk_aversion_culture": 0.5099,
+    "brand_culture": 0.5198,
+    "cost_culture": 0.5,
+    "people_culture": 0.5,
+    "execution_culture": 0.5,
+    "innovation_culture": 0.5699000000000001,
+    "stability_culture": 0.5,
+    "notes": "Updated on 2026-04 with CEO persona, board decisions, and quarterly performance."
+  },
+  "projected_consciousness_evolution": {
+    "current_phase": "EMERGING",
+    "momentum": 0.13888,
+    "stability": 0.55,
+    "last_update": "2026-05-20 02:33:29.835937",
+    "history": [
+      {
+        "event_id": "scenario-tech_boom-1779212009",
+        "trigger_type": "CULTURE_SHIFT",
+        "description": "技術イノベーションが組織意識を刺激する",
+        "timestamp": "2026-05-20 02:33:29.835968",
+        "impact_on_identity": -0.03,
+        "impact_on_purpose": 0.03,
+        "impact_on_direction": 0.0,
+        "impact_on_risk_posture": 0.01
+      }
+    ]
+  },
+  "financial_impact_summary": {
+    "revenue": 6.828295592998549,
+    "profit": 0.569024632749879,
+    "cash": 16.707073898249636,
+    "growth_rate": -0.0034639810145628766,
+    "operating_margin": 0.08333333333333333
+  },
+  "risk_assessment": "Medium",
+  "opportunity_assessment": "High",
+  "scenario_score": 0.4094309136405724,
+  "confidence": 0.7118861827281144,
+  "contingency_recommendations": [
+    "イノベーション主導の事業開発を加速する",
+    "デジタルトランスフォーメーションと人材育成を同時に進める"
+  ],
+  "strategic_implications": [
+    "技術大躍進による変革シナリオ の場合、経営チームは意思決定の柔軟性を高める必要があります。",
+    "市場成長率は -0.00 付近で推移すると予測されます。"
+  ],
+  "created_at": "2026-05-20 02:33:29.836027"
+}

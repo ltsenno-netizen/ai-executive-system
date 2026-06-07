@@ -1,0 +1,569 @@
+{
+  "scenario_id": "scenario_simultaneous",
+  "name": "Simultaneous Shocks + Large Investment",
+  "monthly": [
+    {
+      "scenario_id": "scenario_simultaneous",
+      "month": 1,
+      "year": 2026,
+      "revenue": 6.637,
+      "profit": -17.062,
+      "profit_margin": -2.571,
+      "cash_reserves": 13.478,
+      "free_cash_flow": 1.478,
+      "investment_requests": [
+        {
+          "id": "051162f4-88ad-475b-a96e-c95b6da5117c",
+          "investment_request_id": "req-large-investment-202601",
+          "decision": "Approved",
+          "approved_amount": 3.0,
+          "reason": "推定 debt_to_equity=0.416, current_ratio=1.770。",
+          "impact_on_cash": -3.0,
+          "applied_month": 1
+        }
+      ],
+      "active_events": [
+        {
+          "id": "shock_stage_market_drop",
+          "date": "2026-01-01",
+          "type": "market_shock",
+          "impact_map": {
+            "stage_market": -0.3
+          },
+          "duration_months": 2,
+          "source": "scenario",
+          "notes": "Stage market shock with large investment"
+        }
+      ]
+    },
+    {
+      "scenario_id": "scenario_simultaneous",
+      "month": 2,
+      "year": 2026,
+      "revenue": 7.399,
+      "profit": -16.3,
+      "profit_margin": -2.203,
+      "cash_reserves": 14.049,
+      "free_cash_flow": 2.049,
+      "investment_requests": [
+        {
+          "id": "3cd6617f-5bf0-43d6-a03f-96b02ac68c3f",
+          "investment_request_id": "req-large-investment-202601",
+          "decision": "Approved",
+          "approved_amount": 3.0,
+          "reason": "推定 debt_to_equity=0.416, current_ratio=1.770。",
+          "impact_on_cash": -3.0,
+          "applied_month": 1
+        }
+      ],
+      "active_events": [
+        {
+          "id": "shock_stage_market_drop",
+          "date": "2026-01-01",
+          "type": "market_shock",
+          "impact_map": {
+            "stage_market": -0.3
+          },
+          "duration_months": 2,
+          "source": "scenario",
+          "notes": "Stage market shock with large investment"
+        }
+      ]
+    },
+    {
+      "scenario_id": "scenario_simultaneous",
+      "month": 3,
+      "year": 2026,
+      "revenue": 12.475,
+      "profit": -11.224,
+      "profit_margin": -0.9,
+      "cash_reserves": 17.856,
+      "free_cash_flow": 5.856,
+      "investment_requests": [
+        {
+          "id": "5e9f0531-3ad2-4caf-ae8e-55dad15de4d5",
+          "investment_request_id": "req-large-investment-202601",
+          "decision": "Approved",
+          "approved_amount": 3.0,
+          "reason": "推定 debt_to_equity=0.416, current_ratio=1.770。",
+          "impact_on_cash": -3.0,
+          "applied_month": 1
+        }
+      ],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_simultaneous",
+      "month": 4,
+      "year": 2026,
+      "revenue": 9.826,
+      "profit": -13.678,
+      "profit_margin": -1.392,
+      "cash_reserves": 15.87,
+      "free_cash_flow": 3.87,
+      "investment_requests": [
+        {
+          "id": "f69a3cbf-b21e-4463-a499-ef9170b94751",
+          "investment_request_id": "req-large-investment-202601",
+          "decision": "Approved",
+          "approved_amount": 3.0,
+          "reason": "推定 debt_to_equity=0.416, current_ratio=1.770。",
+          "impact_on_cash": -3.0,
+          "applied_month": 1
+        }
+      ],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_simultaneous",
+      "month": 5,
+      "year": 2026,
+      "revenue": 9.924,
+      "profit": -13.58,
+      "profit_margin": -1.368,
+      "cash_reserves": 15.943,
+      "free_cash_flow": 3.943,
+      "investment_requests": [
+        {
+          "id": "18e12170-7961-406a-bdee-9a9d231a8b42",
+          "investment_request_id": "req-large-investment-202601",
+          "decision": "Approved",
+          "approved_amount": 3.0,
+          "reason": "推定 debt_to_equity=0.416, current_ratio=1.770。",
+          "impact_on_cash": -3.0,
+          "applied_month": 1
+        }
+      ],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_simultaneous",
+      "month": 6,
+      "year": 2026,
+      "revenue": 9.826,
+      "profit": -13.678,
+      "profit_margin": -1.392,
+      "cash_reserves": 15.87,
+      "free_cash_flow": 3.87,
+      "investment_requests": [
+        {
+          "id": "b49af896-34ec-4330-acbe-ffacab8e9be2",
+          "investment_request_id": "req-large-investment-202601",
+          "decision": "Approved",
+          "approved_amount": 3.0,
+          "reason": "推定 debt_to_equity=0.416, current_ratio=1.770。",
+          "impact_on_cash": -3.0,
+          "applied_month": 1
+        }
+      ],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_simultaneous",
+      "month": 7,
+      "year": 2026,
+      "revenue": 11.587,
+      "profit": -11.916,
+      "profit_margin": -1.028,
+      "cash_reserves": 17.19,
+      "free_cash_flow": 5.19,
+      "investment_requests": [
+        {
+          "id": "6edfab8f-a49a-4123-a308-39d9c4ba59f3",
+          "investment_request_id": "req-large-investment-202601",
+          "decision": "Approved",
+          "approved_amount": 3.0,
+          "reason": "推定 debt_to_equity=0.416, current_ratio=1.770。",
+          "impact_on_cash": -3.0,
+          "applied_month": 1
+        }
+      ],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_simultaneous",
+      "month": 8,
+      "year": 2026,
+      "revenue": 12.419,
+      "profit": -11.232,
+      "profit_margin": -0.904,
+      "cash_reserves": 17.814,
+      "free_cash_flow": 5.814,
+      "investment_requests": [
+        {
+          "id": "77657b82-be4b-4380-9dd6-033924a1c4c8",
+          "investment_request_id": "req-large-investment-202601",
+          "decision": "Approved",
+          "approved_amount": 3.0,
+          "reason": "推定 debt_to_equity=0.416, current_ratio=1.770。",
+          "impact_on_cash": -3.0,
+          "applied_month": 1
+        }
+      ],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_simultaneous",
+      "month": 9,
+      "year": 2026,
+      "revenue": 11.564,
+      "profit": -12.088,
+      "profit_margin": -1.045,
+      "cash_reserves": 17.173,
+      "free_cash_flow": 5.173,
+      "investment_requests": [
+        {
+          "id": "20f07489-6fb5-4804-8483-3e3ce221bc9f",
+          "investment_request_id": "req-large-investment-202601",
+          "decision": "Approved",
+          "approved_amount": 3.0,
+          "reason": "推定 debt_to_equity=0.416, current_ratio=1.770。",
+          "impact_on_cash": -3.0,
+          "applied_month": 1
+        }
+      ],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_simultaneous",
+      "month": 10,
+      "year": 2026,
+      "revenue": 14.024,
+      "profit": -9.758,
+      "profit_margin": -0.696,
+      "cash_reserves": 19.018,
+      "free_cash_flow": 7.018,
+      "investment_requests": [
+        {
+          "id": "0da0518c-7fd7-41d1-a8b0-dc5951759fef",
+          "investment_request_id": "req-large-investment-202601",
+          "decision": "Approved",
+          "approved_amount": 3.0,
+          "reason": "推定 debt_to_equity=0.416, current_ratio=1.770。",
+          "impact_on_cash": -3.0,
+          "applied_month": 1
+        }
+      ],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_simultaneous",
+      "month": 11,
+      "year": 2026,
+      "revenue": 13.23,
+      "profit": -10.553,
+      "profit_margin": -0.798,
+      "cash_reserves": 18.423,
+      "free_cash_flow": 6.423,
+      "investment_requests": [
+        {
+          "id": "cd251d7b-49bd-442d-afff-9cc5b3187acf",
+          "investment_request_id": "req-large-investment-202601",
+          "decision": "Approved",
+          "approved_amount": 3.0,
+          "reason": "推定 debt_to_equity=0.416, current_ratio=1.770。",
+          "impact_on_cash": -3.0,
+          "applied_month": 1
+        }
+      ],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_simultaneous",
+      "month": 12,
+      "year": 2026,
+      "revenue": 21.356,
+      "profit": -2.426,
+      "profit_margin": -0.114,
+      "cash_reserves": 24.517,
+      "free_cash_flow": 12.517,
+      "investment_requests": [
+        {
+          "id": "28afdd4d-70fa-458b-9510-cdb2534ea32f",
+          "investment_request_id": "req-large-investment-202601",
+          "decision": "Approved",
+          "approved_amount": 3.0,
+          "reason": "推定 debt_to_equity=0.416, current_ratio=1.770。",
+          "impact_on_cash": -3.0,
+          "applied_month": 1
+        }
+      ],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_simultaneous",
+      "month": 1,
+      "year": 2027,
+      "revenue": 8.726,
+      "profit": -14.972,
+      "profit_margin": -1.716,
+      "cash_reserves": 15.045,
+      "free_cash_flow": 3.045,
+      "investment_requests": [
+        {
+          "id": "6abdf73d-c4f4-4f7e-81ef-e1b84c7273ed",
+          "investment_request_id": "req-large-investment-202601",
+          "decision": "Approved",
+          "approved_amount": 3.0,
+          "reason": "推定 debt_to_equity=0.416, current_ratio=1.770。",
+          "impact_on_cash": -3.0,
+          "applied_month": 1
+        }
+      ],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_simultaneous",
+      "month": 2,
+      "year": 2027,
+      "revenue": 9.953,
+      "profit": -13.746,
+      "profit_margin": -1.381,
+      "cash_reserves": 15.965,
+      "free_cash_flow": 3.965,
+      "investment_requests": [
+        {
+          "id": "f18a2e00-cb07-4c65-b3f6-91a838b96a6b",
+          "investment_request_id": "req-large-investment-202601",
+          "decision": "Approved",
+          "approved_amount": 3.0,
+          "reason": "推定 debt_to_equity=0.416, current_ratio=1.770。",
+          "impact_on_cash": -3.0,
+          "applied_month": 1
+        }
+      ],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_simultaneous",
+      "month": 3,
+      "year": 2027,
+      "revenue": 12.602,
+      "profit": -11.097,
+      "profit_margin": -0.881,
+      "cash_reserves": 17.952,
+      "free_cash_flow": 5.952,
+      "investment_requests": [
+        {
+          "id": "2b881012-b202-440f-9b37-fa914627cfa5",
+          "investment_request_id": "req-large-investment-202601",
+          "decision": "Approved",
+          "approved_amount": 3.0,
+          "reason": "推定 debt_to_equity=0.416, current_ratio=1.770。",
+          "impact_on_cash": -3.0,
+          "applied_month": 1
+        }
+      ],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_simultaneous",
+      "month": 4,
+      "year": 2027,
+      "revenue": 9.953,
+      "profit": -13.55,
+      "profit_margin": -1.361,
+      "cash_reserves": 15.965,
+      "free_cash_flow": 3.965,
+      "investment_requests": [
+        {
+          "id": "3cd4483e-6874-4650-8419-512bc40f13fb",
+          "investment_request_id": "req-large-investment-202601",
+          "decision": "Approved",
+          "approved_amount": 3.0,
+          "reason": "推定 debt_to_equity=0.416, current_ratio=1.770。",
+          "impact_on_cash": -3.0,
+          "applied_month": 1
+        }
+      ],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_simultaneous",
+      "month": 5,
+      "year": 2027,
+      "revenue": 10.058,
+      "profit": -13.446,
+      "profit_margin": -1.337,
+      "cash_reserves": 16.043,
+      "free_cash_flow": 4.043,
+      "investment_requests": [
+        {
+          "id": "69bdcc9c-fcab-4dab-bd68-c73de544e8bf",
+          "investment_request_id": "req-large-investment-202601",
+          "decision": "Approved",
+          "approved_amount": 3.0,
+          "reason": "推定 debt_to_equity=0.416, current_ratio=1.770。",
+          "impact_on_cash": -3.0,
+          "applied_month": 1
+        }
+      ],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_simultaneous",
+      "month": 6,
+      "year": 2027,
+      "revenue": 9.953,
+      "profit": -13.55,
+      "profit_margin": -1.361,
+      "cash_reserves": 15.965,
+      "free_cash_flow": 3.965,
+      "investment_requests": [
+        {
+          "id": "fef59404-c97f-4a04-9b57-2b055905d25a",
+          "investment_request_id": "req-large-investment-202601",
+          "decision": "Approved",
+          "approved_amount": 3.0,
+          "reason": "推定 debt_to_equity=0.416, current_ratio=1.770。",
+          "impact_on_cash": -3.0,
+          "applied_month": 1
+        }
+      ],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_simultaneous",
+      "month": 7,
+      "year": 2027,
+      "revenue": 11.73,
+      "profit": -11.774,
+      "profit_margin": -1.004,
+      "cash_reserves": 17.298,
+      "free_cash_flow": 5.298,
+      "investment_requests": [
+        {
+          "id": "6097274a-9ead-41cb-8893-0cbf99341cb1",
+          "investment_request_id": "req-large-investment-202601",
+          "decision": "Approved",
+          "approved_amount": 3.0,
+          "reason": "推定 debt_to_equity=0.416, current_ratio=1.770。",
+          "impact_on_cash": -3.0,
+          "applied_month": 1
+        }
+      ],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_simultaneous",
+      "month": 8,
+      "year": 2027,
+      "revenue": 12.586,
+      "profit": -11.065,
+      "profit_margin": -0.879,
+      "cash_reserves": 17.94,
+      "free_cash_flow": 5.94,
+      "investment_requests": [
+        {
+          "id": "b950325c-26ce-40c5-9682-e44464c0a3d3",
+          "investment_request_id": "req-large-investment-202601",
+          "decision": "Approved",
+          "approved_amount": 3.0,
+          "reason": "推定 debt_to_equity=0.416, current_ratio=1.770。",
+          "impact_on_cash": -3.0,
+          "applied_month": 1
+        }
+      ],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_simultaneous",
+      "month": 9,
+      "year": 2027,
+      "revenue": 11.695,
+      "profit": -11.956,
+      "profit_margin": -1.022,
+      "cash_reserves": 17.271,
+      "free_cash_flow": 5.271,
+      "investment_requests": [
+        {
+          "id": "9720a740-88fd-4f7f-8f17-38f7217a0636",
+          "investment_request_id": "req-large-investment-202601",
+          "decision": "Approved",
+          "approved_amount": 3.0,
+          "reason": "推定 debt_to_equity=0.416, current_ratio=1.770。",
+          "impact_on_cash": -3.0,
+          "applied_month": 1
+        }
+      ],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_simultaneous",
+      "month": 10,
+      "year": 2027,
+      "revenue": 14.152,
+      "profit": -9.631,
+      "profit_margin": -0.681,
+      "cash_reserves": 19.114,
+      "free_cash_flow": 7.114,
+      "investment_requests": [
+        {
+          "id": "b2c19505-2fde-44cd-ad86-8c875f67444b",
+          "investment_request_id": "req-large-investment-202601",
+          "decision": "Approved",
+          "approved_amount": 3.0,
+          "reason": "推定 debt_to_equity=0.416, current_ratio=1.770。",
+          "impact_on_cash": -3.0,
+          "applied_month": 1
+        }
+      ],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_simultaneous",
+      "month": 11,
+      "year": 2027,
+      "revenue": 13.375,
+      "profit": -10.407,
+      "profit_margin": -0.778,
+      "cash_reserves": 18.531,
+      "free_cash_flow": 6.531,
+      "investment_requests": [
+        {
+          "id": "1f2d4db6-0f96-4f0f-ade7-9e3bffb132bc",
+          "investment_request_id": "req-large-investment-202601",
+          "decision": "Approved",
+          "approved_amount": 3.0,
+          "reason": "推定 debt_to_equity=0.416, current_ratio=1.770。",
+          "impact_on_cash": -3.0,
+          "applied_month": 1
+        }
+      ],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_simultaneous",
+      "month": 12,
+      "year": 2027,
+      "revenue": 21.62,
+      "profit": -2.162,
+      "profit_margin": -0.1,
+      "cash_reserves": 24.715,
+      "free_cash_flow": 12.715,
+      "investment_requests": [
+        {
+          "id": "7098a24d-f92f-4b48-94bf-8a68ce1d3e47",
+          "investment_request_id": "req-large-investment-202601",
+          "decision": "Approved",
+          "approved_amount": 3.0,
+          "reason": "推定 debt_to_equity=0.416, current_ratio=1.770。",
+          "impact_on_cash": -3.0,
+          "applied_month": 1
+        }
+      ],
+      "active_events": []
+    }
+  ],
+  "summary": {
+    "p50_profit": -11.916,
+    "p10_profit": -14.972,
+    "p90_profit": -9.631,
+    "p50_cash": 17.271,
+    "p10_cash": 15.045,
+    "p90_cash": 19.114,
+    "final_cash": 24.715,
+    "min_cash": 13.478,
+    "max_cash": 24.715
+  }
+}

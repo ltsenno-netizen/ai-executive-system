@@ -1,0 +1,98 @@
+[
+  {
+    "role": "Manager",
+    "responsibilities": [
+      "タレントのマネジメント業務全般",
+      "チームメンバーの育成・指導",
+      "案件の収益性管理",
+      "クライアント対応"
+    ],
+    "required_skills": [
+      "リーダーシップ",
+      "コミュニケーション",
+      "プロジェクトマネジメント",
+      "財務分析"
+    ],
+    "default_experience_years": 5
+  },
+  {
+    "role": "Senior Manager",
+    "responsibilities": [
+      "戦略的マネジメント業務",
+      "チームリーダー育成",
+      "大規模案件のマネジメント",
+      "部門戦略立案"
+    ],
+    "required_skills": [
+      "戦略立案",
+      "チームビルディング",
+      "リスクマネジメント",
+      "データ分析"
+    ],
+    "default_experience_years": 8
+  },
+  {
+    "role": "Assistant Manager",
+    "responsibilities": [
+      "マネージャー業務のサポート",
+      "タスク管理・進捗管理",
+      "資料作成・データ集計",
+      "ミーティング運営"
+    ],
+    "required_skills": [
+      "業務効率化",
+      "ドキュメント作成",
+      "スケジュール管理",
+      "基本的な財務知識"
+    ],
+    "default_experience_years": 3
+  },
+  {
+    "role": "Athlete Manager",
+    "responsibilities": [
+      "アスリートタレントのマネジメント",
+      "競技スケジュール調整",
+      "スポンサー対応",
+      "パフォーマンス分析"
+    ],
+    "required_skills": [
+      "スポーツ知識",
+      "スポンサー営業",
+      "パフォーマンス分析",
+      "危機管理"
+    ],
+    "default_experience_years": 4
+  },
+  {
+    "role": "Contract Specialist",
+    "responsibilities": [
+      "契約書の作成・審査",
+      "条件交渉",
+      "法的リスク評価",
+      "契約管理"
+    ],
+    "required_skills": [
+      "契約法知識",
+      "交渉術",
+      "法的文書作成",
+      "リスク評価"
+    ],
+    "default_experience_years": 4
+  },
+  {
+    "role": "Legal Coordinator",
+    "responsibilities": [
+      "法的アドバイスのコーディネート",
+      "コンプライアンス確認",
+      "法的文書のレビュー",
+      "外部弁護士対応"
+    ],
+    "required_skills": [
+      "法的知識",
+      "コンプライアンス",
+      "文書管理",
+      "関係者調整"
+    ],
+    "default_experience_years": 6
+  }
+]

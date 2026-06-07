@@ -1,0 +1,24 @@
+{
+  "name": "えみプロ",
+  "fiscal_year": 2026,
+  "pl": {
+    "total_revenue": 150.0,
+    "total_cost": 142.6,
+    "profit": 7.36,
+    "profit_margin": 4.9,
+    "revenues": [
+      {"source": "タレント出演料", "amount": 60.0, "ratio": 40.0},
+      {"source": "舞台・イベント", "amount": 37.5, "ratio": 25.0},
+      {"source": "音楽・映像IP", "amount": 18.0, "ratio": 12.0},
+      {"source": "デジタル（FC・EC）", "amount": 19.5, "ratio": 13.0},
+      {"source": "スポーツ・文化人", "amount": 10.5, "ratio": 7.0}
+    ],
+    "costs": [
+      {"category": "タレント関連費（人関連費）", "amount": 60.0, "ratio": 40.0},
+      {"category": "制作費（開発製造費）", "amount": 45.0, "ratio": 30.0},
+      {"category": "販管費（運営費）", "amount": 27.0, "ratio": 18.0},
+      {"category": "デジタル投資（プロモ）", "amount": 10.0, "ratio": 7.0},
+      {"category": "その他", "amount": 7.5, "ratio": 5.0}
+    ]
+  }
+}

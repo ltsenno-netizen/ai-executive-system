@@ -1,0 +1,209 @@
+{
+  "fiscal_year": 2026,
+  "monthly_operations": [
+    {
+      "month": 1,
+      "department_load": {
+        "talent_management": 1.0,
+        "performance": 0.6,
+        "rights": 0.5,
+        "management": 0.4
+      },
+      "event_tags": ["contract_update"],
+      "base_tasks": {
+        "talent_management": 10,
+        "performance": 6,
+        "rights": 4,
+        "management": 3
+      },
+      "incident_rate": 0.12
+    },
+    {
+      "month": 2,
+      "department_load": {
+        "talent_management": 1.1,
+        "performance": 0.6,
+        "rights": 0.5,
+        "management": 0.45
+      },
+      "event_tags": ["contract_update"],
+      "base_tasks": {
+        "talent_management": 10,
+        "performance": 6,
+        "rights": 4,
+        "management": 3
+      },
+      "incident_rate": 0.14
+    },
+    {
+      "month": 3,
+      "department_load": {
+        "talent_management": 1.05,
+        "performance": 0.65,
+        "rights": 0.5,
+        "management": 0.5
+      },
+      "event_tags": ["contract_update"],
+      "base_tasks": {
+        "talent_management": 10,
+        "performance": 6,
+        "rights": 4,
+        "management": 3
+      },
+      "incident_rate": 0.13
+    },
+    {
+      "month": 4,
+      "department_load": {
+        "talent_management": 0.9,
+        "performance": 0.7,
+        "rights": 0.55,
+        "management": 0.45
+      },
+      "event_tags": ["new_program_launch"],
+      "base_tasks": {
+        "talent_management": 10,
+        "performance": 8,
+        "rights": 5,
+        "management": 4
+      },
+      "incident_rate": 0.1
+    },
+    {
+      "month": 5,
+      "department_load": {
+        "talent_management": 0.85,
+        "performance": 0.75,
+        "rights": 0.6,
+        "management": 0.45
+      },
+      "event_tags": ["new_program_launch"],
+      "base_tasks": {
+        "talent_management": 10,
+        "performance": 8,
+        "rights": 5,
+        "management": 4
+      },
+      "incident_rate": 0.08
+    },
+    {
+      "month": 6,
+      "department_load": {
+        "talent_management": 0.8,
+        "performance": 0.9,
+        "rights": 0.55,
+        "management": 0.5
+      },
+      "event_tags": ["preparation"],
+      "base_tasks": {
+        "talent_management": 9,
+        "performance": 9,
+        "rights": 5,
+        "management": 4
+      },
+      "incident_rate": 0.07
+    },
+    {
+      "month": 7,
+      "department_load": {
+        "talent_management": 1.1,
+        "performance": 1.3,
+        "rights": 0.65,
+        "management": 0.55
+      },
+      "event_tags": ["performance_peak"],
+      "base_tasks": {
+        "talent_management": 12,
+        "performance": 12,
+        "rights": 6,
+        "management": 5
+      },
+      "incident_rate": 0.18
+    },
+    {
+      "month": 8,
+      "department_load": {
+        "talent_management": 1.05,
+        "performance": 1.3,
+        "rights": 0.65,
+        "management": 0.55
+      },
+      "event_tags": ["performance_peak"],
+      "base_tasks": {
+        "talent_management": 12,
+        "performance": 12,
+        "rights": 6,
+        "management": 5
+      },
+      "incident_rate": 0.18
+    },
+    {
+      "month": 9,
+      "department_load": {
+        "talent_management": 1.0,
+        "performance": 1.3,
+        "rights": 0.65,
+        "management": 0.5
+      },
+      "event_tags": ["performance_peak"],
+      "base_tasks": {
+        "talent_management": 12,
+        "performance": 12,
+        "rights": 6,
+        "management": 5
+      },
+      "incident_rate": 0.17
+    },
+    {
+      "month": 10,
+      "department_load": {
+        "talent_management": 1.15,
+        "performance": 0.9,
+        "rights": 0.9,
+        "management": 0.55
+      },
+      "event_tags": ["license_campaign"],
+      "base_tasks": {
+        "talent_management": 11,
+        "performance": 8,
+        "rights": 8,
+        "management": 6
+      },
+      "incident_rate": 0.15
+    },
+    {
+      "month": 11,
+      "department_load": {
+        "talent_management": 1.25,
+        "performance": 0.85,
+        "rights": 0.95,
+        "management": 0.6
+      },
+      "event_tags": ["md_peak"],
+      "base_tasks": {
+        "talent_management": 13,
+        "performance": 8,
+        "rights": 9,
+        "management": 6
+      },
+      "incident_rate": 0.2
+    },
+    {
+      "month": 12,
+      "department_load": {
+        "talent_management": 1.3,
+        "performance": 0.8,
+        "rights": 0.95,
+        "management": 0.65
+      },
+      "event_tags": ["md_peak", "year_end"],
+      "base_tasks": {
+        "talent_management": 14,
+        "performance": 8,
+        "rights": 9,
+        "management": 7
+      },
+      "incident_rate": 0.22
+    }
+  ]
+}

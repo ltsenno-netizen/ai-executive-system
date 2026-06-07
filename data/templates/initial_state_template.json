@@ -1,0 +1,46 @@
+{
+  "pl": {
+    "revenue": 100.0,
+    "cost": 70.0,
+    "profit": 30.0,
+    "profit_margin": 0.30,
+    "cash_balance": 50.0
+  },
+  "kpis": {
+    "license_ratio": 0.15,
+    "digital_ratio": 0.12,
+    "performance_profit_margin": 0.12,
+    "ip_revenue": 10.0,
+    "overseas_revenue": 2.0
+  },
+  "strategy": {
+    "target_kpis": {
+      "license_ratio": 0.20,
+      "digital_ratio": 0.25
+    },
+    "initiatives": [
+      {
+        "id": "license_growth",
+        "name": "ライセンス比率強化",
+        "expected_effect": { "license_ratio": 0.05 }
+      }
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "weak_performance_profit_margin",
+      "severity": "High",
+      "related_departments": ["公演事業本部"]
+    }
+  ],
+  "priorities": {
+    "performance_review_meeting": 1.0,
+    "contract_workflow_improvement": 1.0,
+    "inventory_optimization": 1.0
+  },
+  "department_load": {
+    "公演事業本部": 1.2,
+    "制作運営部": 1.0,
+    "版権管理部": 0.8
+  }
+}

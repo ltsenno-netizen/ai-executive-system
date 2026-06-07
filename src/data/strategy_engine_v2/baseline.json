@@ -1,0 +1,97 @@
+{
+  "report_id": "3b17cdd3-8ed2-4ae9-87f5-9a02286351ba",
+  "scenario_type": "baseline",
+  "scenario_description": "現状維持の未来シナリオ",
+  "generated_at": "2026-05-20 02:33:30.942397",
+  "alignment_score": 0.225,
+  "risk_resilience_score": 0.275,
+  "growth_commitment_score": 0.54,
+  "frontier_health_score": 0.0,
+  "consciousness_alignment_score": 0.5,
+  "strategy_directives": [
+    {
+      "directive_id": "DIRECTIVE_01",
+      "name": "Balance growth with resilience",
+      "description": "Align growth ambitions with resilience by buffering cash and protecting core operations against scenario volatility.",
+      "priority": 0.6,
+      "rationale": "This scenario requires a balanced agenda: Medium risk and Medium opportunity imply both defense and selective expansion.",
+      "directive_type": "resilience"
+    },
+    {
+      "directive_id": "DIRECTIVE_03",
+      "name": "Reinforce strategic frontier coverage",
+      "description": "Close gaps in the strategic frontier by adding differentiated options and preserving optionality.",
+      "priority": 0.9,
+      "rationale": "A weaker frontier raises the risk that the organization cannot pivot effectively under stress.",
+      "directive_type": "frontier"
+    },
+    {
+      "directive_id": "DIRECTIVE_05",
+      "name": "Clarify narrative and execution intent",
+      "description": "Translate the strategy into concrete decisions with clear ownership, metrics, and communication for the executive team.",
+      "priority": 0.85,
+      "rationale": "Clear narrative alignment is needed to ensure strategy execution is not lost in complexity.",
+      "directive_type": "execution"
+    }
+  ],
+  "strategic_assets": [
+    {
+      "asset_id": "ASSET_01",
+      "name": "Adaptive Resource Allocation",
+      "asset_type": "capability",
+      "description": "Deploy a dynamic resource allocation process that adjusts investment levels by scenario, market signals, and operating performance.",
+      "priority": 0.45,
+      "expected_impact": 0.75,
+      "dependencies": [
+        "financial_planning",
+        "scenario_monitoring"
+      ]
+    },
+    {
+      "asset_id": "ASSET_02",
+      "name": "Rapid Response Innovation Lab",
+      "asset_type": "initiative",
+      "description": "Establish a fast-cycle innovation lab to test new business models and customer propositions in the identified scenario context.",
+      "priority": 0.55,
+      "expected_impact": 0.8,
+      "dependencies": [
+        "cross-functional teams",
+        "data_insights"
+      ]
+    },
+    {
+      "asset_id": "ASSET_03",
+      "name": "Scenario-led Customer Retention Program",
+      "asset_type": "execution",
+      "description": "Build targeted retention initiatives and customer communications aligned to the scenario risk profile.",
+      "priority": 0.5,
+      "expected_impact": 0.8500000000000001,
+      "dependencies": [
+        "customer_insights",
+        "marketing_execution"
+      ]
+    }
+  ],
+  "scenario_insights": [
+    "Scenario prioritizes medium risk and medium opportunity.",
+    "Current frontier health is 0.00 which suggests a need for stronger optionality and coverage.",
+    "Intent signals strong commitment to balanced posture with a growth/resilience mix."
+  ],
+  "executive_summary": "For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blends intent-driven priorities (growth=0.25, profitability=0.25, innovation=0.25, stability=0.25) with frontier health (0.00) and scenario resilience (0.28). Recommended execution should emphasize clarity, optionality, and decisive risk management.",
+  "recommended_actions": [
+    "Balance growth with resilience: This scenario requires a balanced agenda: Medium risk and Medium opportunity imply both defense and selective expansion.",
+    "Reinforce strategic frontier coverage: A weaker frontier raises the risk that the organization cannot pivot effectively under stress.",
+    "Clarify narrative and execution intent: Clear narrative alignment is needed to ensure strategy execution is not lost in complexity.",
+    "Build Adaptive Resource Allocation to improve impact and execution readiness.",
+    "Build Rapid Response Innovation Lab to improve impact and execution readiness."
+  ],
+  "reference_scores": {
+    "scenario_score": 0.3587638976493668,
+    "scenario_risk_factor": 0.5,
+    "intent_growth_weight": 0.25,
+    "intent_profitability_weight": 0.25,
+    "frontier_health_score": 0.0,
+    "consciousness_alignment_score": 0.5
+  },
+  "context_notes": null
+}

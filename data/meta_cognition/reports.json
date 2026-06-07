@@ -1,0 +1,71 @@
+[
+  {
+    "report_id": "a215f096-f5cd-4d92-a426-1fc4c14b97b1",
+    "overall_score": 0.388298,
+    "scores": [
+      {
+        "dimension": "INTENT",
+        "score": 0.25,
+        "confidence": 0.6,
+        "rationale": "Intent alignment estimated at 0.25. Higher alignment supports more consistent decision making."
+      },
+      {
+        "dimension": "AGENTS",
+        "score": 0.7,
+        "confidence": 0.6,
+        "rationale": "Agent weight diversity is 0.67. No decision vote history was available."
+      },
+      {
+        "dimension": "AUTONOMOUS",
+        "score": 0.3,
+        "confidence": 0.3,
+        "rationale": "No autonomous cycle history available."
+      },
+      {
+        "dimension": "FRONTIER",
+        "score": 0.56,
+        "confidence": 0.65,
+        "rationale": "Frontier health 0.60 and convexity 0.50."
+      },
+      {
+        "dimension": "CONSCIOUSNESS",
+        "score": 0.3,
+        "confidence": 0.3,
+        "rationale": "Consciousness state unavailable."
+      },
+      {
+        "dimension": "EVOLUTION",
+        "score": 0.246384,
+        "confidence": 0.6,
+        "rationale": "Momentum 0.04, stability 0.50."
+      },
+      {
+        "dimension": "NARRATIVE",
+        "score": 0.35,
+        "confidence": 0.35,
+        "rationale": "Narrative history unavailable."
+      },
+      {
+        "dimension": "MEMORY",
+        "score": 0.4,
+        "confidence": 0.6,
+        "rationale": "Memory dominant type share is 1.00. Recent memory freshness is 1.00."
+      }
+    ],
+    "biases": [
+      {
+        "name": "\u6210\u529f\u30d0\u30a4\u30a2\u30b9",
+        "description": "\u8a18\u61b6\u304c\u7279\u5b9a\u306e\u30bf\u30a4\u30d7\u306b\u504f\u3063\u3066\u304a\u308a\u3001\u5931\u6557\u3084\u591a\u69d8\u306a\u5b66\u7fd2\u304c\u53cd\u6620\u3055\u308c\u3066\u3044\u306a\u3044\u3002",
+        "severity": 0.5,
+        "affected_dimensions": [
+          "MEMORY"
+        ]
+      }
+    ],
+    "recommendations": [
+      "Intent \u3068\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u5224\u65ad\u306e\u6574\u5408\u6027\u3092\u518d\u8a55\u4fa1\u3057\u3001\u30ac\u30fc\u30c9\u30ec\u30fc\u30eb\u3092\u5f37\u5316\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+      "\u5931\u6557\u3084\u30ea\u30b9\u30af\u30a4\u30d9\u30f3\u30c8\u306e\u8a18\u9332\u3092\u5897\u3084\u3057\u3001\u5b66\u7fd2\u30c7\u30fc\u30bf\u306e\u504f\u308a\u3092\u4f4e\u6e1b\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+    ],
+    "timestamp": "2026-05-18 16:01:18.800936"
+  }
+]

@@ -1,0 +1,203 @@
+openapi: 3.1.0
+info:
+  title: Executive Meeting API
+  version: 1.0.0
+  description: |
+    OpenAPI 3.1 specification for the executive meeting simulation APIs.
+    Supports agenda generation, debate summary, decision option selection, and meeting state retrieval.
+servers:
+  - url: /api
+paths:
+  /meeting/options:
+    get:
+      summary: Get A/B/C decision options for the executive meeting.
+      parameters:
+        - in: query
+          name: month
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 12
+          required: true
+          description: Month number for which to generate decision options.
+      responses:
+        '200':
+          description: Decision options for the specified month.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: string
+                      example: A
+                    label:
+                      type: string
+                      example: 攻めの投資継続
+                    actions:
+                      type: array
+                      items:
+                        type: string
+                    pros:
+                      type: array
+                      items:
+                        type: string
+                    cons:
+                      type: array
+                      items:
+                        type: string
+  /meeting/debate:
+    get:
+      summary: Get the executive debate summary for a given month.
+      parameters:
+        - in: query
+          name: month
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 12
+          required: true
+          description: Month number for which to generate the debate summary.
+      responses:
+        '200':
+          description: Debate summary output.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  opening_statements:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        role:
+                          type: string
+                        focus:
+                          type: string
+                        opening_statement:
+                          type: string
+                        recommendation:
+                          type: string
+                        concerns:
+                          type: array
+                          items:
+                            type: string
+                  cross_discussion:
+                    type: array
+                    items:
+                      type: string
+                  consensus:
+                    type: string
+                  divergence:
+                    type: array
+                    items:
+                      type: string
+  /meeting/decision:
+    post:
+      summary: Apply the CEO decision option and return updated meeting state.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                month:
+                  type: integer
+                  minimum: 1
+                  maximum: 12
+                option_id:
+                  type: string
+                  enum: [A, B, C]
+                ceo_comment:
+                  type: string
+              required:
+                - month
+                - option_id
+      responses:
+        '200':
+          description: Updated meeting state after CEO decision.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  month:
+                    type: integer
+                  selected_option_id:
+                    type: string
+                  ceo_comment:
+                    type: string
+                  meeting_minutes:
+                    type: object
+                    properties:
+                      summary:
+                        type: string
+                      discussion_highlights:
+                        type: array
+                        items:
+                          type: string
+                      decisions_recorded:
+                        type: array
+                        items:
+                          type: object
+                      ceo_comment:
+                        type: string
+                  next_month_projection:
+                    type: object
+                    additionalProperties:
+                      type: number
+  /meeting/state:
+    get:
+      summary: Get the latest saved executive meeting state for a given month.
+      parameters:
+        - in: query
+          name: month
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 12
+          required: true
+          description: Month number for which to retrieve the last state.
+      responses:
+        '200':
+          description: Latest executive meeting state.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  month:
+                    type: integer
+                  agenda:
+                    type: array
+                    items:
+                      type: object
+                  decisions:
+                    type: array
+                    items:
+                      type: object
+                  next_month_projection:
+                    type: object
+                    additionalProperties:
+                      type: number
+                  selected_option_id:
+                    type: string
+                  meeting_minutes:
+                    type: object
+                    properties:
+                      summary:
+                        type: string
+                      discussion_highlights:
+                        type: array
+                        items:
+                          type: string
+                      decisions_recorded:
+                        type: array
+                        items:
+                          type: object
+                      ceo_comment:
+                        type: string

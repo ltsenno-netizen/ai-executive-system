@@ -1,0 +1,15 @@
+{
+  "growth_weight": 0.25,
+  "profitability_weight": 0.25,
+  "innovation_weight": 0.25,
+  "stability_weight": 0.25,
+  "risk_preference": 0.5,
+  "time_horizon": 0.5,
+  "cultural_identity": "balanced",
+  "mission": null,
+  "vision": null,
+  "values": [],
+  "last_updated": "2026-05-09 03:03:39.396769",
+  "update_reason": null,
+  "version": 1
+}

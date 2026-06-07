@@ -1,0 +1,133 @@
+[
+  {
+    "role": "CEO",
+    "name": "CEO Agent",
+    "growth_weight": 0.3,
+    "profitability_weight": 0.25,
+    "innovation_weight": 0.25,
+    "stability_weight": 0.2,
+    "risk_aversion": 0.4,
+    "cost_sensitivity": 0.5,
+    "people_focus": 0.6,
+    "technology_focus": 0.5,
+    "market_focus": 0.5,
+    "vote_weight": 1.5,
+    "focus_area": "全社戦略・成長・持続可能性",
+    "concerns": [
+      "全社成長",
+      "競争優位",
+      "ステークホルダー価値"
+    ],
+    "last_updated": "2026-05-09T03:03:39.399305"
+  },
+  {
+    "role": "CFO",
+    "name": "CFO Agent",
+    "growth_weight": 0.2,
+    "profitability_weight": 0.4,
+    "innovation_weight": 0.1,
+    "stability_weight": 0.3,
+    "risk_aversion": 0.7,
+    "cost_sensitivity": 0.9,
+    "people_focus": 0.3,
+    "technology_focus": 0.3,
+    "market_focus": 0.4,
+    "vote_weight": 1.2,
+    "focus_area": "財務・投資・リスク管理",
+    "concerns": [
+      "現金準備高",
+      "投資対効果",
+      "財務リスク",
+      "コスト管理"
+    ],
+    "last_updated": "2026-05-09T03:03:39.399315"
+  },
+  {
+    "role": "CMO",
+    "name": "CMO Agent",
+    "growth_weight": 0.35,
+    "profitability_weight": 0.2,
+    "innovation_weight": 0.25,
+    "stability_weight": 0.2,
+    "risk_aversion": 0.4,
+    "cost_sensitivity": 0.5,
+    "people_focus": 0.3,
+    "technology_focus": 0.4,
+    "market_focus": 0.9,
+    "vote_weight": 1.0,
+    "focus_area": "市場・顧客・ブランド",
+    "concerns": [
+      "市場シェア",
+      "顧客獲得",
+      "ブランド価値",
+      "マーケティングROI"
+    ],
+    "last_updated": "2026-05-09T03:03:39.399319"
+  },
+  {
+    "role": "CTO",
+    "name": "CTO Agent",
+    "growth_weight": 0.25,
+    "profitability_weight": 0.15,
+    "innovation_weight": 0.4,
+    "stability_weight": 0.2,
+    "risk_aversion": 0.5,
+    "cost_sensitivity": 0.4,
+    "people_focus": 0.4,
+    "technology_focus": 0.9,
+    "market_focus": 0.3,
+    "vote_weight": 1.0,
+    "focus_area": "技術戦略・イノベーション",
+    "concerns": [
+      "技術革新",
+      "DX",
+      "技術負債",
+      "プラットフォーム"
+    ],
+    "last_updated": "2026-05-09T03:03:39.399323"
+  },
+  {
+    "role": "CHRO",
+    "name": "CHRO Agent",
+    "growth_weight": 0.25,
+    "profitability_weight": 0.2,
+    "innovation_weight": 0.2,
+    "stability_weight": 0.35,
+    "risk_aversion": 0.6,
+    "cost_sensitivity": 0.4,
+    "people_focus": 0.9,
+    "technology_focus": 0.3,
+    "market_focus": 0.3,
+    "vote_weight": 1.0,
+    "focus_area": "人材・組織・文化",
+    "concerns": [
+      "人材確保",
+      "従業員エンゲージメント",
+      "組織文化",
+      "Diversity"
+    ],
+    "last_updated": "2026-05-09T03:03:39.399329"
+  },
+  {
+    "role": "COO",
+    "name": "COO Agent",
+    "growth_weight": 0.3,
+    "profitability_weight": 0.25,
+    "innovation_weight": 0.15,
+    "stability_weight": 0.3,
+    "risk_aversion": 0.6,
+    "cost_sensitivity": 0.7,
+    "people_focus": 0.6,
+    "technology_focus": 0.5,
+    "market_focus": 0.4,
+    "vote_weight": 1.1,
+    "focus_area": "執行・オペレーション",
+    "concerns": [
+      "業務執行",
+      "効率化",
+      "品質管理",
+      "サプライチェーン"
+    ],
+    "last_updated": "2026-05-09T03:03:39.399333"
+  }
+]

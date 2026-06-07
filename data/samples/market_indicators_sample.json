@@ -1,0 +1,9 @@
+{
+  "segments": {
+    "stage_market": {"gdp_index": 1.02, "ad_spend_index": 0.98},
+    "cm_ad_market": {"gdp_index": 1.01, "cpi_index": 1.0},
+    "digital_distribution_market": {"gdp_index": 1.03, "digital_ad_index": 1.05},
+    "md_market": {"retail_index": 0.99, "consumer_confidence": 0.97},
+    "ai_solutions": {"enterprise_it_index": 1.04, "automation_index": 1.02}
+  }
+}

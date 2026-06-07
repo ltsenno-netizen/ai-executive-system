@@ -1,0 +1,83 @@
+{
+  "themes": [
+    {
+      "id": "license_ratio_increase",
+      "name": "ライセンス比率の引き上げ",
+      "description": "ライセンス収益比率を中期的に高めて安定収益を拡大する。",
+      "target_kpis": { "license_ratio": 0.2 }
+    },
+    {
+      "id": "digital_business_strengthening",
+      "name": "デジタル事業強化",
+      "description": "デジタル売上比率を拡大して成長性を高める。",
+      "target_kpis": { "digital_ratio": 0.25 }
+    },
+    {
+      "id": "performance_profit_margin",
+      "name": "公演採算管理強化",
+      "description": "公演の粗利率を向上させ、採算性を確保する。",
+      "target_kpis": { "performance_profit_margin": 0.15 }
+    },
+    {
+      "id": "ip_development",
+      "name": "IP開発強化",
+      "description": "IP収益を拡大し、将来のキャッシュを創出する。",
+      "target_kpis": { "ip_revenue": 30.0 }
+    },
+    {
+      "id": "overseas_expansion",
+      "name": "海外展開",
+      "description": "海外売上を拡大し、グローバル収益基盤を構築する。",
+      "target_kpis": { "overseas_revenue": 10.0 }
+    }
+  ],
+  "annual_goals": [
+    {
+      "fiscal_year": 2026,
+      "theme_id": "license_ratio_increase",
+      "target_value": 0.15,
+      "description": "2026年度のライセンス比率を15%に引き上げる。"
+    },
+    {
+      "fiscal_year": 2027,
+      "theme_id": "license_ratio_increase",
+      "target_value": 0.18,
+      "description": "2027年度のライセンス比率を18%に引き上げる。"
+    },
+    {
+      "fiscal_year": 2028,
+      "theme_id": "license_ratio_increase",
+      "target_value": 0.20,
+      "description": "2028年度のライセンス比率を20%に引き上げる。"
+    }
+  ],
+  "initiatives": [
+    {
+      "id": "overseas_license_strengthening",
+      "theme_id": "license_ratio_increase",
+      "name": "海外ライセンス契約強化",
+      "description": "海外市場でのライセンス契約数を拡大し、ライセンス収益比率を引き上げる。",
+      "expected_impact": { "license_ratio": 0.02 },
+      "investment_required": 2.0,
+      "owner_department": "ライセンス部"
+    },
+    {
+      "id": "digital_fc_strengthening",
+      "theme_id": "digital_business_strengthening",
+      "name": "デジタルFC強化",
+      "description": "デジタルファンクラブのサービス価値を高め、デジタル売上比率を引き上げる。",
+      "expected_impact": { "digital_ratio": 0.03 },
+      "investment_required": 3.0,
+      "owner_department": "デジタル部"
+    },
+    {
+      "id": "performance_margin_system",
+      "theme_id": "performance_profit_margin",
+      "name": "公演採算管理システム導入",
+      "description": "公演採算管理の分析基盤を整備し、粗利率を改善する。",
+      "expected_impact": { "performance_profit_margin": 0.03 },
+      "investment_required": 1.5,
+      "owner_department": "公演事業本部"
+    }
+  ]
+}

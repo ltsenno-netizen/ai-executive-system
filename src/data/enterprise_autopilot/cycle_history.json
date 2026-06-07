@@ -1,0 +1,190 @@
+{
+  "cycles": [
+    {
+      "cycle_id": "aacaf077-4ef2-47cc-a558-0b8d680c47f2",
+      "started_at": "2026-05-18 16:01:18.728313",
+      "completed_at": "2026-05-18 16:01:18.743142",
+      "phases": [
+        {
+          "phase": "PERCEPTION",
+          "summary": "Observing current organizational state, consciousness, environment, and memory context.",
+          "details": {
+            "consciousness": null,
+            "environment": "2027-12",
+            "memory_summary_count": 3
+          },
+          "succeeded": true
+        },
+        {
+          "phase": "EVALUATION",
+          "summary": "Completed self-assessment of executive thinking, bias, and system health.",
+          "details": {
+            "overall_score": 0.388298,
+            "bias_count": 1
+          },
+          "succeeded": true
+        },
+        {
+          "phase": "PREDICTION",
+          "summary": "Produced near-term scenario projections for baseline and recession stress tests.",
+          "details": {
+            "baseline_scenario": "baseline",
+            "recession_scenario": "recession",
+            "baseline_confidence": 0.6217527795298734,
+            "recession_confidence": 0.5185859356299475
+          },
+          "succeeded": true
+        },
+        {
+          "phase": "COMPARISON",
+          "summary": "Validated current plans against multi-company competitive benchmarks.",
+          "details": {
+            "comparison_available": true,
+            "company_count": 2
+          },
+          "succeeded": true
+        },
+        {
+          "phase": "STRATEGY",
+          "summary": "Generated a recommended strategy bundle based on the latest scenario forecast.",
+          "details": {
+            "strategy_report_id": "e5c482e4-6b18-484d-9093-523c3484f975",
+            "scenario_type": "baseline",
+            "alignment_score": 0.225
+          },
+          "succeeded": true
+        },
+        {
+          "phase": "EXECUTION",
+          "summary": "Committed the chosen strategy bundle into execution memory and persisted decision context.",
+          "details": {
+            "strategy_report_id": "e5c482e4-6b18-484d-9093-523c3484f975",
+            "scenario_type": "baseline"
+          },
+          "succeeded": true
+        },
+        {
+          "phase": "LEARNING",
+          "summary": "Captured learning signals and prepared follow-up guidance for the next cycle.",
+          "details": {
+            "learning_observations": [
+              "Reinforce scenario monitoring cadence.",
+              "Calibrate strategy recommendations based on latest meta-cognition feedback."
+            ],
+            "recommended_followups": [
+              "Review high-risk scenario assumptions.",
+              "Schedule quarterly multi-company comparison updates."
+            ]
+          },
+          "succeeded": true
+        }
+      ],
+      "overall_status": "COMPLETED",
+      "summary": "Autopilot cycle completed with 7 successful phases and 0 failed phases.",
+      "key_actions": [
+        "Validate competitive comparison summaries.",
+        "Review strategy report e5c482e4-6b18-484d-9093-523c3484f975"
+      ],
+      "experience_notes": "Observing current organizational state, consciousness, environment, and memory context. \nCompleted self-assessment of executive thinking, bias, and system health. \nProduced near-term scenario projections for baseline and recession stress tests. \nValidated current plans against multi-company competitive benchmarks. \nGenerated a recommended strategy bundle based on the latest scenario forecast. \nCommitted the chosen strategy bundle into execution memory and persisted decision context. \nCaptured learning signals and prepared follow-up guidance for the next cycle.",
+      "cycle_metrics": {
+        "phase_count": 7,
+        "successful_phases": 7,
+        "failed_phases": 0
+      }
+    },
+    {
+      "cycle_id": "1d0852c1-02cf-4428-a379-b04269edc99e",
+      "started_at": "2026-05-18 16:01:18.795743",
+      "completed_at": "2026-05-18 16:01:18.810495",
+      "phases": [
+        {
+          "phase": "PERCEPTION",
+          "summary": "Observing current organizational state, consciousness, environment, and memory context.",
+          "details": {
+            "consciousness": null,
+            "environment": "2027-12",
+            "memory_summary_count": 2
+          },
+          "succeeded": true
+        },
+        {
+          "phase": "EVALUATION",
+          "summary": "Completed self-assessment of executive thinking, bias, and system health.",
+          "details": {
+            "overall_score": 0.388298,
+            "bias_count": 1
+          },
+          "succeeded": true
+        },
+        {
+          "phase": "PREDICTION",
+          "summary": "Produced near-term scenario projections for baseline and recession stress tests.",
+          "details": {
+            "baseline_scenario": "baseline",
+            "recession_scenario": "recession",
+            "baseline_confidence": 0.6217527795298734,
+            "recession_confidence": 0.5185859356299475
+          },
+          "succeeded": true
+        },
+        {
+          "phase": "COMPARISON",
+          "summary": "Validated current plans against multi-company competitive benchmarks.",
+          "details": {
+            "comparison_available": true,
+            "company_count": 2
+          },
+          "succeeded": true
+        },
+        {
+          "phase": "STRATEGY",
+          "summary": "Generated a recommended strategy bundle based on the latest scenario forecast.",
+          "details": {
+            "strategy_report_id": "9696dcec-8e58-4d8a-aec3-7e63430de4e7",
+            "scenario_type": "baseline",
+            "alignment_score": 0.225
+          },
+          "succeeded": true
+        },
+        {
+          "phase": "EXECUTION",
+          "summary": "Committed the chosen strategy bundle into execution memory and persisted decision context.",
+          "details": {
+            "strategy_report_id": "9696dcec-8e58-4d8a-aec3-7e63430de4e7",
+            "scenario_type": "baseline"
+          },
+          "succeeded": true
+        },
+        {
+          "phase": "LEARNING",
+          "summary": "Captured learning signals and prepared follow-up guidance for the next cycle.",
+          "details": {
+            "learning_observations": [
+              "Reinforce scenario monitoring cadence.",
+              "Calibrate strategy recommendations based on latest meta-cognition feedback."
+            ],
+            "recommended_followups": [
+              "Review high-risk scenario assumptions.",
+              "Schedule quarterly multi-company comparison updates."
+            ]
+          },
+          "succeeded": true
+        }
+      ],
+      "overall_status": "COMPLETED",
+      "summary": "Autopilot cycle completed with 7 successful phases and 0 failed phases.",
+      "key_actions": [
+        "Validate competitive comparison summaries.",
+        "Review strategy report 9696dcec-8e58-4d8a-aec3-7e63430de4e7"
+      ],
+      "experience_notes": "Observing current organizational state, consciousness, environment, and memory context. \nCompleted self-assessment of executive thinking, bias, and system health. \nProduced near-term scenario projections for baseline and recession stress tests. \nValidated current plans against multi-company competitive benchmarks. \nGenerated a recommended strategy bundle based on the latest scenario forecast. \nCommitted the chosen strategy bundle into execution memory and persisted decision context. \nCaptured learning signals and prepared follow-up guidance for the next cycle.",
+      "cycle_metrics": {
+        "phase_count": 7,
+        "successful_phases": 7,
+        "failed_phases": 0
+      }
+    }
+  ],
+  "last_run_at": "2026-05-18 16:01:18.810495",
+  "total_cycles": 2
+}

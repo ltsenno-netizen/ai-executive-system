@@ -1,0 +1,77 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11']
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install lint and type-check tools
+        run: |
+          python -m pip install --upgrade pip
+          pip install ruff mypy
+
+      - name: Lint
+        run: |
+          ruff check src tests
+
+      - name: Type check
+        run: |
+          mypy src
+
+      - name: Docs link check
+        run: |
+          python - <<'PY'
+          import pathlib
+          import re
+
+          root = pathlib.Path('.')
+          md_files = [root / 'README.md'] + list(root.glob('docs/**/*.md'))
+          link_pattern = re.compile(r'\[([^\]]+)\]\(([^)]+)\)')
+          errors = []
+
+          for md in md_files:
+              if not md.exists():
+                  continue
+              text = md.read_text(encoding='utf-8')
+              for _, target in link_pattern.findall(text):
+                  if target.startswith('#') or target.startswith('http://') or target.startswith('https://'):
+                      continue
+                  target = target.split('#')[0]
+                  if not target:
+                      continue
+                  target_path = (md.parent / target).resolve()
+                  if target_path.suffix == '':
+                      target_path = target_path.with_suffix('.md')
+                  if not target_path.exists():
+                      errors.append(f'{md}: broken link -> {target}')
+
+          if errors:
+              raise SystemExit('\n'.join(errors))
+          print('Docs link check passed')
+          PY
+
+      - name: Run tests
+        run: |
+          pytest -q

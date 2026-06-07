@@ -1,0 +1,26 @@
+{
+  "period": "2026-01",
+  "pest": {
+    "political": 0.5,
+    "economic": 0.5018802648004628,
+    "social": 0.5110215136047902,
+    "technological": 0.31
+  },
+  "competitors": [
+    {
+      "competitor_name": "Competitor A",
+      "aggressiveness": 0.5957026798015174,
+      "market_share_shift": 0.00503903552033088,
+      "notes": "Random action"
+    },
+    {
+      "competitor_name": "Competitor B",
+      "aggressiveness": 0.9339101503269482,
+      "market_share_shift": 0.002854974010341481,
+      "notes": "Random action"
+    }
+  ],
+  "shocks": [],
+  "market_growth_modifier": -0.047552294273165374,
+  "risk_modifier": 0.015296128301284658
+}

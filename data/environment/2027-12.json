@@ -1,0 +1,26 @@
+{
+  "period": "2027-12",
+  "pest": {
+    "political": 0.5,
+    "economic": 0.5,
+    "social": 0.5,
+    "technological": 0.3
+  },
+  "competitors": [
+    {
+      "competitor_name": "Competitor A",
+      "aggressiveness": 0.8110058945667342,
+      "market_share_shift": 0.007375149606124787,
+      "notes": "Random action"
+    },
+    {
+      "competitor_name": "Competitor B",
+      "aggressiveness": 0.5275533460157807,
+      "market_share_shift": 0.019203721470202884,
+      "notes": "Random action"
+    }
+  ],
+  "shocks": [],
+  "market_growth_modifier": -0.04346398101456288,
+  "risk_modifier": 0.01338559240582515
+}
