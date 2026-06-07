@@ -1,0 +1,81 @@
+{
+  "issues": [
+    {
+      "id": "unclear_revenue_responsibility",
+      "name": "収益責任の不明確さ",
+      "description": "収益計上の責任が曖昧で、重複計上や損失管理が発生しやすい。",
+      "detection_rules": { "duplicate_revenue_entries": 1 },
+      "severity": "High",
+      "related_departments": ["タレント営業部", "タレントマネジメント部", "タレント契約課"]
+    },
+    {
+      "id": "weak_performance_profit_margin",
+      "name": "公演採算管理の弱さ",
+      "description": "公演利益率が基準を下回っており、興行の採算性が低下している。",
+      "detection_rules": { "performance_profit_margin": 0.10 },
+      "severity": "High",
+      "related_departments": ["公演事業本部", "制作運営部"]
+    },
+    {
+      "id": "license_processing_delay",
+      "name": "ライセンス処理遅延",
+      "description": "契約・ライセンシングの処理が遅延し、収益機会を損失している。",
+      "detection_rules": { "license_processing_days": 30 },
+      "severity": "Medium",
+      "related_departments": ["版権管理部", "ライセンス部"]
+    },
+    {
+      "id": "md_inventory_risk",
+      "name": "MD在庫リスク",
+      "description": "在庫回転率が低く、在庫負担が高まっている。",
+      "detection_rules": { "inventory_turnover": 1.0 },
+      "severity": "Medium",
+      "related_departments": ["マーチャンダイズ部"]
+    },
+    {
+      "id": "insufficient_data_infrastructure",
+      "name": "データ基盤不足",
+      "description": "KPIが欠落しており、経営判断に必要な指標が整備されていない。",
+      "detection_rules": { "missing_kpi_count": 3 },
+      "severity": "Medium",
+      "related_departments": ["デジタル部", "経営管理部"]
+    },
+    {
+      "id": "allocation_accuracy_ambiguity",
+      "name": "管理部門配賦の曖昧さ",
+      "description": "配賦精度が低く、管理部門のコスト按分が不透明になっている。",
+      "detection_rules": { "allocation_accuracy": 0.80 },
+      "severity": "Low",
+      "related_departments": ["経営管理部"]
+    }
+  ],
+  "actions": [
+    {
+      "id": "performance_review_meeting",
+      "issue_id": "weak_performance_profit_margin",
+      "name": "公演採算レビュー会議の定例化",
+      "description": "公演事業本部で採算レビュー会議を定例化し、利益率改善のアクションを強化する。",
+      "owner_department": "公演事業本部",
+      "expected_effect": { "performance_profit_margin": 0.03 },
+      "task_template_id": "performance_review_meeting"
+    },
+    {
+      "id": "contract_workflow_improvement",
+      "issue_id": "license_processing_delay",
+      "name": "契約ワークフロー改善プロジェクト",
+      "description": "版権管理部の契約ワークフローを見直し、処理日数を短縮する。",
+      "owner_department": "版権管理部",
+      "expected_effect": { "license_processing_days": -10 },
+      "task_template_id": "contract_workflow_improvement"
+    },
+    {
+      "id": "inventory_optimization",
+      "issue_id": "md_inventory_risk",
+      "name": "在庫最適化プロジェクト",
+      "description": "マーチャンダイズ部で在庫回転を改善し、在庫リスクを低減する。",
+      "owner_department": "マーチャンダイズ部",
+      "expected_effect": { "inventory_turnover": 0.5 },
+      "task_template_id": "inventory_optimization"
+    }
+  ]
+}

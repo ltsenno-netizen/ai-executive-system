@@ -1,0 +1,35 @@
+{
+  "min_cash_month": {
+    "year": 2026,
+    "month": 4,
+    "revenue": 7.218,
+    "revenue_loss": 1.805,
+    "profit": -21.445,
+    "profit_margin": -2.971,
+    "total_cost": 28.663,
+    "free_cash_flow": 1.913,
+    "cash_reserves": 16.913,
+    "committed_capex": 2.0,
+    "active_events": [
+      {
+        "id": "shock_stage_market_drop",
+        "date": "2026-03-01",
+        "type": "market_shock",
+        "impact_map": {
+          "stage_market": -0.3
+        },
+        "duration_months": 2,
+        "source": "scenario",
+        "notes": "Stage market drop 30%"
+      }
+    ],
+    "cost_breakdown": {
+      "talent_related": 4.753,
+      "production": 3.565,
+      "sg&a": 2.139,
+      "digital_investment": 0.832,
+      "other": 0.594,
+      "organization_personnel": 16.78
+    }
+  }
+}

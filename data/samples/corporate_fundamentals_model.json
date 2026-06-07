@@ -1,0 +1,207 @@
+{
+  "profile": {
+    "name": "Global Performance Holdings",
+    "mission": "We create world-class live entertainment and digital experiences that inspire audiences worldwide.",
+    "vision": "Deliver sustainable growth through integrated media, stage performance, and digital licensing.",
+    "values": ["Creativity", "Collaboration", "Customer Delight", "Operational Discipline"],
+    "brand_position": "A premium entertainment and media partner with strong digital licensing and live stage franchises.",
+    "competitive_advantages": ["strong performance IP", "digital licensing expertise", "international stage network", "experienced talent development"],
+    "management_style": "Balanced, performance-driven, and risk-aware leadership"
+  },
+  "business_units": [
+    {
+      "id": "bu_ai_talent",
+      "name": "AIタレント事業",
+      "description": "AI生成タレント・AI声優・AIキャラクターの広告出演、SNS運用、バーチャルライブを提供。",
+      "revenue_model": ["広告出演料", "SNS運用", "AIキャラライセンス", "バーチャルライブ"],
+      "cost_structure": {"fixed": 0.15, "variable": 0.05},
+      "kpis": {"talent_activity_index": 1.0, "gross_margin": 0.8},
+      "linked_market_segments": ["digital_ads", "stage_market"],
+      "risk_factors": ["SNSトレンド依存", "AI規制リスク"]
+    },
+    {
+      "id": "bu_digital_ip",
+      "name": "デジタルIP事業",
+      "description": "AI生成キャラクター・ストーリー・世界観のIP化とライセンス提供を行う。",
+      "revenue_model": ["IPライセンス", "デジタルコンテンツ販売", "コラボ収益"],
+      "cost_structure": {"fixed": 0.10, "variable": 0.20},
+      "kpis": {"ip_usage_rate": 1.0, "gross_margin": 0.7},
+      "linked_market_segments": ["digital_content"],
+      "risk_factors": ["IP競争", "トレンド変動"]
+    },
+    {
+      "id": "bu_live_entertainment",
+      "name": "公演・ライブ事業",
+      "description": "舞台・ライブ・イベント、バーチャルライブとのハイブリッドを運営。",
+      "revenue_model": ["チケット", "グッズ", "配信チケット"],
+      "cost_structure": {"fixed": 0.30, "variable": 0.40},
+      "kpis": {"seat_occupancy_rate": 0.85, "gross_margin": 0.3},
+      "linked_market_segments": ["stage_market"],
+      "risk_factors": ["天候", "感染症", "制作費高騰"]
+    },
+    {
+      "id": "bu_advertising",
+      "name": "CM・広告事業",
+      "description": "タレント・AIタレントの広告出演、SNS広告、AI生成広告制作を提供。",
+      "revenue_model": ["出演料", "広告制作費", "SNS運用費"],
+      "cost_structure": {"fixed": 0.20, "variable": 0.20},
+      "kpis": {"ad_conversion_rate": 0.05, "gross_margin": 0.6},
+      "linked_market_segments": ["cm_ad_market", "digital_ads"],
+      "risk_factors": ["広告費削減", "景気変動"]
+    },
+    {
+      "id": "bu_md",
+      "name": "MD事業",
+      "description": "物販・デジタルグッズ・AIキャラの限定商品を展開。",
+      "revenue_model": ["EC", "会場販売", "デジタルアイテム"],
+      "cost_structure": {"fixed": 0.25, "variable": 0.50},
+      "kpis": {"inventory_turnover": 1.2, "gross_margin": 0.25},
+      "linked_market_segments": ["md_market"],
+      "risk_factors": ["在庫リスク", "季節性"]
+    },
+    {
+      "id": "bu_ai_solutions",
+      "name": "AIソリューション事業",
+      "description": "AIモデル提供、AIキャラ生成API、企業向けAIコンサルを展開。",
+      "revenue_model": ["サブスク", "API課金", "コンサル"],
+      "cost_structure": {"fixed": 0.10, "variable": 0.05},
+      "kpis": {"api_usage": 1.0, "gross_margin": 0.85},
+      "linked_market_segments": ["ai_solutions"],
+      "risk_factors": ["技術競争", "開発コスト"]
+    }
+  ],
+  "customer_segments": [
+    {
+      "id": "seg_core_fans",
+      "name": "Core Fans",
+      "description": "公演・ライブ・MD・デジタルIPを継続的に追うファン",
+      "behavior_patterns": {
+        "purchase_frequency": 1.5,
+        "avg_spend": 1.2,
+        "digital_engagement": 0.9
+      },
+      "sensitivity": {
+        "price": 0.3,
+        "trend": 0.6,
+        "promotion": 0.7
+      },
+      "linked_business_units": ["bu_live_entertainment", "bu_md", "bu_digital_ip"]
+    },
+    {
+      "id": "seg_light_fans",
+      "name": "Light Fans",
+      "description": "SNSや話題で時々触れる層",
+      "behavior_patterns": {
+        "purchase_frequency": 0.5,
+        "avg_spend": 0.5,
+        "digital_engagement": 0.8
+      },
+      "sensitivity": {
+        "price": 0.6,
+        "trend": 0.8,
+        "promotion": 0.8
+      },
+      "linked_business_units": ["bu_ai_talent", "bu_digital_ip", "bu_md"]
+    },
+    {
+      "id": "seg_advertisers",
+      "name": "Advertisers",
+      "description": "CM・広告・AIタレント起用クライアント",
+      "behavior_patterns": {
+        "purchase_frequency": 0.2,
+        "avg_spend": 20.0,
+        "digital_engagement": 0.7
+      },
+      "sensitivity": {
+        "price": 0.5,
+        "trend": 0.7,
+        "promotion": 0.4
+      },
+      "linked_business_units": ["bu_advertising", "bu_ai_talent"]
+    },
+    {
+      "id": "seg_digital_platforms",
+      "name": "Digital Platforms",
+      "description": "配信・デジタルIPの取引先",
+      "behavior_patterns": {
+        "purchase_frequency": 0.3,
+        "avg_spend": 10.0,
+        "digital_engagement": 1.0
+      },
+      "sensitivity": {
+        "price": 0.4,
+        "trend": 0.6,
+        "promotion": 0.3
+      },
+      "linked_business_units": ["bu_digital_ip", "bu_ai_solutions"]
+    },
+    {
+      "id": "seg_enterprise_clients",
+      "name": "Enterprise Clients",
+      "description": "AIソリューション・API・コンサルのクライアント",
+      "behavior_patterns": {
+        "purchase_frequency": 0.1,
+        "avg_spend": 50.0,
+        "digital_engagement": 1.0
+      },
+      "sensitivity": {
+        "price": 0.5,
+        "trend": 0.5,
+        "promotion": 0.2
+      },
+      "linked_business_units": ["bu_ai_solutions"]
+    }
+  ],
+  "organization_units": [
+    {
+      "id": "org_pm",
+      "name": "Performance Management",
+      "role": "Stage production planning and execution",
+      "headcount": 28,
+      "skill_profile": {"production": 0.8, "marketing": 0.7, "logistics": 0.6},
+      "unit_kpis": {"on_time_delivery": 0.9, "cost_efficiency": 0.72},
+      "culture_traits": ["creative", "collaborative", "conservative"]
+    },
+    {
+      "id": "org_digital",
+      "name": "Digital Licensing",
+      "role": "Digital IP licensing and distribution",
+      "headcount": 22,
+      "skill_profile": {"content_management": 0.78, "digital_sales": 0.75, "analytics": 0.65},
+      "unit_kpis": {"contract_conversion": 0.82, "renewal_rate": 0.68},
+      "culture_traits": ["innovative", "data-driven", "agile"]
+    }
+  ],
+  "financials": {
+    "fixed_costs": {"headquarters": 2.6, "technology": 1.4, "insurance": 0.45},
+    "variable_costs": {"ticketing": 0.18, "merchant_fees": 0.07},
+    "assets": {"cash": 18.0, "equipment": 12.0, "licensing_rights": 15.5},
+    "liabilities": {"short_term_debt": 4.2, "long_term_lease": 6.8},
+    "cash_reserves": 3.5,
+    "financial_health_indicators": {"quick_ratio": 1.1, "debt_ratio": 0.28, "operating_margin": 0.18}
+  },
+  "annual_revenue_distribution": {
+    "AIタレント": 0.20,
+    "デジタルIP": 0.20,
+    "公演・ライブ": 0.25,
+    "CM・広告": 0.15,
+    "MD": 0.10,
+    "AIソリューション": 0.10
+  },
+  "history": [
+    {
+      "year": 2022,
+      "title": "Global Licensing Expansion",
+      "description": "Completed trademark and distribution agreements across APAC and EMEA.",
+      "impact_on_strategy": {"digital_distribution_market": 0.12, "brand_position": 0.08},
+      "impact_on_organization": {"digital_licensing": 0.11, "international_team": 0.09}
+    },
+    {
+      "year": 2024,
+      "title": "Stage Portfolio Consolidation",
+      "description": "Rationalized stage franchises to focus on high-margin flagship performances.",
+      "impact_on_strategy": {"stage_market": 0.15, "cost_efficiency": 0.1},
+      "impact_on_organization": {"performance_management": 0.12, "supply_chain": 0.08}
+    }
+  ]
+}

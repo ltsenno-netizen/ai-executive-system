@@ -3,12 +3,14 @@ import os
 import uuid
 from typing import Dict, List, Optional
 
+from ..models.execution_model import ExecutionRequirement
 from ..models.financial_model import (
     FinancialFundamentals,
     InvestmentDecisionRecord,
     InvestmentRequest,
 )
 from .business_portfolio_service import BusinessPortfolioService
+from .execution_capacity_service import ExecutionCapacityService
 from .organization_service import OrganizationService
 
 TAX_RATE = 0.25
@@ -25,6 +27,9 @@ class FinancialService:
         )
         self.financial_file = os.path.join(self.data_path, 'financial_fundamentals_sample.json')
         self.pending_requests_file = os.path.join(self.data_path, 'financial_pending_requests.json')
+        self.alert_template_file = os.path.join(self.data_path, 'emergency_playbook_templates.json')
+        self.execution_log_file = os.path.join(self.data_path, 'executed_playbook_log.json')
+        self.execution_capacity_service = ExecutionCapacityService()
         self.portfolio_service = BusinessPortfolioService()
         self.org_service = OrganizationService()
 
@@ -108,6 +113,13 @@ class FinancialService:
         tranche_amount = round(approved_amount / tranche_count, 3) if tranche_count > 0 else 0.0
         schedule: List[Dict[str, object]] = []
 
+        execution_state = self.execution_capacity_service.load_state()
+        execution_capacity_score = self.execution_capacity_service.calculate_execution_capacity_score(
+            execution_state.capacity,
+            execution_state.load,
+            execution_state.efficiency,
+        )
+
         for tranche_index in range(tranche_count):
             scheduled_month = (request.requested_month or 1) + tranche_index * interval
             required_cash_threshold = round(
@@ -117,6 +129,8 @@ class FinancialService:
             status = 'pending'
             if financials.cash_reserves < required_cash_threshold:
                 status = 'deferred'
+            elif execution_capacity_score < tranche_amount:
+                status = 'delayed'
 
             schedule.append(
                 {
@@ -147,16 +161,50 @@ class FinancialService:
         max_allowed = round(cash_reserves * max_pct, 3)
         capacity = 1.0
         if org_service is not None:
-            capacity = self.org_service.estimate_execution_capacity(
-                self.org_service.load_organization_state(month=request.requested_month or 1),
-                request.business_unit_id,
+            try:
+                capacity = self.org_service.estimate_execution_capacity(
+                    self.org_service.load_organization_state(month=request.requested_month or 1),
+                    request.business_unit_id,
+                )
+            except Exception:
+                capacity = 1.0
+
+        active_requests = self.load_pending_requests()
+        execution_requirements = [
+            ExecutionRequirement(
+                investment_request_id=pending.id,
+                required_capacity=pending.required_capacity or 0.0,
+                duration_months=pending.tranche_interval_months or 1,
             )
+            for pending in active_requests
+        ]
+        execution_requirements.append(
+            ExecutionRequirement(
+                investment_request_id=request.id,
+                required_capacity=request.required_capacity or 0.0,
+                duration_months=request.tranche_interval_months or 1,
+            )
+        )
+
+        execution_capacity = self.execution_capacity_service.load_state()
+        execution_capacity_score = self.execution_capacity_service.calculate_execution_capacity_score(
+            execution_capacity.capacity,
+            self.execution_capacity_service.calculate_load(execution_requirements),
+            execution_capacity.efficiency,
+        )
 
         suggested_amount = request.requested_amount
         decision = 'Approved'
         reason_list: List[str] = []
         impact = -round(min(request.requested_amount, cash_reserves), 3)
         partial_candidate = None
+
+        if request.required_capacity is not None and execution_capacity_score < request.required_capacity:
+            decision = 'Deferred'
+            reason_list.append('Insufficient execution capacity for this investment.')
+            reason_list.append(
+                f'Execution score {execution_capacity_score} is lower than required {request.required_capacity:.3f}.'
+            )
 
         if cash_reserves - request.requested_amount < min_cash:
             decision = 'Rejected'
@@ -298,76 +346,148 @@ class FinancialService:
 
         return measures
 
-    def generate_emergency_playbook(self, financials: FinancialFundamentals) -> List[Dict[str, object]]:
-        playbook: List[Dict[str, object]] = []
+    def generate_emergency_playbook(
+        self,
+        financials: FinancialFundamentals,
+        market_state: Optional[Dict[str, object]] = None,
+        org_state: Optional[Dict[str, object]] = None,
+    ) -> Dict[str, object]:
         current_cash = financials.cash_reserves
         buffer_threshold = round(financials.minimum_cash_threshold + financials.liquidity_buffer_months, 3)
+        threshold = round(financials.minimum_cash_threshold, 3)
 
-        if current_cash < financials.minimum_cash_threshold:
+        if current_cash < threshold:
+            trigger = 'cash_below_threshold'
             status = 'critical'
         elif current_cash < buffer_threshold:
+            trigger = 'cash_below_buffer'
             status = 'warning'
         else:
+            trigger = 'stable'
             status = 'stable'
 
-        playbook.append(
+        actions = [
             {
-                'priority': 1,
-                'action': '新規投資を停止',
-                'description': '流動性確保のため、すべての未決裁投資を一時停止します。',
-                'status': status,
-            }
-        )
-        playbook.append(
+                'id': 'suspend_tranches',
+                'label': 'Suspend all pending tranches',
+                'impact': '+2.0',
+            },
             {
-                'priority': 2,
-                'action': '広告とマーケティングの出費削減',
-                'description': 'ROI が低い施策から停止し、即時のキャッシュ節約を図ります。',
-                'status': status,
-            }
-        )
-        playbook.append(
+                'id': 'reduce_production_cost',
+                'label': 'Reduce production cost',
+                'impact': '+0.5',
+            },
             {
-                'priority': 3,
-                'action': '外注とサプライヤー支払いの見直し',
-                'description': '支払い条件の交渉と優先順位付けを行い、キャッシュアウトを遅延させます。',
-                'status': status,
-            }
-        )
+                'id': 'pause_advertising',
+                'label': 'Pause advertising for 1 month',
+                'impact': '+0.3',
+            },
+        ]
         if financials.available_credit_line > 0.0:
-            playbook.append(
+            actions.append(
                 {
-                    'priority': 4,
-                    'action': '与信枠の活用',
-                    'description': f'利用可能な与信枠{financials.available_credit_line:.3f}を検討します。',
-                    'status': status,
+                    'id': 'use_credit_line',
+                    'label': 'Use credit line',
+                    'impact': f'+{financials.available_credit_line:.1f}',
                 }
             )
 
-        return playbook
+        recommended_priority = ['suspend_tranches', 'reduce_production_cost', 'pause_advertising']
 
-    def build_emergency_alert_templates(self, financials: FinancialFundamentals) -> Dict[str, str]:
-        slack_text = (
-            f"[緊急アラート] 現金残高が閾値を下回りました: {financials.cash_reserves:.3f}. "
-            f"即時対応が必要です。最小現金閾値: {financials.minimum_cash_threshold:.3f}, "
-            f"バッファ: {financials.liquidity_buffer_months:.3f}."
+        return {
+            'trigger': trigger,
+            'cash': round(current_cash, 3),
+            'threshold': threshold,
+            'status': status,
+            'actions': actions,
+            'recommended_priority': recommended_priority,
+        }
+
+    def load_emergency_alert_templates(self) -> Dict[str, str]:
+        if not os.path.exists(self.alert_template_file):
+            raise FileNotFoundError(f'Emergency alert template file not found: {self.alert_template_file}')
+
+        with open(self.alert_template_file, 'r', encoding='utf-8') as f:
+            return json.load(f)
+
+    def build_emergency_alert_templates(self, playbook: Dict[str, object]) -> Dict[str, str]:
+        try:
+            templates = self.load_emergency_alert_templates()
+        except FileNotFoundError:
+            templates = {
+                'slack_template': (
+                    '🚨 Emergency Triggered: {trigger}\n'
+                    'Current Cash: {cash}\n'
+                    'Threshold: {threshold}\n\n'
+                    'Recommended Actions:\n{actions}\n\n'
+                    'Run Playbook: /api/financials/execute-playbook'
+                ),
+                'email_subject_template': '[Alert] Emergency Liquidity Triggered',
+                'email_body_template': (
+                    'Subject: [Alert] Emergency Liquidity Triggered\n\n'
+                    'Cash has fallen below the threshold.\n\n'
+                    'Current: {cash}\n'
+                    'Threshold: {threshold}\n\n'
+                    'Recommended Actions:\n{action_lines}\n\n'
+                    'You can execute the playbook via:\nPOST /api/financials/execute-playbook\n'
+                ),
+            }
+
+        actions = playbook.get('actions', [])
+        numbered_actions = '\n'.join(
+            [f"{idx + 1}. {action['label']} ({action['impact']})" for idx, action in enumerate(actions)]
         )
-        email_body = (
-            f"経営チーム各位,\n\n"
-            f"現在のキャッシュ残高は {financials.cash_reserves:.3f} です。"
-            f"流動性閾値 {financials.minimum_cash_threshold:.3f} を割り込んでいるため、以下の緊急プレイブックを確認してください。\n\n"
-            f"1. 新規投資停止\n"
-            f"2. 広告・マーケティング支出の縮小\n"
-            f"3. 外注費見直し\n"
-            f"4. 与信枠の活用検討\n\n"
-            f"詳細はダッシュボードの緊急プレイブックをご覧ください。"
+        bullet_actions = '\n'.join([f"- {action['label']}" for action in actions])
+
+        slack_text = templates['slack_template'].format(
+            trigger=playbook.get('trigger', 'unknown'),
+            cash=playbook.get('cash', 'unknown'),
+            threshold=playbook.get('threshold', 'unknown'),
+            actions=numbered_actions,
+            action_lines=bullet_actions,
         )
+        email_subject = templates['email_subject_template']
+        email_body = templates['email_body_template'].format(
+            cash=playbook.get('cash', 'unknown'),
+            threshold=playbook.get('threshold', 'unknown'),
+            action_lines=bullet_actions,
+            actions=numbered_actions,
+        )
+
         return {
             'slack': slack_text,
-            'email': email_body,
+            'email_subject': email_subject,
+            'email_body': email_body,
         }
+
+    def dispatch_emergency_alerts(self, playbook: Dict[str, object]) -> None:
+        if playbook.get('trigger') not in {'cash_below_threshold', 'cash_below_buffer'}:
+            return
+
+        from .notification_service import send_email_alert, send_slack_alert
+
+        templates = self.build_emergency_alert_templates(playbook)
+        send_slack_alert(templates['slack'])
+        send_email_alert(templates['email_subject'], templates['email_body'])
 
     def add_pending_request(self, request: InvestmentRequest) -> None:
         pending = self.load_pending_requests()
         pending.append(request)
         self.save_pending_requests(pending)
+
+    def log_playbook_execution(self, executed_actions: List[str], timestamp: str) -> None:
+        log_entry = {
+            'executed_actions': executed_actions,
+            'timestamp': timestamp,
+        }
+        logs: List[Dict[str, object]] = []
+        if os.path.exists(self.execution_log_file):
+            try:
+                with open(self.execution_log_file, 'r', encoding='utf-8') as f:
+                    logs = json.load(f)
+            except Exception:
+                logs = []
+
+        logs.append(log_entry)
+        with open(self.execution_log_file, 'w', encoding='utf-8') as f:
+            json.dump(logs, f, indent=2, ensure_ascii=False)

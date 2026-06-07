@@ -1,0 +1,180 @@
+{
+  "memories": [
+    {
+      "memory_id": "33fdef93-44f0-486c-828f-6d0021a414fe",
+      "item_type": "STRATEGY_EXECUTED",
+      "timestamp": "2026-05-18T15:49:00.786527",
+      "title": "Strategy Engine V2 report for baseline",
+      "description": "For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blends intent-driven priorities (growth=0.25, profitability=0.25, innovation=0.25, stability=0.25) with frontier health (0.00) and scenario resilience (0.28). Recommended execution should emphasize clarity, optionality, and decisive risk management.",
+      "context": {
+        "scenario_type": "baseline",
+        "alignment_score": 0.225,
+        "risk_resilience_score": 0.275
+      },
+      "related_entity_id": "426cdcbd-f1c0-4184-9b9c-76803028aeb4",
+      "related_entity_type": "StrategyEngineV2Report",
+      "importance": "MEDIUM",
+      "impact_score": 0.5,
+      "access_count": 0,
+      "last_accessed": null,
+      "tags": [
+        "strategy_engine_v2",
+        "baseline"
+      ],
+      "related_memory_ids": []
+    },
+    {
+      "memory_id": "07c212c9-ad59-4270-b85c-d12610b6884a",
+      "item_type": "STRATEGY_EXECUTED",
+      "timestamp": "2026-05-18T15:49:16.026028",
+      "title": "Strategy Engine V2 report for baseline",
+      "description": "For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blends intent-driven priorities (growth=0.25, profitability=0.25, innovation=0.25, stability=0.25) with frontier health (0.00) and scenario resilience (0.28). Recommended execution should emphasize clarity, optionality, and decisive risk management.",
+      "context": {
+        "scenario_type": "baseline",
+        "alignment_score": 0.225,
+        "risk_resilience_score": 0.275
+      },
+      "related_entity_id": "f0c46318-ae55-46e4-9ca1-d520976c6393",
+      "related_entity_type": "StrategyEngineV2Report",
+      "importance": "MEDIUM",
+      "impact_score": 0.5,
+      "access_count": 0,
+      "last_accessed": null,
+      "tags": [
+        "strategy_engine_v2",
+        "baseline"
+      ],
+      "related_memory_ids": []
+    },
+    {
+      "memory_id": "9d654aad-6d66-43a6-a04d-fc9a22b05698",
+      "item_type": "SYSTEM_EVENT",
+      "timestamp": "2026-05-18T16:01:18.811583",
+      "title": "Enterprise Autopilot cycle",
+      "description": "Autopilot cycle 1d0852c1-02cf-4428-a379-b04269edc99e completed with status COMPLETED.",
+      "context": {
+        "cycle_id": "1d0852c1-02cf-4428-a379-b04269edc99e",
+        "overall_status": "COMPLETED",
+        "summary": "Autopilot cycle completed with 7 successful phases and 0 failed phases."
+      },
+      "related_entity_id": null,
+      "related_entity_type": null,
+      "importance": "HIGH",
+      "impact_score": 0.5,
+      "access_count": 0,
+      "last_accessed": null,
+      "tags": [
+        "ENTERPRISE_AUTOPILOT",
+        "CYCLE"
+      ],
+      "related_memory_ids": []
+    },
+    {
+      "memory_id": "72ae6c3a-c87d-4331-a11f-de1a846281dc",
+      "item_type": "EXECUTIVE_SIMULATION",
+      "timestamp": "2026-05-19T15:38:09.602796",
+      "title": "Executive simulation 08c6cd90-f5af-46bf-bba0-2fce3d5ae219",
+      "description": "Consensus 0.71, approved=True",
+      "context": {
+        "simulation_id": "08c6cd90-f5af-46bf-bba0-2fce3d5ae219",
+        "consensus_level": 0.7142857142857143,
+        "approved": true
+      },
+      "related_entity_id": "08c6cd90-f5af-46bf-bba0-2fce3d5ae219",
+      "related_entity_type": "ExecutiveSimulationResult",
+      "importance": "HIGH",
+      "impact_score": 0.5,
+      "access_count": 0,
+      "last_accessed": null,
+      "tags": [
+        "EXECUTIVE_SIMULATION",
+        "DECISION",
+        "ROLE_PLAY"
+      ],
+      "related_memory_ids": []
+    },
+    {
+      "memory_id": "25e72fd8-21aa-44a9-bca7-bb3cdacfee5d",
+      "item_type": "EXECUTIVE_SIMULATION",
+      "timestamp": "2026-05-19T15:38:09.958479",
+      "title": "Executive simulation 119387a1-b88f-4c26-86c5-29b306f8377c",
+      "description": "Consensus 0.71, approved=True",
+      "context": {
+        "simulation_id": "119387a1-b88f-4c26-86c5-29b306f8377c",
+        "consensus_level": 0.7142857142857143,
+        "approved": true
+      },
+      "related_entity_id": "119387a1-b88f-4c26-86c5-29b306f8377c",
+      "related_entity_type": "ExecutiveSimulationResult",
+      "importance": "HIGH",
+      "impact_score": 0.5,
+      "access_count": 0,
+      "last_accessed": null,
+      "tags": [
+        "EXECUTIVE_SIMULATION",
+        "DECISION",
+        "ROLE_PLAY"
+      ],
+      "related_memory_ids": []
+    },
+    {
+      "memory_id": "54e69a79-fd87-4a83-b159-f68eedd962de",
+      "item_type": "EXECUTIVE_SIMULATION",
+      "timestamp": "2026-05-19T17:33:30.562869",
+      "title": "Executive simulation 4de04f80-1999-4955-9e30-2b526fd9a6e9",
+      "description": "Consensus 0.71, approved=True",
+      "context": {
+        "simulation_id": "4de04f80-1999-4955-9e30-2b526fd9a6e9",
+        "consensus_level": 0.7142857142857143,
+        "approved": true
+      },
+      "related_entity_id": "4de04f80-1999-4955-9e30-2b526fd9a6e9",
+      "related_entity_type": "ExecutiveSimulationResult",
+      "importance": "HIGH",
+      "impact_score": 0.5,
+      "access_count": 0,
+      "last_accessed": null,
+      "tags": [
+        "EXECUTIVE_SIMULATION",
+        "DECISION",
+        "ROLE_PLAY"
+      ],
+      "related_memory_ids": []
+    },
+    {
+      "memory_id": "f323ad67-b335-4336-942a-b5b74959e72c",
+      "item_type": "EXECUTIVE_SIMULATION",
+      "timestamp": "2026-05-19T17:33:30.947727",
+      "title": "Executive simulation 7e6509e4-ed87-45e4-92ea-d9897921657d",
+      "description": "Consensus 0.71, approved=True",
+      "context": {
+        "simulation_id": "7e6509e4-ed87-45e4-92ea-d9897921657d",
+        "consensus_level": 0.7142857142857143,
+        "approved": true
+      },
+      "related_entity_id": "7e6509e4-ed87-45e4-92ea-d9897921657d",
+      "related_entity_type": "ExecutiveSimulationResult",
+      "importance": "HIGH",
+      "impact_score": 0.5,
+      "access_count": 0,
+      "last_accessed": null,
+      "tags": [
+        "EXECUTIVE_SIMULATION",
+        "DECISION",
+        "ROLE_PLAY"
+      ],
+      "related_memory_ids": []
+    }
+  ],
+  "total_memories": 7,
+  "type_distribution": {
+    "STRATEGY_EXECUTED": 2,
+    "SYSTEM_EVENT": 1,
+    "EXECUTIVE_SIMULATION": 4
+  },
+  "importance_distribution": {
+    "MEDIUM": 2,
+    "HIGH": 5
+  },
+  "last_updated": "2026-05-19T17:33:30.947766"
+}

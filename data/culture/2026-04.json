@@ -1,0 +1,12 @@
+{
+  "period": "2026-04",
+  "aggressiveness_culture": 0.5,
+  "risk_aversion_culture": 0.5099,
+  "brand_culture": 0.5198,
+  "cost_culture": 0.5,
+  "people_culture": 0.5,
+  "execution_culture": 0.5,
+  "innovation_culture": 0.5099,
+  "stability_culture": 0.5,
+  "notes": "Updated on 2026-04 with CEO persona, board decisions, and quarterly performance."
+}

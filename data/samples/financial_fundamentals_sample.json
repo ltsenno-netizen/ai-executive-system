@@ -1,0 +1,18 @@
+{
+  "cash_reserves": 15.0,
+  "short_term_debt": 5.0,
+  "long_term_debt": 20.0,
+  "interest_rate_short": 0.02,
+  "interest_rate_long": 0.04,
+  "monthly_revenue": 5.0,
+  "monthly_operating_expenses": 4.0,
+  "capex_plan": {"ai_solutions": 5.0, "live_entertainment": 3.0},
+  "committed_capex": 2.0,
+  "available_credit_line": 10.0,
+  "liquidity_buffer_months": 3.0,
+  "minimum_cash_threshold": 2.0,
+  "monthly_debt_service": 0.5,
+  "free_cash_flow": 0.5,
+  "investment_policy": {"max_investment_pct_of_cash": 0.25, "min_cash_reserve": 3.0},
+  "financial_health_indicators": {"debt_to_equity": 0.4, "current_ratio": 1.8}
+}

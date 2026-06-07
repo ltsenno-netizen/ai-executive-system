@@ -1,0 +1,5 @@
+scenario_id,name,final_cash,min_cash,p50_cash,p10_cash,p90_cash,p50_profit,p10_profit,p90_profit
+scenario_base,Base Case,31.274,19.364,22.197,20.487,24.444,-14.532,-16.918,-11.745
+scenario_downside,Downside,27.32,16.356,20.058,17.885,21.854,-11.626,-14.607,-9.396
+scenario_upside,Upside,31.274,19.481,22.256,20.604,24.506,-14.358,-16.763,-11.661
+scenario_simultaneous,Simultaneous Shocks + Large Investment,24.715,13.478,17.271,15.045,19.114,-11.916,-14.972,-9.631

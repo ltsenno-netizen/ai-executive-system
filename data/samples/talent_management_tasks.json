@@ -1,0 +1,47 @@
+[
+  {
+    "id": "task_001",
+    "title": "タレント案件見積作成",
+    "description": "新規タレント案件の収益見積もりを作成し、予算計画に反映する",
+    "priority": "High",
+    "required_roles": ["Manager", "Senior Manager"],
+    "estimated_days": 3,
+    "kpis": ["見積精度", "作成時間", "承認率"]
+  },
+  {
+    "id": "task_002",
+    "title": "新人マネージャー1on1準備",
+    "description": "新人マネージャーの育成状況を確認し、1on1ミーティングの準備資料を作成",
+    "priority": "Medium",
+    "required_roles": ["Senior Manager", "Assistant Manager"],
+    "estimated_days": 1,
+    "kpis": ["準備資料品質", "育成進捗率", "フィードバック満足度"]
+  },
+  {
+    "id": "task_003",
+    "title": "契約更新交渉",
+    "description": "タレントとの契約更新交渉を行い、最適な条件で合意に至る",
+    "priority": "High",
+    "required_roles": ["Contract Specialist", "Legal Coordinator"],
+    "estimated_days": 7,
+    "kpis": ["交渉成功率", "条件改善度", "交渉期間"]
+  },
+  {
+    "id": "task_004",
+    "title": "タレント別LTVレポート作成",
+    "description": "各タレントの生涯価値（LTV）を分析し、レポートを作成",
+    "priority": "High",
+    "required_roles": ["Manager", "Senior Manager"],
+    "estimated_days": 5,
+    "kpis": ["分析精度", "レポート品質", "活用度"]
+  },
+  {
+    "id": "task_005",
+    "title": "MDコラボ調整",
+    "description": "タレントとMD（マーチャンダイジング）部門とのコラボレーション案件を調整",
+    "priority": "Medium",
+    "required_roles": ["Manager", "Assistant Manager"],
+    "estimated_days": 4,
+    "kpis": ["調整効率", "コラボ成果", "満足度"]
+  }
+]

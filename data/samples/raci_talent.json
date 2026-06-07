@@ -1,0 +1,29 @@
+[
+  {"process_name": "契約処理フロー", "role": "Manager", "responsibility": "C"},
+  {"process_name": "契約処理フロー", "role": "Senior Manager", "responsibility": "A"},
+  {"process_name": "契約処理フロー", "role": "Contract Specialist", "responsibility": "R"},
+  {"process_name": "契約処理フロー", "role": "Legal Coordinator", "responsibility": "C"},
+  {"process_name": "契約処理フロー", "role": "Assistant Manager", "responsibility": "I"},
+
+  {"process_name": "案件承認フロー", "role": "Manager", "responsibility": "R"},
+  {"process_name": "案件承認フロー", "role": "Senior Manager", "responsibility": "A"},
+  {"process_name": "案件承認フロー", "role": "Contract Specialist", "responsibility": "C"},
+  {"process_name": "案件承認フロー", "role": "Legal Coordinator", "responsibility": "I"},
+  {"process_name": "案件承認フロー", "role": "Assistant Manager", "responsibility": "I"},
+
+  {"process_name": "緊急対応フロー", "role": "Manager", "responsibility": "R"},
+  {"process_name": "緊急対応フロー", "role": "Senior Manager", "responsibility": "A"},
+  {"process_name": "緊急対応フロー", "role": "Contract Specialist", "responsibility": "C"},
+  {"process_name": "緊急対応フロー", "role": "Legal Coordinator", "responsibility": "C"},
+  {"process_name": "緊急対応フロー", "role": "Assistant Manager", "responsibility": "I"},
+
+  {"process_name": "タレントマネジメント", "role": "Manager", "responsibility": "R"},
+  {"process_name": "タレントマネジメント", "role": "Senior Manager", "responsibility": "A"},
+  {"process_name": "タレントマネジメント", "role": "Athlete Manager", "responsibility": "C"},
+  {"process_name": "タレントマネジメント", "role": "Assistant Manager", "responsibility": "I"},
+
+  {"process_name": "リスク管理", "role": "Senior Manager", "responsibility": "A"},
+  {"process_name": "リスク管理", "role": "Legal Coordinator", "responsibility": "R"},
+  {"process_name": "リスク管理", "role": "Manager", "responsibility": "C"},
+  {"process_name": "リスク管理", "role": "Contract Specialist", "responsibility": "C"}
+]

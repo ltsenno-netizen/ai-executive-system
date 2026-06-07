@@ -1,0 +1,461 @@
+{
+  "scenario_id": "scenario_upside",
+  "name": "Upside",
+  "monthly": [
+    {
+      "scenario_id": "scenario_upside",
+      "month": 1,
+      "year": 2026,
+      "revenue": 10.748,
+      "profit": -18.153,
+      "profit_margin": -1.689,
+      "cash_reserves": 19.561,
+      "free_cash_flow": 4.561,
+      "investment_requests": [],
+      "active_events": [
+        {
+          "id": "shock_ai_solutions_rise",
+          "date": "2026-01-01",
+          "type": "market_opportunity",
+          "impact_map": {
+            "ai_solutions": 0.3,
+            "digital_distribution_market": 0.2
+          },
+          "duration_months": 12,
+          "source": "scenario",
+          "notes": "AI demand +30%, digital ad recovery +20%"
+        }
+      ]
+    },
+    {
+      "scenario_id": "scenario_upside",
+      "month": 2,
+      "year": 2026,
+      "revenue": 12.222,
+      "profit": -16.679,
+      "profit_margin": -1.365,
+      "cash_reserves": 20.666,
+      "free_cash_flow": 5.666,
+      "investment_requests": [],
+      "active_events": [
+        {
+          "id": "shock_ai_solutions_rise",
+          "date": "2026-01-01",
+          "type": "market_opportunity",
+          "impact_map": {
+            "ai_solutions": 0.3,
+            "digital_distribution_market": 0.2
+          },
+          "duration_months": 12,
+          "source": "scenario",
+          "notes": "AI demand +30%, digital ad recovery +20%"
+        }
+      ]
+    },
+    {
+      "scenario_id": "scenario_upside",
+      "month": 3,
+      "year": 2026,
+      "revenue": 15.452,
+      "profit": -13.449,
+      "profit_margin": -0.87,
+      "cash_reserves": 23.089,
+      "free_cash_flow": 8.089,
+      "investment_requests": [],
+      "active_events": [
+        {
+          "id": "shock_ai_solutions_rise",
+          "date": "2026-01-01",
+          "type": "market_opportunity",
+          "impact_map": {
+            "ai_solutions": 0.3,
+            "digital_distribution_market": 0.2
+          },
+          "duration_months": 12,
+          "source": "scenario",
+          "notes": "AI demand +30%, digital ad recovery +20%"
+        }
+      ]
+    },
+    {
+      "scenario_id": "scenario_upside",
+      "month": 4,
+      "year": 2026,
+      "revenue": 12.222,
+      "profit": -16.441,
+      "profit_margin": -1.345,
+      "cash_reserves": 20.666,
+      "free_cash_flow": 5.666,
+      "investment_requests": [],
+      "active_events": [
+        {
+          "id": "shock_ai_solutions_rise",
+          "date": "2026-01-01",
+          "type": "market_opportunity",
+          "impact_map": {
+            "ai_solutions": 0.3,
+            "digital_distribution_market": 0.2
+          },
+          "duration_months": 12,
+          "source": "scenario",
+          "notes": "AI demand +30%, digital ad recovery +20%"
+        }
+      ]
+    },
+    {
+      "scenario_id": "scenario_upside",
+      "month": 5,
+      "year": 2026,
+      "revenue": 12.365,
+      "profit": -16.298,
+      "profit_margin": -1.318,
+      "cash_reserves": 20.774,
+      "free_cash_flow": 5.774,
+      "investment_requests": [],
+      "active_events": [
+        {
+          "id": "shock_ai_solutions_rise",
+          "date": "2026-01-01",
+          "type": "market_opportunity",
+          "impact_map": {
+            "ai_solutions": 0.3,
+            "digital_distribution_market": 0.2
+          },
+          "duration_months": 12,
+          "source": "scenario",
+          "notes": "AI demand +30%, digital ad recovery +20%"
+        }
+      ]
+    },
+    {
+      "scenario_id": "scenario_upside",
+      "month": 6,
+      "year": 2026,
+      "revenue": 12.222,
+      "profit": -16.441,
+      "profit_margin": -1.345,
+      "cash_reserves": 20.666,
+      "free_cash_flow": 5.666,
+      "investment_requests": [],
+      "active_events": [
+        {
+          "id": "shock_ai_solutions_rise",
+          "date": "2026-01-01",
+          "type": "market_opportunity",
+          "impact_map": {
+            "ai_solutions": 0.3,
+            "digital_distribution_market": 0.2
+          },
+          "duration_months": 12,
+          "source": "scenario",
+          "notes": "AI demand +30%, digital ad recovery +20%"
+        }
+      ]
+    },
+    {
+      "scenario_id": "scenario_upside",
+      "month": 7,
+      "year": 2026,
+      "revenue": 14.37,
+      "profit": -14.293,
+      "profit_margin": -0.995,
+      "cash_reserves": 22.277,
+      "free_cash_flow": 7.277,
+      "investment_requests": [],
+      "active_events": [
+        {
+          "id": "shock_ai_solutions_rise",
+          "date": "2026-01-01",
+          "type": "market_opportunity",
+          "impact_map": {
+            "ai_solutions": 0.3,
+            "digital_distribution_market": 0.2
+          },
+          "duration_months": 12,
+          "source": "scenario",
+          "notes": "AI demand +30%, digital ad recovery +20%"
+        }
+      ]
+    },
+    {
+      "scenario_id": "scenario_upside",
+      "month": 8,
+      "year": 2026,
+      "revenue": 15.384,
+      "profit": -13.459,
+      "profit_margin": -0.875,
+      "cash_reserves": 23.038,
+      "free_cash_flow": 8.038,
+      "investment_requests": [],
+      "active_events": [
+        {
+          "id": "shock_ai_solutions_rise",
+          "date": "2026-01-01",
+          "type": "market_opportunity",
+          "impact_map": {
+            "ai_solutions": 0.3,
+            "digital_distribution_market": 0.2
+          },
+          "duration_months": 12,
+          "source": "scenario",
+          "notes": "AI demand +30%, digital ad recovery +20%"
+        }
+      ]
+    },
+    {
+      "scenario_id": "scenario_upside",
+      "month": 9,
+      "year": 2026,
+      "revenue": 14.341,
+      "profit": -14.502,
+      "profit_margin": -1.011,
+      "cash_reserves": 22.256,
+      "free_cash_flow": 7.256,
+      "investment_requests": [],
+      "active_events": [
+        {
+          "id": "shock_ai_solutions_rise",
+          "date": "2026-01-01",
+          "type": "market_opportunity",
+          "impact_map": {
+            "ai_solutions": 0.3,
+            "digital_distribution_market": 0.2
+          },
+          "duration_months": 12,
+          "source": "scenario",
+          "notes": "AI demand +30%, digital ad recovery +20%"
+        }
+      ]
+    },
+    {
+      "scenario_id": "scenario_upside",
+      "month": 10,
+      "year": 2026,
+      "revenue": 17.342,
+      "profit": -11.661,
+      "profit_margin": -0.672,
+      "cash_reserves": 24.506,
+      "free_cash_flow": 9.506,
+      "investment_requests": [],
+      "active_events": [
+        {
+          "id": "shock_ai_solutions_rise",
+          "date": "2026-01-01",
+          "type": "market_opportunity",
+          "impact_map": {
+            "ai_solutions": 0.3,
+            "digital_distribution_market": 0.2
+          },
+          "duration_months": 12,
+          "source": "scenario",
+          "notes": "AI demand +30%, digital ad recovery +20%"
+        }
+      ]
+    },
+    {
+      "scenario_id": "scenario_upside",
+      "month": 11,
+      "year": 2026,
+      "revenue": 16.373,
+      "profit": -12.63,
+      "profit_margin": -0.771,
+      "cash_reserves": 23.78,
+      "free_cash_flow": 8.78,
+      "investment_requests": [],
+      "active_events": [
+        {
+          "id": "shock_ai_solutions_rise",
+          "date": "2026-01-01",
+          "type": "market_opportunity",
+          "impact_map": {
+            "ai_solutions": 0.3,
+            "digital_distribution_market": 0.2
+          },
+          "duration_months": 12,
+          "source": "scenario",
+          "notes": "AI demand +30%, digital ad recovery +20%"
+        }
+      ]
+    },
+    {
+      "scenario_id": "scenario_upside",
+      "month": 12,
+      "year": 2026,
+      "revenue": 26.388,
+      "profit": -2.615,
+      "profit_margin": -0.099,
+      "cash_reserves": 31.291,
+      "free_cash_flow": 16.291,
+      "investment_requests": [],
+      "active_events": [
+        {
+          "id": "shock_ai_solutions_rise",
+          "date": "2026-01-01",
+          "type": "market_opportunity",
+          "impact_map": {
+            "ai_solutions": 0.3,
+            "digital_distribution_market": 0.2
+          },
+          "duration_months": 12,
+          "source": "scenario",
+          "notes": "AI demand +30%, digital ad recovery +20%"
+        }
+      ]
+    },
+    {
+      "scenario_id": "scenario_upside",
+      "month": 1,
+      "year": 2027,
+      "revenue": 10.642,
+      "profit": -18.259,
+      "profit_margin": -1.716,
+      "cash_reserves": 19.481,
+      "free_cash_flow": 4.481,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_upside",
+      "month": 2,
+      "year": 2027,
+      "revenue": 12.138,
+      "profit": -16.763,
+      "profit_margin": -1.381,
+      "cash_reserves": 20.604,
+      "free_cash_flow": 5.604,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_upside",
+      "month": 3,
+      "year": 2027,
+      "revenue": 15.368,
+      "profit": -13.533,
+      "profit_margin": -0.881,
+      "cash_reserves": 23.026,
+      "free_cash_flow": 8.026,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_upside",
+      "month": 4,
+      "year": 2027,
+      "revenue": 12.138,
+      "profit": -16.525,
+      "profit_margin": -1.361,
+      "cash_reserves": 20.604,
+      "free_cash_flow": 5.604,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_upside",
+      "month": 5,
+      "year": 2027,
+      "revenue": 12.266,
+      "profit": -16.397,
+      "profit_margin": -1.337,
+      "cash_reserves": 20.7,
+      "free_cash_flow": 5.7,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_upside",
+      "month": 6,
+      "year": 2027,
+      "revenue": 12.138,
+      "profit": -16.525,
+      "profit_margin": -1.361,
+      "cash_reserves": 20.604,
+      "free_cash_flow": 5.604,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_upside",
+      "month": 7,
+      "year": 2027,
+      "revenue": 14.305,
+      "profit": -14.358,
+      "profit_margin": -1.004,
+      "cash_reserves": 22.229,
+      "free_cash_flow": 7.229,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_upside",
+      "month": 8,
+      "year": 2027,
+      "revenue": 15.349,
+      "profit": -13.494,
+      "profit_margin": -0.879,
+      "cash_reserves": 23.012,
+      "free_cash_flow": 8.012,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_upside",
+      "month": 9,
+      "year": 2027,
+      "revenue": 14.262,
+      "profit": -14.581,
+      "profit_margin": -1.022,
+      "cash_reserves": 22.197,
+      "free_cash_flow": 7.197,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_upside",
+      "month": 10,
+      "year": 2027,
+      "revenue": 17.258,
+      "profit": -11.745,
+      "profit_margin": -0.681,
+      "cash_reserves": 24.444,
+      "free_cash_flow": 9.444,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_upside",
+      "month": 11,
+      "year": 2027,
+      "revenue": 16.311,
+      "profit": -12.692,
+      "profit_margin": -0.778,
+      "cash_reserves": 23.733,
+      "free_cash_flow": 8.733,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_upside",
+      "month": 12,
+      "year": 2027,
+      "revenue": 26.366,
+      "profit": -2.637,
+      "profit_margin": -0.1,
+      "cash_reserves": 31.274,
+      "free_cash_flow": 16.274,
+      "investment_requests": [],
+      "active_events": []
+    }
+  ],
+  "summary": {
+    "p50_profit": -14.358,
+    "p10_profit": -16.763,
+    "p90_profit": -11.661,
+    "p50_cash": 22.256,
+    "p10_cash": 20.604,
+    "p90_cash": 24.506,
+    "final_cash": 31.274,
+    "min_cash": 19.481,
+    "max_cash": 31.291
+  }
+}

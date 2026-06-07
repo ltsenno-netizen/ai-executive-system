@@ -1,0 +1,57 @@
+{
+  "month": 7,
+  "portfolio_units": [
+    {
+      "id": "portfolio_bu_stage_7",
+      "business_unit_id": "bu_stage",
+      "revenue": 2.61625,
+      "profit": 0.314,
+      "profit_margin": 0.12,
+      "growth_rate": 0.08,
+      "market_alignment": 0.74,
+      "competitive_pressure": 0.75,
+      "risk_score": 0.62,
+      "investment_need": 0.48,
+      "investment_return_rate": 0.15,
+      "strategic_fit": 0.67
+    },
+    {
+      "id": "portfolio_bu_digital_7",
+      "business_unit_id": "bu_digital",
+      "revenue": 1.5625,
+      "profit": 0.188,
+      "profit_margin": 0.12,
+      "growth_rate": 0.19,
+      "market_alignment": 0.8,
+      "competitive_pressure": 0.64,
+      "risk_score": 0.48,
+      "investment_need": 0.35,
+      "investment_return_rate": 0.18,
+      "strategic_fit": 0.74
+    }
+  ],
+  "decisions": [
+    {
+      "business_unit_id": "bu_stage",
+      "decision": "Maintain",
+      "reason": "現在のパフォーマンスは安定しているため維持を推奨します。",
+      "expected_impact": {
+        "revenue": 0.314,
+        "profit": 0.0314,
+        "growth_rate": 0.08
+      },
+      "required_budget": 0.48
+    },
+    {
+      "business_unit_id": "bu_digital",
+      "decision": "Invest",
+      "reason": "利益率と回収見込みが良好なため、投資を検討します。",
+      "expected_impact": {
+        "revenue": 0.1875,
+        "profit": 0.0188,
+        "growth_rate": 0.19
+      },
+      "required_budget": 0.35
+    }
+  ]
+}

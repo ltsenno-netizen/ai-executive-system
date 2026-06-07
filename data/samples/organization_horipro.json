@@ -1,0 +1,218 @@
+{
+  "company_name": "えみプロ仮想オフィス",
+  "ceo": "CEO",
+  "structure": {
+    "name": "CEO",
+    "headcount": 1,
+    "children": [
+      {
+        "name": "CFO兼経営管理部長",
+        "headcount": 1,
+        "children": [
+          {
+            "name": "経営管理部",
+            "headcount": 38,
+            "children": [
+              {"name": "戦略企画課", "headcount": 3, "children": []},
+              {"name": "M&A提携課", "headcount": 3, "children": []},
+              {
+                "name": "財務経理課",
+                "headcount": 8,
+                "children": [
+                  {"name": "財務係", "headcount": 4, "children": []},
+                  {"name": "ファイナンス係", "headcount": 4, "children": []}
+                ]
+              },
+              {
+                "name": "法務コンプライアンス課",
+                "headcount": 10,
+                "children": [
+                  {"name": "法務係", "headcount": 4, "children": []},
+                  {"name": "コンプライアンス係", "headcount": 4, "children": []},
+                  {"name": "企業広報係", "headcount": 2, "children": []}
+                ]
+              },
+              {
+                "name": "IT・施設管理課",
+                "headcount": 8,
+                "children": [
+                  {"name": "IT・配信係", "headcount": 5, "children": []},
+                  {"name": "設備・スタジオ管理係", "headcount": 3, "children": []}
+                ]
+              },
+              {
+                "name": "総務管理課",
+                "headcount": 5,
+                "children": [
+                  {"name": "総務係", "headcount": 3, "children": []},
+                  {"name": "人事係", "headcount": 2, "children": []}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "COO兼マネージメント本部長",
+        "headcount": 1,
+        "children": [
+          {
+            "name": "マネージメント本部",
+            "headcount": 57,
+            "children": [
+              {
+                "name": "タレント発掘部",
+                "headcount": 15,
+                "children": [
+                  {"name": "スカウト課", "headcount": 9, "children": []},
+                  {"name": "育成課", "headcount": 6, "children": []}
+                ]
+              },
+              {
+                "name": "タレントマネジメント部",
+                "headcount": 29,
+                "children": [
+                  {"name": "マネージャー課", "headcount": 16, "children": []},
+                  {"name": "選手マネジメント課", "headcount": 3, "children": []},
+                  {"name": "タレント契約課", "headcount": 10, "children": []}
+                ]
+              },
+              {
+                "name": "タレント営業部",
+                "headcount": 13,
+                "children": [
+                  {"name": "出演営業課", "headcount": 7, "children": []},
+                  {"name": "スポンサー連携課", "headcount": 3, "children": []},
+                  {"name": "イベント企画課", "headcount": 3, "children": []}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "映像・音楽事業本部長",
+        "headcount": 1,
+        "children": [
+          {
+            "name": "映像・音楽事業本部",
+            "headcount": 51,
+            "children": [
+              {
+                "name": "企画開発部",
+                "headcount": 10,
+                "children": [
+                  {"name": "映像企画課", "headcount": 6, "children": []},
+                  {"name": "音楽企画課", "headcount": 4, "children": []}
+                ]
+              },
+              {
+                "name": "制作部",
+                "headcount": 21,
+                "children": [
+                  {"name": "映像制作課", "headcount": 7, "children": []},
+                  {"name": "撮影課", "headcount": 7, "children": []},
+                  {"name": "ポストプロ課", "headcount": 3, "children": []},
+                  {"name": "音楽制作課", "headcount": 4, "children": []}
+                ]
+              },
+              {
+                "name": "版権管理部",
+                "headcount": 9,
+                "children": [
+                  {"name": "原盤管理課", "headcount": 4, "children": []},
+                  {"name": "著作権管理課", "headcount": 5, "children": []}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "公演事業本部長",
+        "headcount": 1,
+        "children": [
+          {
+            "name": "公演事業本部",
+            "headcount": 38,
+            "children": [
+              {
+                "name": "企画制作部",
+                "headcount": 10,
+                "children": [
+                  {"name": "舞台企画課", "headcount": 5, "children": []},
+                  {"name": "キャスティング課", "headcount": 5, "children": []}
+                ]
+              },
+              {
+                "name": "制作運営部",
+                "headcount": 11,
+                "children": [
+                  {"name": "舞台制作課", "headcount": 8, "children": []},
+                  {"name": "興行運営課", "headcount": 3, "children": []}
+                ]
+              },
+              {
+                "name": "公演営業部",
+                "headcount": 17,
+                "children": [
+                  {"name": "スポンサー営業課", "headcount": 4, "children": []},
+                  {"name": "VIP対応課", "headcount": 3, "children": []},
+                  {"name": "映像セールス課", "headcount": 4, "children": []},
+                  {"name": "ライブ企画課", "headcount": 3, "children": []},
+                  {"name": "チケット販売課", "headcount": 3, "children": []}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "マーケティング・ライツ本部長",
+        "headcount": 1,
+        "children": [
+          {
+            "name": "マーケティング・ライツ本部",
+            "headcount": 61,
+            "children": [
+              {
+                "name": "プロモーション部",
+                "headcount": 11,
+                "children": [
+                  {"name": "PR課", "headcount": 6, "children": []},
+                  {"name": "SNS運用課", "headcount": 5, "children": []}
+                ]
+              },
+              {
+                "name": "デジタル部",
+                "headcount": 14,
+                "children": [
+                  {"name": "プロダクト課", "headcount": 6, "children": []},
+                  {"name": "配信課", "headcount": 4, "children": []},
+                  {"name": "データ分析課", "headcount": 4, "children": []}
+                ]
+              },
+              {
+                "name": "ライセンス部",
+                "headcount": 13,
+                "children": [
+                  {"name": "映像ライツ課", "headcount": 5, "children": []},
+                  {"name": "音楽ライツ課", "headcount": 4, "children": []},
+                  {"name": "ブランド・肖像ライツ課", "headcount": 4, "children": []}
+                ]
+              },
+              {
+                "name": "マーチャンダイズ部",
+                "headcount": 19,
+                "children": [
+                  {"name": "マーチャンダイズ統括課", "headcount": 10, "children": []},
+                  {"name": "タレントMD課", "headcount": 9, "children": []}
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

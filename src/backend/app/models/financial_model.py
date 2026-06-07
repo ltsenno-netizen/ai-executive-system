@@ -28,6 +28,7 @@ class InvestmentRequest(BaseModel):
     expected_return_rate: float
     payback_period_months: int
     strategic_priority: int
+    required_capacity: Optional[float] = None
     requested_by: Optional[str] = None
     requested_month: Optional[int] = None
     tranche_count: Optional[int] = None

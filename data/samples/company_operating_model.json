@@ -1,0 +1,560 @@
+{
+  "fiscal_year": 2026,
+  "monthly_pl": [
+    {
+      "month": 1,
+      "revenue": {
+        "talent": 6.25,
+        "performance": 2.61625,
+        "license": 1.5625,
+        "md": 1.15417
+      },
+      "cost": {
+        "talent_related": 4.7533,
+        "production": 3.5650,
+        "sg&a": 2.1390,
+        "digital_investment": 0.8318,
+        "other": 0.5942
+      },
+      "profit": 0.0,
+      "profit_margin": 0.0,
+      "cash_flow": 0.0
+    },
+    {
+      "month": 2,
+      "revenue": {
+        "talent": 6.25,
+        "performance": 2.61625,
+        "license": 1.5625,
+        "md": 1.15417
+      },
+      "cost": {
+        "talent_related": 4.7533,
+        "production": 3.5650,
+        "sg&a": 2.1390,
+        "digital_investment": 0.8318,
+        "other": 0.5942
+      },
+      "profit": 0.0,
+      "profit_margin": 0.0,
+      "cash_flow": 0.0
+    },
+    {
+      "month": 3,
+      "revenue": {
+        "talent": 6.25,
+        "performance": 2.61625,
+        "license": 1.5625,
+        "md": 1.15417
+      },
+      "cost": {
+        "talent_related": 4.7533,
+        "production": 3.5650,
+        "sg&a": 2.1390,
+        "digital_investment": 0.8318,
+        "other": 0.5942
+      },
+      "profit": 0.0,
+      "profit_margin": 0.0,
+      "cash_flow": 0.0
+    },
+    {
+      "month": 4,
+      "revenue": {
+        "talent": 6.25,
+        "performance": 2.61625,
+        "license": 1.5625,
+        "md": 1.15417
+      },
+      "cost": {
+        "talent_related": 4.7533,
+        "production": 3.5650,
+        "sg&a": 2.1390,
+        "digital_investment": 0.8318,
+        "other": 0.5942
+      },
+      "profit": 0.0,
+      "profit_margin": 0.0,
+      "cash_flow": 0.0
+    },
+    {
+      "month": 5,
+      "revenue": {
+        "talent": 6.25,
+        "performance": 2.61625,
+        "license": 1.5625,
+        "md": 1.15417
+      },
+      "cost": {
+        "talent_related": 4.7533,
+        "production": 3.5650,
+        "sg&a": 2.1390,
+        "digital_investment": 0.8318,
+        "other": 0.5942
+      },
+      "profit": 0.0,
+      "profit_margin": 0.0,
+      "cash_flow": 0.0
+    },
+    {
+      "month": 6,
+      "revenue": {
+        "talent": 6.25,
+        "performance": 2.61625,
+        "license": 1.5625,
+        "md": 1.15417
+      },
+      "cost": {
+        "talent_related": 4.7533,
+        "production": 3.5650,
+        "sg&a": 2.1390,
+        "digital_investment": 0.8318,
+        "other": 0.5942
+      },
+      "profit": 0.0,
+      "profit_margin": 0.0,
+      "cash_flow": 0.0
+    },
+    {
+      "month": 7,
+      "revenue": {
+        "talent": 6.25,
+        "performance": 2.61625,
+        "license": 1.5625,
+        "md": 1.15417
+      },
+      "cost": {
+        "talent_related": 4.7533,
+        "production": 3.5650,
+        "sg&a": 2.1390,
+        "digital_investment": 0.8318,
+        "other": 0.5942
+      },
+      "profit": 0.0,
+      "profit_margin": 0.0,
+      "cash_flow": 0.0
+    },
+    {
+      "month": 8,
+      "revenue": {
+        "talent": 6.25,
+        "performance": 2.61625,
+        "license": 1.5625,
+        "md": 1.15417
+      },
+      "cost": {
+        "talent_related": 4.7533,
+        "production": 3.5650,
+        "sg&a": 2.1390,
+        "digital_investment": 0.8318,
+        "other": 0.5942
+      },
+      "profit": 0.0,
+      "profit_margin": 0.0,
+      "cash_flow": 0.0
+    },
+    {
+      "month": 9,
+      "revenue": {
+        "talent": 6.25,
+        "performance": 2.61625,
+        "license": 1.5625,
+        "md": 1.15417
+      },
+      "cost": {
+        "talent_related": 4.7533,
+        "production": 3.5650,
+        "sg&a": 2.1390,
+        "digital_investment": 0.8318,
+        "other": 0.5942
+      },
+      "profit": 0.0,
+      "profit_margin": 0.0,
+      "cash_flow": 0.0
+    },
+    {
+      "month": 10,
+      "revenue": {
+        "talent": 6.25,
+        "performance": 2.61625,
+        "license": 1.5625,
+        "md": 1.15417
+      },
+      "cost": {
+        "talent_related": 4.7533,
+        "production": 3.5650,
+        "sg&a": 2.1390,
+        "digital_investment": 0.8318,
+        "other": 0.5942
+      },
+      "profit": 0.0,
+      "profit_margin": 0.0,
+      "cash_flow": 0.0
+    },
+    {
+      "month": 11,
+      "revenue": {
+        "talent": 6.25,
+        "performance": 2.61625,
+        "license": 1.5625,
+        "md": 1.15417
+      },
+      "cost": {
+        "talent_related": 4.7533,
+        "production": 3.5650,
+        "sg&a": 2.1390,
+        "digital_investment": 0.8318,
+        "other": 0.5942
+      },
+      "profit": 0.0,
+      "profit_margin": 0.0,
+      "cash_flow": 0.0
+    },
+    {
+      "month": 12,
+      "revenue": {
+        "talent": 6.25,
+        "performance": 2.61625,
+        "license": 1.5625,
+        "md": 1.15417
+      },
+      "cost": {
+        "talent_related": 4.7533,
+        "production": 3.5650,
+        "sg&a": 2.1390,
+        "digital_investment": 0.8318,
+        "other": 0.5942
+      },
+      "profit": 0.0,
+      "profit_margin": 0.0,
+      "cash_flow": 0.0
+    }
+  ],
+  "seasonality": [
+    {
+      "month": 1,
+      "revenue_multiplier": {
+        "talent": 1.0,
+        "performance": 1.0,
+        "license": 1.0,
+        "md": 1.0
+      },
+      "cost_multiplier": {
+        "talent_related": 1.05,
+        "production": 1.0,
+        "sg&a": 1.0,
+        "digital_investment": 1.0,
+        "other": 1.0
+      }
+    },
+    {
+      "month": 2,
+      "revenue_multiplier": {
+        "talent": 1.0,
+        "performance": 1.0,
+        "license": 1.0,
+        "md": 1.0
+      },
+      "cost_multiplier": {
+        "talent_related": 1.05,
+        "production": 1.0,
+        "sg&a": 1.0,
+        "digital_investment": 1.0,
+        "other": 1.0
+      }
+    },
+    {
+      "month": 3,
+      "revenue_multiplier": {
+        "talent": 1.0,
+        "performance": 1.0,
+        "license": 1.0,
+        "md": 1.0
+      },
+      "cost_multiplier": {
+        "talent_related": 1.05,
+        "production": 1.0,
+        "sg&a": 1.0,
+        "digital_investment": 1.0,
+        "other": 1.0
+      }
+    },
+    {
+      "month": 4,
+      "revenue_multiplier": {
+        "talent": 1.0,
+        "performance": 1.0,
+        "license": 1.0,
+        "md": 1.0
+      },
+      "cost_multiplier": {
+        "talent_related": 1.0,
+        "production": 1.0,
+        "sg&a": 1.0,
+        "digital_investment": 1.0,
+        "other": 1.0
+      }
+    },
+    {
+      "month": 5,
+      "revenue_multiplier": {
+        "talent": 1.0,
+        "performance": 1.0,
+        "license": 1.0,
+        "md": 1.0
+      },
+      "cost_multiplier": {
+        "talent_related": 1.0,
+        "production": 1.0,
+        "sg&a": 1.0,
+        "digital_investment": 1.0,
+        "other": 1.0
+      }
+    },
+    {
+      "month": 6,
+      "revenue_multiplier": {
+        "talent": 1.0,
+        "performance": 1.0,
+        "license": 1.0,
+        "md": 1.0
+      },
+      "cost_multiplier": {
+        "talent_related": 1.0,
+        "production": 1.0,
+        "sg&a": 1.0,
+        "digital_investment": 1.0,
+        "other": 1.0
+      }
+    },
+    {
+      "month": 7,
+      "revenue_multiplier": {
+        "talent": 1.0,
+        "performance": 1.3,
+        "license": 1.0,
+        "md": 1.0
+      },
+      "cost_multiplier": {
+        "talent_related": 1.0,
+        "production": 1.0,
+        "sg&a": 1.0,
+        "digital_investment": 1.0,
+        "other": 1.0
+      }
+    },
+    {
+      "month": 8,
+      "revenue_multiplier": {
+        "talent": 1.0,
+        "performance": 1.3,
+        "license": 1.0,
+        "md": 1.0
+      },
+      "cost_multiplier": {
+        "talent_related": 1.0,
+        "production": 1.0,
+        "sg&a": 1.0,
+        "digital_investment": 1.0,
+        "other": 1.0
+      }
+    },
+    {
+      "month": 9,
+      "revenue_multiplier": {
+        "talent": 1.0,
+        "performance": 1.3,
+        "license": 1.0,
+        "md": 1.0
+      },
+      "cost_multiplier": {
+        "talent_related": 1.0,
+        "production": 1.0,
+        "sg&a": 1.0,
+        "digital_investment": 1.0,
+        "other": 1.0
+      }
+    },
+    {
+      "month": 10,
+      "revenue_multiplier": {
+        "talent": 1.4,
+        "performance": 1.0,
+        "license": 1.0,
+        "md": 1.0
+      },
+      "cost_multiplier": {
+        "talent_related": 1.0,
+        "production": 1.0,
+        "sg&a": 1.0,
+        "digital_investment": 1.0,
+        "other": 1.0
+      }
+    },
+    {
+      "month": 11,
+      "revenue_multiplier": {
+        "talent": 1.4,
+        "performance": 1.0,
+        "license": 1.0,
+        "md": 1.5
+      },
+      "cost_multiplier": {
+        "talent_related": 1.0,
+        "production": 1.0,
+        "sg&a": 1.0,
+        "digital_investment": 1.0,
+        "other": 1.0
+      }
+    },
+    {
+      "month": 12,
+      "revenue_multiplier": {
+        "talent": 1.4,
+        "performance": 1.0,
+        "license": 1.0,
+        "md": 1.5
+      },
+      "cost_multiplier": {
+        "talent_related": 1.0,
+        "production": 1.0,
+        "sg&a": 1.0,
+        "digital_investment": 1.0,
+        "other": 1.0
+      }
+    }
+  ],
+  "investments": [
+    {
+      "category": "digital",
+      "amount": 0.8333,
+      "start_month": 1,
+      "end_month": 12,
+      "expected_return_rate": 0.12
+    },
+    {
+      "category": "IP開発",
+      "amount": 0.8333,
+      "start_month": 4,
+      "end_month": 9,
+      "expected_return_rate": 0.18
+    },
+    {
+      "category": "海外展開",
+      "amount": 0.6667,
+      "start_month": 10,
+      "end_month": 12,
+      "expected_return_rate": 0.15
+    }
+  ],
+  "kpis": [
+    {
+      "month": 1,
+      "gross_profit": 0.0,
+      "operating_profit": 0.0,
+      "cash_balance": 0.0,
+      "license_ratio": 0.125,
+      "digital_ratio": 0.13,
+      "talent_ltv_index": 1.0
+    },
+    {
+      "month": 2,
+      "gross_profit": 0.0,
+      "operating_profit": 0.0,
+      "cash_balance": 0.0,
+      "license_ratio": 0.125,
+      "digital_ratio": 0.13,
+      "talent_ltv_index": 1.0
+    },
+    {
+      "month": 3,
+      "gross_profit": 0.0,
+      "operating_profit": 0.0,
+      "cash_balance": 0.0,
+      "license_ratio": 0.125,
+      "digital_ratio": 0.13,
+      "talent_ltv_index": 1.0
+    },
+    {
+      "month": 4,
+      "gross_profit": 0.0,
+      "operating_profit": 0.0,
+      "cash_balance": 0.0,
+      "license_ratio": 0.125,
+      "digital_ratio": 0.13,
+      "talent_ltv_index": 1.0
+    },
+    {
+      "month": 5,
+      "gross_profit": 0.0,
+      "operating_profit": 0.0,
+      "cash_balance": 0.0,
+      "license_ratio": 0.125,
+      "digital_ratio": 0.13,
+      "talent_ltv_index": 1.0
+    },
+    {
+      "month": 6,
+      "gross_profit": 0.0,
+      "operating_profit": 0.0,
+      "cash_balance": 0.0,
+      "license_ratio": 0.125,
+      "digital_ratio": 0.13,
+      "talent_ltv_index": 1.0
+    },
+    {
+      "month": 7,
+      "gross_profit": 0.0,
+      "operating_profit": 0.0,
+      "cash_balance": 0.0,
+      "license_ratio": 0.125,
+      "digital_ratio": 0.13,
+      "talent_ltv_index": 1.0
+    },
+    {
+      "month": 8,
+      "gross_profit": 0.0,
+      "operating_profit": 0.0,
+      "cash_balance": 0.0,
+      "license_ratio": 0.125,
+      "digital_ratio": 0.13,
+      "talent_ltv_index": 1.0
+    },
+    {
+      "month": 9,
+      "gross_profit": 0.0,
+      "operating_profit": 0.0,
+      "cash_balance": 0.0,
+      "license_ratio": 0.125,
+      "digital_ratio": 0.13,
+      "talent_ltv_index": 1.0
+    },
+    {
+      "month": 10,
+      "gross_profit": 0.0,
+      "operating_profit": 0.0,
+      "cash_balance": 0.0,
+      "license_ratio": 0.125,
+      "digital_ratio": 0.13,
+      "talent_ltv_index": 1.0
+    },
+    {
+      "month": 11,
+      "gross_profit": 0.0,
+      "operating_profit": 0.0,
+      "cash_balance": 0.0,
+      "license_ratio": 0.125,
+      "digital_ratio": 0.13,
+      "talent_ltv_index": 1.0
+    },
+    {
+      "month": 12,
+      "gross_profit": 0.0,
+      "operating_profit": 0.0,
+      "cash_balance": 0.0,
+      "license_ratio": 0.125,
+      "digital_ratio": 0.13,
+      "talent_ltv_index": 1.0
+    }
+  ]
+}

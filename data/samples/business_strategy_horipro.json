@@ -1,0 +1,106 @@
+{
+  "revenue_breakdown": [
+    {
+      "category": "タレント営業",
+      "ratio": 55.0,
+      "revenue": 82.5,
+      "gross_margin_rate": 20.0,
+      "gross_profit": 16.5
+    },
+    {
+      "category": "公演営業",
+      "ratio": 22.5,
+      "revenue": 33.75,
+      "gross_margin_rate": 10.0,
+      "gross_profit": 3.375
+    },
+    {
+      "category": "ライセンス",
+      "ratio": 12.5,
+      "revenue": 18.75,
+      "gross_margin_rate": 60.0,
+      "gross_profit": 11.25
+    },
+    {
+      "category": "マーチャンダイズ",
+      "ratio": 10.0,
+      "revenue": 15.0,
+      "gross_margin_rate": 30.0,
+      "gross_profit": 4.5
+    }
+  ],
+  "insights": [
+    {
+      "key_point": "売上規模と利益効率は別物",
+      "detail": "タレント営業は売上規模が大きいが、粗利率は低いため利益効率が限定的である。"
+    },
+    {
+      "key_point": "公演はキャッシュ創出力が高いがリスクも大きい",
+      "detail": "公演は嗜好変化や開催可否の影響を受けやすく、慎重な採算管理が必要である。"
+    },
+    {
+      "key_point": "マーチャンダイズは在庫管理次第で高収益化",
+      "detail": "在庫とサプライチェーンを最適化すれば、粗利率を大幅に改善できる。"
+    },
+    {
+      "key_point": "タレント中心モデルは売上安定だが利益率は限定的",
+      "detail": "タレント出演料主体の収益は安定感があるが、人件費や手数料の影響で利益率が抑制される。"
+    }
+  ],
+  "sensitivity": [
+    {
+      "scenario": "ライセンス粗利+10pp",
+      "impact": "粗利+1.875億円"
+    },
+    {
+      "scenario": "公演動員±10%",
+      "impact": "粗利±0.3375億円"
+    },
+    {
+      "scenario": "タレント手数料率低下",
+      "impact": "粗利大幅悪化（16.5億→8.25億相当）"
+    }
+  ],
+  "priorities": [
+    {
+      "priority": "ライセンス比率の引き上げ",
+      "actions": [
+        "IP化",
+        "海外展開",
+        "ブランドコラボ"
+      ]
+    },
+    {
+      "priority": "マーチャンダイズ粗利改善",
+      "actions": [
+        "受注生産",
+        "EC強化",
+        "自社生産最適化"
+      ]
+    },
+    {
+      "priority": "公演採算管理強化",
+      "actions": [
+        "会場選定",
+        "ツアー設計",
+        "スポンサー標準化"
+      ]
+    },
+    {
+      "priority": "タレント営業の収益拡大",
+      "actions": [
+        "デジタル収益",
+        "長期契約",
+        "FC強化"
+      ]
+    },
+    {
+      "priority": "データで意思決定",
+      "actions": [
+        "タレントLTV",
+        "案件別P/L",
+        "SKU別MD採算"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "scenario_id": "scenario_downside",
+  "name": "Downside",
+  "monthly": [
+    {
+      "scenario_id": "scenario_downside",
+      "month": 1,
+      "year": 2026,
+      "revenue": 6.475,
+      "profit": -16.646,
+      "profit_margin": -2.571,
+      "cash_reserves": 16.356,
+      "free_cash_flow": 1.356,
+      "investment_requests": [],
+      "active_events": [
+        {
+          "id": "shock_stage_market_drop",
+          "date": "2026-01-01",
+          "type": "market_shock",
+          "impact_map": {
+            "stage_market": -0.3
+          },
+          "duration_months": 2,
+          "source": "scenario",
+          "notes": "Stage market drop 30%"
+        }
+      ]
+    },
+    {
+      "scenario_id": "scenario_downside",
+      "month": 2,
+      "year": 2026,
+      "revenue": 7.218,
+      "profit": -15.902,
+      "profit_margin": -2.203,
+      "cash_reserves": 16.913,
+      "free_cash_flow": 1.913,
+      "investment_requests": [],
+      "active_events": [
+        {
+          "id": "shock_stage_market_drop",
+          "date": "2026-01-01",
+          "type": "market_shock",
+          "impact_map": {
+            "stage_market": -0.3
+          },
+          "duration_months": 2,
+          "source": "scenario",
+          "notes": "Stage market drop 30%"
+        }
+      ]
+    },
+    {
+      "scenario_id": "scenario_downside",
+      "month": 3,
+      "year": 2026,
+      "revenue": 12.17,
+      "profit": -10.95,
+      "profit_margin": -0.9,
+      "cash_reserves": 20.627,
+      "free_cash_flow": 5.627,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_downside",
+      "month": 4,
+      "year": 2026,
+      "revenue": 9.586,
+      "profit": -13.344,
+      "profit_margin": -1.392,
+      "cash_reserves": 18.69,
+      "free_cash_flow": 3.69,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_downside",
+      "month": 5,
+      "year": 2026,
+      "revenue": 9.682,
+      "profit": -13.249,
+      "profit_margin": -1.368,
+      "cash_reserves": 18.761,
+      "free_cash_flow": 3.761,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_downside",
+      "month": 6,
+      "year": 2026,
+      "revenue": 9.586,
+      "profit": -13.344,
+      "profit_margin": -1.392,
+      "cash_reserves": 18.69,
+      "free_cash_flow": 3.69,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_downside",
+      "month": 7,
+      "year": 2026,
+      "revenue": 11.305,
+      "profit": -11.626,
+      "profit_margin": -1.028,
+      "cash_reserves": 19.979,
+      "free_cash_flow": 4.979,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_downside",
+      "month": 8,
+      "year": 2026,
+      "revenue": 12.116,
+      "profit": -10.958,
+      "profit_margin": -0.904,
+      "cash_reserves": 20.587,
+      "free_cash_flow": 5.587,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_downside",
+      "month": 9,
+      "year": 2026,
+      "revenue": 11.282,
+      "profit": -11.793,
+      "profit_margin": -1.045,
+      "cash_reserves": 19.962,
+      "free_cash_flow": 4.962,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_downside",
+      "month": 10,
+      "year": 2026,
+      "revenue": 13.682,
+      "profit": -9.52,
+      "profit_margin": -0.696,
+      "cash_reserves": 21.761,
+      "free_cash_flow": 6.761,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_downside",
+      "month": 11,
+      "year": 2026,
+      "revenue": 12.907,
+      "profit": -10.295,
+      "profit_margin": -0.798,
+      "cash_reserves": 21.18,
+      "free_cash_flow": 6.18,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_downside",
+      "month": 12,
+      "year": 2026,
+      "revenue": 20.835,
+      "profit": -2.367,
+      "profit_margin": -0.114,
+      "cash_reserves": 27.126,
+      "free_cash_flow": 12.126,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_downside",
+      "month": 1,
+      "year": 2027,
+      "revenue": 8.514,
+      "profit": -14.607,
+      "profit_margin": -1.716,
+      "cash_reserves": 17.885,
+      "free_cash_flow": 2.885,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_downside",
+      "month": 2,
+      "year": 2027,
+      "revenue": 9.71,
+      "profit": -13.41,
+      "profit_margin": -1.381,
+      "cash_reserves": 18.783,
+      "free_cash_flow": 3.783,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_downside",
+      "month": 3,
+      "year": 2027,
+      "revenue": 12.294,
+      "profit": -10.826,
+      "profit_margin": -0.881,
+      "cash_reserves": 20.721,
+      "free_cash_flow": 5.721,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_downside",
+      "month": 4,
+      "year": 2027,
+      "revenue": 9.71,
+      "profit": -13.22,
+      "profit_margin": -1.361,
+      "cash_reserves": 18.783,
+      "free_cash_flow": 3.783,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_downside",
+      "month": 5,
+      "year": 2027,
+      "revenue": 9.813,
+      "profit": -13.118,
+      "profit_margin": -1.337,
+      "cash_reserves": 18.86,
+      "free_cash_flow": 3.86,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_downside",
+      "month": 6,
+      "year": 2027,
+      "revenue": 9.71,
+      "profit": -13.22,
+      "profit_margin": -1.361,
+      "cash_reserves": 18.783,
+      "free_cash_flow": 3.783,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_downside",
+      "month": 7,
+      "year": 2027,
+      "revenue": 11.444,
+      "profit": -11.486,
+      "profit_margin": -1.004,
+      "cash_reserves": 20.083,
+      "free_cash_flow": 5.083,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_downside",
+      "month": 8,
+      "year": 2027,
+      "revenue": 12.279,
+      "profit": -10.795,
+      "profit_margin": -0.879,
+      "cash_reserves": 20.709,
+      "free_cash_flow": 5.709,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_downside",
+      "month": 9,
+      "year": 2027,
+      "revenue": 11.41,
+      "profit": -11.665,
+      "profit_margin": -1.022,
+      "cash_reserves": 20.058,
+      "free_cash_flow": 5.058,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_downside",
+      "month": 10,
+      "year": 2027,
+      "revenue": 13.806,
+      "profit": -9.396,
+      "profit_margin": -0.681,
+      "cash_reserves": 21.854,
+      "free_cash_flow": 6.854,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_downside",
+      "month": 11,
+      "year": 2027,
+      "revenue": 13.049,
+      "profit": -10.154,
+      "profit_margin": -0.778,
+      "cash_reserves": 21.287,
+      "free_cash_flow": 6.287,
+      "investment_requests": [],
+      "active_events": []
+    },
+    {
+      "scenario_id": "scenario_downside",
+      "month": 12,
+      "year": 2027,
+      "revenue": 21.093,
+      "profit": -2.11,
+      "profit_margin": -0.1,
+      "cash_reserves": 27.32,
+      "free_cash_flow": 12.32,
+      "investment_requests": [],
+      "active_events": []
+    }
+  ],
+  "summary": {
+    "p50_profit": -11.626,
+    "p10_profit": -14.607,
+    "p90_profit": -9.396,
+    "p50_cash": 20.058,
+    "p10_cash": 17.885,
+    "p90_cash": 21.854,
+    "final_cash": 27.32,
+    "min_cash": 16.356,
+    "max_cash": 27.32
+  }
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "name": "契約処理フロー",
+    "steps": [
+      {"step_name": "ニーズ把握", "owner_role": "Manager", "sla_hours": "24"},
+      {"step_name": "事前審査", "owner_role": "Senior Manager", "sla_hours": "48"},
+      {"step_name": "条件交渉", "owner_role": "Contract Specialist", "sla_hours": "168"},
+      {"step_name": "契約書作成", "owner_role": "Contract Specialist", "sla_hours": "72"},
+      {"step_name": "法務レビュー", "owner_role": "Legal Coordinator", "sla_hours": "48"},
+      {"step_name": "最終承認", "owner_role": "Senior Manager", "sla_hours": "24"},
+      {"step_name": "契約締結", "owner_role": "Contract Specialist", "sla_hours": "8"}
+    ],
+    "inputs": ["タレント情報", "案件概要", "市場データ"],
+    "outputs": ["契約書", "P&L見積", "リスク評価レポート"]
+  },
+  {
+    "name": "案件承認フロー",
+    "steps": [
+      {"step_name": "案件概要作成", "owner_role": "Manager", "sla_hours": "24"},
+      {"step_name": "収益性分析", "owner_role": "Manager", "sla_hours": "48"},
+      {"step_name": "リスク評価", "owner_role": "Senior Manager", "sla_hours": "24"},
+      {"step_name": "予算承認", "owner_role": "Senior Manager", "sla_hours": "24"},
+      {"step_name": "実行計画策定", "owner_role": "Manager", "sla_hours": "48"}
+    ],
+    "inputs": ["案件提案", "市場分析", "リソース要件"],
+    "outputs": ["承認書", "実行計画", "予算配分"]
+  },
+  {
+    "name": "緊急対応フロー",
+    "steps": [
+      {"step_name": "初動対応", "owner_role": "Manager", "sla_hours": "1"},
+      {"step_name": "影響評価", "owner_role": "Senior Manager", "sla_hours": "4"},
+      {"step_name": "対応策立案", "owner_role": "Senior Manager", "sla_hours": "8"},
+      {"step_name": "ステークホルダー対応", "owner_role": "Manager", "sla_hours": "12"},
+      {"step_name": "回復計画策定", "owner_role": "Senior Manager", "sla_hours": "24"}
+    ],
+    "inputs": ["インシデント報告", "影響範囲", "緊急度評価"],
+    "outputs": ["対応計画", "影響評価レポート", "回復計画"]
+  }
+]

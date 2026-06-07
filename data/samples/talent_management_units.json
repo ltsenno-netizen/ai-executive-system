@@ -1,0 +1,17 @@
+[
+  {
+    "name": "マネージャー課",
+    "headcount": 16,
+    "roles": ["Manager", "Senior Manager", "Assistant Manager"]
+  },
+  {
+    "name": "選手マネジメント課",
+    "headcount": 3,
+    "roles": ["Athlete Manager"]
+  },
+  {
+    "name": "タレント契約課",
+    "headcount": 10,
+    "roles": ["Contract Specialist", "Legal Coordinator"]
+  }
+]

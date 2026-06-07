@@ -1,0 +1,5 @@
+{
+  "slack_template": "🚨 Emergency Triggered: {trigger}\nCurrent Cash: {cash}\nThreshold: {threshold}\n\nRecommended Actions:\n{actions}\n\nRun Playbook: /api/financials/execute-playbook",
+  "email_subject_template": "[Alert] Emergency Liquidity Triggered",
+  "email_body_template": "Subject: [Alert] Emergency Liquidity Triggered\n\nCash has fallen below the threshold.\n\nCurrent: {cash}\nThreshold: {threshold}\n\nRecommended Actions:\n{action_lines}\n\nYou can execute the playbook via:\nPOST /api/financials/execute-playbook\n"
+}

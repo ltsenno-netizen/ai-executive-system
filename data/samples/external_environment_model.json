@@ -1,0 +1,113 @@
+{
+  "segments": [
+    {
+      "id": "stage_market",
+      "name": "舞台市場",
+      "description": "演劇やライブの興行市場規模。",
+      "base_size": 80.0,
+      "growth_rate": 0.02,
+      "seasonality": {"1": 0.7, "7": 1.3, "8": 1.3, "12": 1.5}
+    },
+    {
+      "id": "cm_ad_market",
+      "name": "CM広告市場",
+      "description": "テレビ/デジタル広告の市場規模。",
+      "base_size": 200.0,
+      "growth_rate": 0.01,
+      "seasonality": {"3": 1.3, "10": 1.3, "12": 1.4}
+    },
+    {
+      "id": "digital_distribution_market",
+      "name": "デジタル配信市場",
+      "description": "動画配信・ライブ配信・サブスクリプション市場。",
+      "base_size": 150.0,
+      "growth_rate": 0.08,
+      "seasonality": {"1": 1.1, "5": 1.1, "12": 1.2}
+    },
+    {
+      "id": "digital_content",
+      "name": "デジタルコンテンツ市場",
+      "description": "デジタルIPとコンテンツ配信市場。",
+      "base_size": 130.0,
+      "growth_rate": 0.10,
+      "seasonality": {"12": 1.2}
+    },
+    {
+      "id": "digital_ads",
+      "name": "デジタル広告市場",
+      "description": "広告配信とSNS施策を含むデジタル広告市場。",
+      "base_size": 100.0,
+      "growth_rate": 0.12,
+      "seasonality": {"3": 1.2, "9": 1.2}
+    },
+    {
+      "id": "ai_solutions",
+      "name": "AIソリューション市場",
+      "description": "企業向けAIモデル提供・APIサービス市場。",
+      "base_size": 60.0,
+      "growth_rate": 0.15,
+      "seasonality": {"4": 1.2, "3": 1.3}
+    },
+    {
+      "id": "md_market",
+      "name": "MD市場",
+      "description": "グッズ・マーチャンダイズ市場。",
+      "base_size": 50.0,
+      "growth_rate": 0.03,
+      "seasonality": {"8": 1.3, "12": 1.5}
+    }
+  ],
+  "trends": [
+    {
+      "id": "digital_shift",
+      "name": "デジタルシフト",
+      "description": "消費のデジタル移行が進む。",
+      "impact_on_segments": {
+        "digital_distribution_market": 0.05,
+        "stage_market": -0.02
+      }
+    },
+    {
+      "id": "live_return",
+      "name": "ライブ回帰",
+      "description": "リアルイベント需要の回復。",
+      "impact_on_segments": {
+        "stage_market": 0.05,
+        "digital_distribution_market": -0.02
+      }
+    }
+  ],
+  "competitors": [
+    {
+      "id": "pro_a",
+      "name": "大手芸能プロA",
+      "description": "CM・デジタル市場を強みに持つ大手競合。",
+      "strength_by_segment": {
+        "cm_ad_market": 0.9,
+        "digital_distribution_market": 0.8
+      },
+      "aggressiveness": 0.8
+    },
+    {
+      "id": "stage_specialist_b",
+      "name": "舞台専門B社",
+      "description": "舞台市場に強い競合。",
+      "strength_by_segment": {
+        "stage_market": 0.9
+      },
+      "aggressiveness": 0.6
+    }
+  ],
+  "shocks": [
+    {
+      "id": "pandemic",
+      "name": "パンデミック",
+      "description": "舞台需要が落ちる一方でデジタル需要が急増する。",
+      "affected_segments": {
+        "stage_market": -0.5,
+        "digital_distribution_market": 0.3
+      },
+      "duration_months": 12
+    }
+  ]
+}
