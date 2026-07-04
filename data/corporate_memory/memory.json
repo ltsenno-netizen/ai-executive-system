@@ -164,17 +164,65 @@
         "ROLE_PLAY"
       ],
       "related_memory_ids": []
+    },
+    {
+      "memory_id": "3e376686-1126-4ec7-a02f-9d6ffc59b5ee",
+      "item_type": "EXECUTIVE_SIMULATION",
+      "timestamp": "2026-06-07T13:59:01.411450",
+      "title": "Executive simulation 95ffd31d-0e7b-4145-837e-13767a6c8660",
+      "description": "Consensus 0.71, approved=True",
+      "context": {
+        "simulation_id": "95ffd31d-0e7b-4145-837e-13767a6c8660",
+        "consensus_level": 0.7142857142857143,
+        "approved": true
+      },
+      "related_entity_id": "95ffd31d-0e7b-4145-837e-13767a6c8660",
+      "related_entity_type": "ExecutiveSimulationResult",
+      "importance": "HIGH",
+      "impact_score": 0.5,
+      "access_count": 0,
+      "last_accessed": null,
+      "tags": [
+        "EXECUTIVE_SIMULATION",
+        "DECISION",
+        "ROLE_PLAY"
+      ],
+      "related_memory_ids": []
+    },
+    {
+      "memory_id": "3052125e-db82-40bd-a8f4-380d88483cb5",
+      "item_type": "EXECUTIVE_SIMULATION",
+      "timestamp": "2026-06-07T13:59:01.783841",
+      "title": "Executive simulation 83abf8a5-36b3-4fb0-b676-14bf10120108",
+      "description": "Consensus 0.71, approved=True",
+      "context": {
+        "simulation_id": "83abf8a5-36b3-4fb0-b676-14bf10120108",
+        "consensus_level": 0.7142857142857143,
+        "approved": true
+      },
+      "related_entity_id": "83abf8a5-36b3-4fb0-b676-14bf10120108",
+      "related_entity_type": "ExecutiveSimulationResult",
+      "importance": "HIGH",
+      "impact_score": 0.5,
+      "access_count": 0,
+      "last_accessed": null,
+      "tags": [
+        "EXECUTIVE_SIMULATION",
+        "DECISION",
+        "ROLE_PLAY"
+      ],
+      "related_memory_ids": []
     }
   ],
-  "total_memories": 7,
+  "total_memories": 9,
   "type_distribution": {
     "STRATEGY_EXECUTED": 2,
     "SYSTEM_EVENT": 1,
-    "EXECUTIVE_SIMULATION": 4
+    "EXECUTIVE_SIMULATION": 6
   },
   "importance_distribution": {
     "MEDIUM": 2,
-    "HIGH": 5
+    "HIGH": 7
   },
-  "last_updated": "2026-05-19T17:33:30.947766"
+  "last_updated": "2026-06-07T13:59:01.783896"
 }

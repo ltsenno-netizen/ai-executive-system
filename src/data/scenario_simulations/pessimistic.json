@@ -65,13 +65,13 @@
     "current_phase": "EMERGING",
     "momentum": 0.15888,
     "stability": 0.44,
-    "last_update": "2026-05-20 02:33:29.834538",
+    "last_update": "2026-06-07 22:59:00.708609",
     "history": [
       {
-        "event_id": "scenario-pessimistic-1779212009",
+        "event_id": "scenario-pessimistic-1780840740",
         "trigger_type": "EXTERNAL_SHOCK",
         "description": "逆境対応で自己認識が再検討される",
-        "timestamp": "2026-05-20 02:33:29.834564",
+        "timestamp": "2026-06-07 22:59:00.708645",
         "impact_on_identity": -0.03,
         "impact_on_purpose": -0.02,
         "impact_on_direction": 0.0,
@@ -99,5 +99,5 @@
     "リスクが顕在化する悲観シナリオ の場合、経営チームは意思決定の柔軟性を高める必要があります。",
     "市場成長率は -0.15 付近で推移すると予測されます。"
   ],
-  "created_at": "2026-05-20 02:33:29.834611"
+  "created_at": "2026-06-07 22:59:00.708703"
 }

@@ -964,5 +964,488 @@
     "minority_reports": [],
     "ceo_summary": "Overall consensus is 0.71, with 3 support, 4 neutral, and 0 concerned/opposed roles. \nPrimary concerns: CPO: The bundle lacks a strong product innovation signal. | CMO: Brand and positioning are not emphasized enough. | CHRO: Team bias and system health concerns may weaken execution. \nSuggested changes: Add sharper product differentiation or customer value messaging.; Improve strategic framing around brand and customer perception.; Prioritize people alignment and culture readiness. \nThe recommendation should be approved. \nNext action focus: Balance growth with resilience: This scenario requires a balanced agenda: Medium risk and Medium opportunity imply both defense and selective expansion.; Reinforce strategic frontier coverage: A weaker frontier raises the risk that the organization cannot pivot effectively under stress.",
     "timestamp": "2026-05-19 17:33:30.944616"
+  },
+  {
+    "simulation_id": "ba63e9bc-2665-455f-b284-b2a1a0d61514",
+    "scenario_type": "baseline",
+    "strategy_bundle_id": "6d51a92e-9b74-477a-aaa7-66be3dd2aad5",
+    "comments": [
+      {
+        "role": "CEO",
+        "stance": "STRONGLY_SUPPORT",
+        "key_points": [
+          "Provide the final corporate endorsement and integrated perspective.",
+          "Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+        ],
+        "risks": [],
+        "opportunities": [
+          "Revenue upside is available if execution remains disciplined.",
+          "The plan is generally aligned with the current scenario and benchmarks."
+        ],
+        "suggested_changes": []
+      },
+      {
+        "role": "CFO",
+        "stance": "STRONGLY_SUPPORT",
+        "key_points": [
+          "Assess the plan through cost, cash, and risk lenses.",
+          "Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+        ],
+        "risks": [],
+        "opportunities": [
+          "Revenue upside is available if execution remains disciplined.",
+          "The plan is generally aligned with the current scenario and benchmarks."
+        ],
+        "suggested_changes": []
+      },
+      {
+        "role": "COO",
+        "stance": "STRONGLY_SUPPORT",
+        "key_points": [
+          "Confirm execution feasibility, pacing, and operational readiness.",
+          "Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+        ],
+        "risks": [],
+        "opportunities": [
+          "Revenue upside is available if execution remains disciplined.",
+          "Execution confidence is reasonable under current assumptions.",
+          "The plan is generally aligned with the current scenario and benchmarks."
+        ],
+        "suggested_changes": []
+      },
+      {
+        "role": "CPO",
+        "stance": "NEUTRAL",
+        "key_points": [
+          "Validate product differentiation, roadmap realism, and customer value.",
+          "Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+        ],
+        "risks": [
+          "The bundle lacks a strong product innovation signal."
+        ],
+        "opportunities": [
+          "Revenue upside is available if execution remains disciplined."
+        ],
+        "suggested_changes": [
+          "Add sharper product differentiation or customer value messaging."
+        ]
+      },
+      {
+        "role": "CMO",
+        "stance": "NEUTRAL",
+        "key_points": [
+          "Judge brand positioning, narrative clarity, and market resonance.",
+          "Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+        ],
+        "risks": [
+          "Brand and positioning are not emphasized enough."
+        ],
+        "opportunities": [
+          "Revenue upside is available if execution remains disciplined.",
+          "Competitive narrative can be sharpened relative to peers."
+        ],
+        "suggested_changes": [
+          "Improve strategic framing around brand and customer perception."
+        ]
+      },
+      {
+        "role": "CHRO",
+        "stance": "NEUTRAL",
+        "key_points": [
+          "Focus on people readiness, culture fit, and talent requirements.",
+          "Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+        ],
+        "risks": [
+          "Team bias and system health concerns may weaken execution."
+        ],
+        "opportunities": [
+          "Revenue upside is available if execution remains disciplined."
+        ],
+        "suggested_changes": [
+          "Prioritize people alignment and culture readiness."
+        ]
+      },
+      {
+        "role": "CSO",
+        "stance": "NEUTRAL",
+        "key_points": [
+          "Evaluate long-term positioning, strategic coherence, and discontinuities.",
+          "Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+        ],
+        "risks": [
+          "Long-term positioning is not yet clear."
+        ],
+        "opportunities": [
+          "Revenue upside is available if execution remains disciplined."
+        ],
+        "suggested_changes": [
+          "Clarify the multi-year strategic horizon."
+        ]
+      }
+    ],
+    "votes": [
+      {
+        "role": "CEO",
+        "stance": "STRONGLY_SUPPORT",
+        "rationale": "Provide the final corporate endorsement and integrated perspective.; Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+      },
+      {
+        "role": "CFO",
+        "stance": "STRONGLY_SUPPORT",
+        "rationale": "Assess the plan through cost, cash, and risk lenses.; Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+      },
+      {
+        "role": "COO",
+        "stance": "STRONGLY_SUPPORT",
+        "rationale": "Confirm execution feasibility, pacing, and operational readiness.; Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+      },
+      {
+        "role": "CPO",
+        "stance": "NEUTRAL",
+        "rationale": "Validate product differentiation, roadmap realism, and customer value.; Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+      },
+      {
+        "role": "CMO",
+        "stance": "NEUTRAL",
+        "rationale": "Judge brand positioning, narrative clarity, and market resonance.; Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+      },
+      {
+        "role": "CHRO",
+        "stance": "NEUTRAL",
+        "rationale": "Focus on people readiness, culture fit, and talent requirements.; Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+      },
+      {
+        "role": "CSO",
+        "stance": "NEUTRAL",
+        "rationale": "Evaluate long-term positioning, strategic coherence, and discontinuities.; Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+      }
+    ],
+    "consensus_level": 0.7142857142857143,
+    "approved": true,
+    "minority_reports": [],
+    "ceo_summary": "Overall consensus is 0.71, with 3 support, 4 neutral, and 0 concerned/opposed roles. \nPrimary concerns: CPO: The bundle lacks a strong product innovation signal. | CMO: Brand and positioning are not emphasized enough. | CHRO: Team bias and system health concerns may weaken execution. \nSuggested changes: Add sharper product differentiation or customer value messaging.; Improve strategic framing around brand and customer perception.; Prioritize people alignment and culture readiness. \nThe recommendation should be approved. \nNext action focus: Balance growth with resilience: This scenario requires a balanced agenda: Medium risk and Medium opportunity imply both defense and selective expansion.; Reinforce strategic frontier coverage: A weaker frontier raises the risk that the organization cannot pivot effectively under stress.",
+    "timestamp": "2026-06-07 13:59:01.350121"
+  },
+  {
+    "simulation_id": "95ffd31d-0e7b-4145-837e-13767a6c8660",
+    "scenario_type": "baseline",
+    "strategy_bundle_id": "5b91f052-0917-4907-a164-a976bc68046f",
+    "comments": [
+      {
+        "role": "CEO",
+        "stance": "STRONGLY_SUPPORT",
+        "key_points": [
+          "Provide the final corporate endorsement and integrated perspective.",
+          "Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+        ],
+        "risks": [],
+        "opportunities": [
+          "Revenue upside is available if execution remains disciplined.",
+          "The plan is generally aligned with the current scenario and benchmarks."
+        ],
+        "suggested_changes": []
+      },
+      {
+        "role": "CFO",
+        "stance": "STRONGLY_SUPPORT",
+        "key_points": [
+          "Assess the plan through cost, cash, and risk lenses.",
+          "Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+        ],
+        "risks": [],
+        "opportunities": [
+          "Revenue upside is available if execution remains disciplined.",
+          "The plan is generally aligned with the current scenario and benchmarks."
+        ],
+        "suggested_changes": []
+      },
+      {
+        "role": "COO",
+        "stance": "STRONGLY_SUPPORT",
+        "key_points": [
+          "Confirm execution feasibility, pacing, and operational readiness.",
+          "Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+        ],
+        "risks": [],
+        "opportunities": [
+          "Revenue upside is available if execution remains disciplined.",
+          "Execution confidence is reasonable under current assumptions.",
+          "The plan is generally aligned with the current scenario and benchmarks."
+        ],
+        "suggested_changes": []
+      },
+      {
+        "role": "CPO",
+        "stance": "NEUTRAL",
+        "key_points": [
+          "Validate product differentiation, roadmap realism, and customer value.",
+          "Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+        ],
+        "risks": [
+          "The bundle lacks a strong product innovation signal."
+        ],
+        "opportunities": [
+          "Revenue upside is available if execution remains disciplined."
+        ],
+        "suggested_changes": [
+          "Add sharper product differentiation or customer value messaging."
+        ]
+      },
+      {
+        "role": "CMO",
+        "stance": "NEUTRAL",
+        "key_points": [
+          "Judge brand positioning, narrative clarity, and market resonance.",
+          "Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+        ],
+        "risks": [
+          "Brand and positioning are not emphasized enough."
+        ],
+        "opportunities": [
+          "Revenue upside is available if execution remains disciplined.",
+          "Competitive narrative can be sharpened relative to peers."
+        ],
+        "suggested_changes": [
+          "Improve strategic framing around brand and customer perception."
+        ]
+      },
+      {
+        "role": "CHRO",
+        "stance": "NEUTRAL",
+        "key_points": [
+          "Focus on people readiness, culture fit, and talent requirements.",
+          "Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+        ],
+        "risks": [
+          "Team bias and system health concerns may weaken execution."
+        ],
+        "opportunities": [
+          "Revenue upside is available if execution remains disciplined."
+        ],
+        "suggested_changes": [
+          "Prioritize people alignment and culture readiness."
+        ]
+      },
+      {
+        "role": "CSO",
+        "stance": "NEUTRAL",
+        "key_points": [
+          "Evaluate long-term positioning, strategic coherence, and discontinuities.",
+          "Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+        ],
+        "risks": [
+          "Long-term positioning is not yet clear."
+        ],
+        "opportunities": [
+          "Revenue upside is available if execution remains disciplined."
+        ],
+        "suggested_changes": [
+          "Clarify the multi-year strategic horizon."
+        ]
+      }
+    ],
+    "votes": [
+      {
+        "role": "CEO",
+        "stance": "STRONGLY_SUPPORT",
+        "rationale": "Provide the final corporate endorsement and integrated perspective.; Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+      },
+      {
+        "role": "CFO",
+        "stance": "STRONGLY_SUPPORT",
+        "rationale": "Assess the plan through cost, cash, and risk lenses.; Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+      },
+      {
+        "role": "COO",
+        "stance": "STRONGLY_SUPPORT",
+        "rationale": "Confirm execution feasibility, pacing, and operational readiness.; Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+      },
+      {
+        "role": "CPO",
+        "stance": "NEUTRAL",
+        "rationale": "Validate product differentiation, roadmap realism, and customer value.; Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+      },
+      {
+        "role": "CMO",
+        "stance": "NEUTRAL",
+        "rationale": "Judge brand positioning, narrative clarity, and market resonance.; Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+      },
+      {
+        "role": "CHRO",
+        "stance": "NEUTRAL",
+        "rationale": "Focus on people readiness, culture fit, and talent requirements.; Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+      },
+      {
+        "role": "CSO",
+        "stance": "NEUTRAL",
+        "rationale": "Evaluate long-term positioning, strategic coherence, and discontinuities.; Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+      }
+    ],
+    "consensus_level": 0.7142857142857143,
+    "approved": true,
+    "minority_reports": [],
+    "ceo_summary": "Overall consensus is 0.71, with 3 support, 4 neutral, and 0 concerned/opposed roles. \nPrimary concerns: CPO: The bundle lacks a strong product innovation signal. | CMO: Brand and positioning are not emphasized enough. | CHRO: Team bias and system health concerns may weaken execution. \nSuggested changes: Add sharper product differentiation or customer value messaging.; Improve strategic framing around brand and customer perception.; Prioritize people alignment and culture readiness. \nThe recommendation should be approved. \nNext action focus: Balance growth with resilience: This scenario requires a balanced agenda: Medium risk and Medium opportunity imply both defense and selective expansion.; Reinforce strategic frontier coverage: A weaker frontier raises the risk that the organization cannot pivot effectively under stress.",
+    "timestamp": "2026-06-07 13:59:01.408512"
+  },
+  {
+    "simulation_id": "83abf8a5-36b3-4fb0-b676-14bf10120108",
+    "scenario_type": "baseline",
+    "strategy_bundle_id": "38b859e7-24a8-475a-8b2f-11c0cdd423cf",
+    "comments": [
+      {
+        "role": "CEO",
+        "stance": "STRONGLY_SUPPORT",
+        "key_points": [
+          "Provide the final corporate endorsement and integrated perspective.",
+          "Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+        ],
+        "risks": [],
+        "opportunities": [
+          "Revenue upside is available if execution remains disciplined.",
+          "The plan is generally aligned with the current scenario and benchmarks."
+        ],
+        "suggested_changes": []
+      },
+      {
+        "role": "CFO",
+        "stance": "STRONGLY_SUPPORT",
+        "key_points": [
+          "Assess the plan through cost, cash, and risk lenses.",
+          "Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+        ],
+        "risks": [],
+        "opportunities": [
+          "Revenue upside is available if execution remains disciplined.",
+          "The plan is generally aligned with the current scenario and benchmarks."
+        ],
+        "suggested_changes": []
+      },
+      {
+        "role": "COO",
+        "stance": "STRONGLY_SUPPORT",
+        "key_points": [
+          "Confirm execution feasibility, pacing, and operational readiness.",
+          "Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+        ],
+        "risks": [],
+        "opportunities": [
+          "Revenue upside is available if execution remains disciplined.",
+          "Execution confidence is reasonable under current assumptions.",
+          "The plan is generally aligned with the current scenario and benchmarks."
+        ],
+        "suggested_changes": []
+      },
+      {
+        "role": "CPO",
+        "stance": "NEUTRAL",
+        "key_points": [
+          "Validate product differentiation, roadmap realism, and customer value.",
+          "Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+        ],
+        "risks": [
+          "The bundle lacks a strong product innovation signal."
+        ],
+        "opportunities": [
+          "Revenue upside is available if execution remains disciplined."
+        ],
+        "suggested_changes": [
+          "Add sharper product differentiation or customer value messaging."
+        ]
+      },
+      {
+        "role": "CMO",
+        "stance": "NEUTRAL",
+        "key_points": [
+          "Judge brand positioning, narrative clarity, and market resonance.",
+          "Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+        ],
+        "risks": [
+          "Brand and positioning are not emphasized enough."
+        ],
+        "opportunities": [
+          "Revenue upside is available if execution remains disciplined.",
+          "Competitive narrative can be sharpened relative to peers."
+        ],
+        "suggested_changes": [
+          "Improve strategic framing around brand and customer perception."
+        ]
+      },
+      {
+        "role": "CHRO",
+        "stance": "NEUTRAL",
+        "key_points": [
+          "Focus on people readiness, culture fit, and talent requirements.",
+          "Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+        ],
+        "risks": [
+          "Team bias and system health concerns may weaken execution."
+        ],
+        "opportunities": [
+          "Revenue upside is available if execution remains disciplined."
+        ],
+        "suggested_changes": [
+          "Prioritize people alignment and culture readiness."
+        ]
+      },
+      {
+        "role": "CSO",
+        "stance": "NEUTRAL",
+        "key_points": [
+          "Evaluate long-term positioning, strategic coherence, and discontinuities.",
+          "Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+        ],
+        "risks": [
+          "Long-term positioning is not yet clear."
+        ],
+        "opportunities": [
+          "Revenue upside is available if execution remains disciplined."
+        ],
+        "suggested_changes": [
+          "Clarify the multi-year strategic horizon."
+        ]
+      }
+    ],
+    "votes": [
+      {
+        "role": "CEO",
+        "stance": "STRONGLY_SUPPORT",
+        "rationale": "Provide the final corporate endorsement and integrated perspective.; Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+      },
+      {
+        "role": "CFO",
+        "stance": "STRONGLY_SUPPORT",
+        "rationale": "Assess the plan through cost, cash, and risk lenses.; Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+      },
+      {
+        "role": "COO",
+        "stance": "STRONGLY_SUPPORT",
+        "rationale": "Confirm execution feasibility, pacing, and operational readiness.; Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+      },
+      {
+        "role": "CPO",
+        "stance": "NEUTRAL",
+        "rationale": "Validate product differentiation, roadmap realism, and customer value.; Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+      },
+      {
+        "role": "CMO",
+        "stance": "NEUTRAL",
+        "rationale": "Judge brand positioning, narrative clarity, and market resonance.; Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+      },
+      {
+        "role": "CHRO",
+        "stance": "NEUTRAL",
+        "rationale": "Focus on people readiness, culture fit, and talent requirements.; Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+      },
+      {
+        "role": "CSO",
+        "stance": "NEUTRAL",
+        "rationale": "Evaluate long-term positioning, strategic coherence, and discontinuities.; Strategy summary indicates: For the baseline scenario, the strategy should protect core value while selectively investing in growth. The report blen"
+      }
+    ],
+    "consensus_level": 0.7142857142857143,
+    "approved": true,
+    "minority_reports": [],
+    "ceo_summary": "Overall consensus is 0.71, with 3 support, 4 neutral, and 0 concerned/opposed roles. \nPrimary concerns: CPO: The bundle lacks a strong product innovation signal. | CMO: Brand and positioning are not emphasized enough. | CHRO: Team bias and system health concerns may weaken execution. \nSuggested changes: Add sharper product differentiation or customer value messaging.; Improve strategic framing around brand and customer perception.; Prioritize people alignment and culture readiness. \nThe recommendation should be approved. \nNext action focus: Balance growth with resilience: This scenario requires a balanced agenda: Medium risk and Medium opportunity imply both defense and selective expansion.; Reinforce strategic frontier coverage: A weaker frontier raises the risk that the organization cannot pivot effectively under stress.",
+    "timestamp": "2026-06-07 13:59:01.780160"
   }
 ]
